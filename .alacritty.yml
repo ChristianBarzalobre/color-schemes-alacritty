@@ -1,0 +1,8664 @@
+#------------------------------------------------Themes-Extra
+
+#------------------------------------------------Afterglow
+
+Afterglow: &Afterglow
+  # Default colors
+  primary:
+    background: '#2c2c2c'
+    foreground: '#d6d6d6'
+
+    dim_foreground:    '#dbdbdb'
+    bright_foreground: '#d9d9d9'
+    dim_background:    '#202020' # not sure
+    bright_background: '#3a3a3a' # not sure
+
+  # Cursor colors
+  cursor:
+    text:   '#2c2c2c'
+    cursor: '#d9d9d9'
+
+  # Normal colors
+  normal:
+    black:   '#1c1c1c'
+    red:     '#bc5653'
+    green:   '#909d63'
+    yellow:  '#ebc17a'
+    blue:    '#7eaac7'
+    magenta: '#aa6292'
+    cyan:    '#86d3ce'
+    white:   '#cacaca'
+
+  # Bright colors
+  bright:
+    black:   '#636363'
+    red:     '#bc5653'
+    green:   '#909d63'
+    yellow:  '#ebc17a'
+    blue:    '#7eaac7'
+    magenta: '#aa6292'
+    cyan:    '#86d3ce'
+    white:   '#f7f7f7'
+
+  # Dim colors
+  dim:
+    black:   '#232323'
+    red:     '#74423f'
+    green:   '#5e6547'
+    yellow:  '#8b7653'
+    blue:    '#556b79'
+    magenta: '#6e4962'
+    cyan:    '#5c8482'
+    white:   '#828282'
+
+#------------------------------------------------------Argonaut
+
+Argonaut: &Argonaut
+  # Default colors
+  primary:
+    background: '#292C3E'
+    foreground: '#EBEBEB'
+
+  # Cursor colors
+  cursor:
+   text: '#FF261E'
+   cursor: '#FF261E'
+
+  # Normal colors
+  normal:
+    black:   '#0d0d0d'
+    red:     '#FF301B'
+    green:   '#A0E521'
+    yellow:  '#FFC620'
+    blue:    '#1BA6FA'
+    magenta: '#8763B8'
+    cyan:    '#21DEEF'
+    white:   '#EBEBEB'
+
+  # Bright colors
+  bright:
+    black:   '#6D7070'
+    red:     '#FF4352'
+    green:   '#B8E466'
+    yellow:  '#FFD750'
+    blue:    '#1BA6FA'
+    magenta: '#A578EA'
+    cyan:    '#73FBF1'
+    white:   '#FEFEF8'
+
+#------------------------------------------------Ayu Dark
+
+# Colors (Ayu Dark)
+Ayu_Dark: &Ayu_Dark
+  # Default colors
+  primary:
+    background: '#0A0E14'
+    foreground: '#B3B1AD'
+
+  # Normal colors
+  normal:
+    black: '#01060E'
+    red: '#EA6C73'
+    green: '#91B362'
+    yellow: '#F9AF4F'
+    blue: '#53BDFA'
+    magenta: '#FAE994'
+    cyan: '#90E1C6'
+    white: '#C7C7C7'
+
+  # Bright colors
+  bright:
+    black: '#686868'
+    red: '#F07178'
+    green: '#C2D94C'
+    yellow: '#FFB454'
+    blue: '#59C2FF'
+    magenta: '#FFEE99'
+    cyan: '#95E6CB'
+    white: '#FFFFFF'
+
+#------------------------------------------------Ayu Mirage
+
+# Colors (Ayu Mirage)
+Ayu_Mirage: &Ayu_Mirage
+  # Default colors
+  primary:
+    background: '#202734'
+    foreground: '#CBCCC6'
+
+  # Normal colors
+  normal:
+    black: '#191E2A'
+    red: '#FF3333'
+    green: '#BAE67E'
+    yellow: '#FFA759'
+    blue: '#73D0FF'
+    magenta: '#FFD580'
+    cyan: '#95E6CB'
+    white: '#C7C7C7'
+
+  # Bright colors
+  bright:
+    black: '#686868'
+    red: '#F27983'
+    green: '#A6CC70'
+    yellow: '#FFCC66'
+    blue: '#5CCFE6'
+    magenta: '#FFEE99'
+    cyan: '#95E6CB'
+    white: '#FFFFFF'
+
+#------------------------------------------------Base16 Default Dark
+
+# Colors (Base16 Default Dark)
+Base16_Default_Dark: &Base16_Default_Dark
+  # Default colors
+  primary:
+    background: '#181818'
+    foreground: '#d8d8d8'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#d8d8d8'
+    cursor: '#d8d8d8'
+
+  # Normal colors
+  normal:
+    black:   '#181818'
+    red:     '#ab4642'
+    green:   '#a1b56c'
+    yellow:  '#f7ca88'
+    blue:    '#7cafc2'
+    magenta: '#ba8baf'
+    cyan:    '#86c1b9'
+    white:   '#d8d8d8'
+
+  # Bright colors
+  bright:
+    black:   '#585858'
+    red:     '#ab4642'
+    green:   '#a1b56c'
+    yellow:  '#f7ca88'
+    blue:    '#7cafc2'
+    magenta: '#ba8baf'
+    cyan:    '#86c1b9'
+    white:   '#f8f8f8'
+
+#------------------------------------------------Blood Moon
+
+# Colors (Blood Moon)
+Blood_Moon: &Blood_Moon
+  # Default colors
+  primary:
+    background: '#10100E'
+    foreground: '#C6C6C4'
+
+  # Normal colors
+  normal:
+    black:   '#10100E'
+    red:     '#C40233'
+    green:   '#009F6B'
+    yellow:  '#FFD700'
+    blue:    '#0087BD'
+    magenta: '#9A4EAE'
+    cyan:    '#20B2AA'
+    white:   '#C6C6C4'
+
+  # Bright colors
+  bright:
+    black:   '#696969'
+    red:     '#FF2400'
+    green:   '#03C03C'
+    yellow:  '#FDFF00'
+    blue:    '#007FFF'
+    magenta: '#FF1493'
+    cyan:    '#00CCCC'
+    white:   '#FFFAFA'
+
+#------------------------------------------------Breeze
+
+# KDE Breeze (Ported from Konsole)
+Breeze: &Breeze
+  # Default colors
+  primary:
+    background: '#232627'
+    foreground: '#fcfcfc'
+
+    dim_foreground: '#eff0f1'
+    bright_foreground: '#ffffff'
+    dim_background: '#31363b'
+    bright_background: '#000000'
+
+  # Normal colors
+  normal:
+    black: '#232627'
+    red: '#ed1515'
+    green: '#11d116'
+    yellow: '#f67400'
+    blue: '#1d99f3'
+    magenta: '#9b59b6'
+    cyan: '#1abc9c'
+    white: '#fcfcfc'
+
+  # Bright colors
+  bright:
+    black: '#7f8c8d'
+    red: '#c0392b'
+    green: '#1cdc9a'
+    yellow: '#fdbc4b'
+    blue: '#3daee9'
+    magenta: '#8e44ad'
+    cyan: '#16a085'
+    white: '#ffffff'
+
+  # Dim colors
+  dim:
+    black: '#31363b'
+    red: '#783228'
+    green: '#17a262'
+    yellow: '#b65619'
+    blue: '#1b668f'
+    magenta: '#614a73'
+    cyan: '#186c60'
+    white: '#63686d'
+
+#------------------------------------------------Campbell
+
+# Campbell (Windows 10 default)
+Campbell: &Campbell
+  # Default colors
+  primary:
+    background: '#0c0c0c'
+    foreground: '#cccccc'
+
+  # Normal colors
+  normal:
+    black:      '#0c0c0c'
+    red:        '#c50f1f'
+    green:      '#13a10e'
+    yellow:     '#c19c00'
+    blue:       '#0037da'
+    magenta:    '#881798'
+    cyan:       '#3a96dd'
+    white:      '#cccccc'
+
+  # Bright colors
+  bright:
+    black:      '#767676'
+    red:        '#e74856'
+    green:      '#16c60c'
+    yellow:     '#f9f1a5'
+    blue:       '#3b78ff'
+    magenta:    '#b4009e'
+    cyan:       '#61d6d6'
+    white:      '#f2f2f2'
+
+#------------------------------------------------Cobalt 2
+
+# Colors (Cobalt 2)
+Cobalt_2: &Cobalt_2
+  cursor:
+    text: '#fefff2'
+    cursor: '#f0cc09'
+
+  selection:
+    text: '#b5b5b5'
+    background: '#18354f'
+
+  primary:
+    background: '#132738'
+    foreground: '#ffffff'
+
+  normal:
+    black:   '#000000'
+    red:     '#ff0000'
+    green:   '#38de21'
+    yellow:  '#ffe50a'
+    blue:    '#1460d2'
+    magenta: '#ff005d'
+    cyan:    '#00bbbb'
+    white:   '#bbbbbb'
+
+  bright:
+    black:   '#555555'
+    red:     '#f40e17'
+    green:   '#3bd01d'
+    yellow:  '#edc809'
+    blue:    '#5555ff'
+    magenta: '#ff55ff'
+    cyan:    '#6ae3fa'
+    white:   '#ffffff'
+
+#------------------------------------------------Darkside
+
+# Colors (Darkside)
+Darkside: &Darkside
+  primary:
+    background: '#222324'
+    foreground: '#BABABA'
+
+  # Normal colors
+  normal:
+    black:    '#000000'
+    red:      '#E8341C'
+    green:    '#68C256'
+    yellow:   '#F2D42C'
+    blue:     '#1C98E8'
+    magenta:  '#8E69C9'
+    cyan:     '#1C98E8'
+    white:    '#BABABA'
+
+  # Bright colors
+  bright:
+    black:    '#666666'
+    red:      '#E05A4F'
+    green:    '#77B869'
+    yellow:   '#EFD64B'
+    blue:     '#387CD3'
+    magenta:  '#957BBE'
+    cyan:     '#3D97E2'
+    white:    '#BABABA'
+
+#------------------------------------------------Darktooth
+
+# Colors (Darktooth)
+Darktooth: &Darktooth
+
+  # Default colors
+  primary:
+    background: '#282828'
+    foreground: '#fdf4c1'
+
+  # Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#9d0006'
+    green:   '#79740e'
+    yellow:  '#b57614'
+    blue:    '#076678'
+    magenta: '#8f3f71'
+    cyan:    '#00a7af'
+    white:   '#fdf4c1'
+
+  # Bright colors
+  bright:
+    black:   '#32302f'
+    red:     '#fb4933'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#3fd7e5'
+    white:   '#ffffc8'
+
+  # Dim colors (Optional)
+  dim:
+    black:   '#1d2021'
+    red:     '#421e1e'
+    green:   '#232b0f'
+    yellow:  '#4d3b27'
+    blue:    '#2b3c44'
+    magenta: '#4e3d45'
+    cyan:    '#205161'
+    white:   '#f4e8ba'
+
+#------------------------------------------------Dracula
+
+# Colors (Dracula)
+Dracula: &Dracula
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#f8f8f2'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ff5555'
+    green:   '#50fa7b'
+    yellow:  '#f1fa8c'
+    blue:    '#caa9fa'
+    magenta: '#ff79c6'
+    cyan:    '#8be9fd'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#575b70'
+    red:     '#ff6e67'
+    green:   '#5af78e'
+    yellow:  '#f4f99d'
+    blue:    '#caa9fa'
+    magenta: '#ff92d0'
+    cyan:    '#9aedfe'
+    white:   '#e6e6e6'
+
+#------------------------------------------------GNOME Light
+
+# The 'GNOME Light" theme from GNOME terminal.
+
+GNOME_Light: &GNOME_Light
+  primary:
+    foreground: '#171421'
+    background: '#ffffff'
+    bright_foreground: '#5e5c64'
+
+  normal:
+    black:   '#171421'
+    red:     '#c01c28'
+    green:   '#26a269'
+    yellow:  '#a2734c'
+    blue:    '#12488b'
+    magenta: '#a347ba'
+    cyan:    '#2aa1b3'
+    white:   '#d0cfcc'
+
+  bright:
+    black:   '#5e5c64'
+    red:     '#f66151'
+    green:   '#33d17a'
+    yellow:  '#e9ad0c'
+    blue:    '#2a7bde'
+    magenta: '#c061cb'
+    cyan:    '#33c7de'
+    white:   '#ffffff'
+
+#------------------------------------------------GNOME Dark
+
+# The 'GNOME Dark" theme from GNOME terminal.
+
+GNOME_Dark: &GNOME_Dark
+  primary:
+    foreground: '#d0cfcc'
+    background: '#171421'
+    bright_foreground: '#ffffff'
+
+  normal:
+    black:   '#171421'
+    red:     '#c01c28'
+    green:   '#26a269'
+    yellow:  '#a2734c'
+    blue:    '#12488b'
+    magenta: '#a347ba'
+    cyan:    '#2aa1b3'
+    white:   '#d0cfcc'
+
+  bright:
+    black:   '#5e5c64'
+    red:     '#f66151'
+    green:   '#33d17a'
+    yellow:  '#e9ad0c'
+    blue:    '#2a7bde'
+    magenta: '#c061cb'
+    cyan:    '#33c7de'
+    white:   '#ffffff'
+
+#------------------------------------------------Gruvbox
+
+# Colors (Gruvbox light)
+Gruvbox_light: &Gruvbox_light
+  # Default colors
+  primary:
+    # hard contrast: background = '#f9f5d7'
+    background: '#fbf1c7'
+    # soft contrast: background = '#f2e5bc'
+    foreground: '#3c3836'
+
+  # Normal colors
+  normal:
+    black:   '#fbf1c7'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#7c6f64'
+
+  # Bright colors
+  bright:
+    black:   '#928374'
+    red:     '#9d0006'
+    green:   '#79740e'
+    yellow:  '#b57614'
+    blue:    '#076678'
+    magenta: '#8f3f71'
+    cyan:    '#427b58'
+    white:   '#3c3836'
+
+# Colors (Gruvbox dark)
+Gruvbox_dark: &Gruvbox_dark
+  primary:
+    # hard contrast background - '#1d2021'
+    background:        &gruvbox_dark_bg '#282828'
+    # soft contrast background - '#32302f'
+    foreground:        '#fbf1c7'
+    bright_foreground: '#f9f5d7'
+    dim_foreground:    '#f2e5bc'
+  cursor:
+    text:   CellBackground
+    cursor: CellForeground
+  vi_mode_cursor:
+    text:   CellBackground
+    cursor: CellForeground
+  # search:
+  #   matches:
+  #     foreground: '#000000'
+  #     background: '#ffffff'
+  #   focused_match:
+  #    foreground: CellBackground
+  #    background: CellForeground
+  #   bar:
+  #     background: ''
+  #     foreground: ''
+  # line_indicator:
+  #   foreground: None
+  #   background: None     
+  selection:
+    text:       CellBackground
+    background: CellForeground
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#fabd2f'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+  normal:
+    black:   *gruvbox_dark_bg
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+  dim:
+    black:   '#32302f'
+    red:     '#9d0006'
+    green:   '#79740e'
+    yellow:  '#b57614'
+    blue:    '#076678'
+    magenta: '#8f3f71'
+    cyan:    '#427b58'
+    white:   '#928374'
+  # indexed_colors: []
+
+#------------------------------------------------Hybrid
+
+# Colors (Hybrid)
+Hybrid: &Hybrid
+  # Default colors
+  primary:
+    background: '#27292c'
+    foreground: '#d0d2d1'
+
+  # Normal colors
+  normal:
+    black:   '#35383b'
+    red:     '#b05655'
+    green:   '#769972'
+    yellow:  '#e1a574'
+    blue:    '#7693ac'
+    magenta: '#977ba0'
+    cyan:    '#749e99'
+    white:   '#848b92'
+
+  # Bright colors
+  bright:
+    black:   '#484c52'
+    red:     '#d27c7b'
+    green:   '#dffebe'
+    yellow:  '#f0d189'
+    blue:    '#96b1c9'
+    magenta: '#bfa5c7'
+    cyan:    '#9fc9c3'
+    white:   '#fcf7e2'
+
+#------------------------------------------------Hyper
+
+# Colors (Hyper)
+Hyper: &Hyper
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#ffffff'
+  cursor:
+    text: '#F81CE5'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#fe0100'
+    green:   '#33ff00'
+    yellow:  '#feff00'
+    blue:    '#0066ff'
+    magenta: '#cc00ff'
+    cyan:    '#00ffff'
+    white:   '#d0d0d0'
+
+  # Bright colors
+  bright:
+    black:   '#808080'
+    red:     '#fe0100'
+    green:   '#33ff00'
+    yellow:  '#feff00'
+    blue:    '#0066ff'
+    magenta: '#cc00ff'
+    cyan:    '#00ffff'
+    white:   '#FFFFFF'
+
+#------------------------------------------------Iceberg
+
+# Colors (Iceberg Dark)
+Iceberg_Dark: &Iceberg_Dark
+  # Default colors
+  primary:
+    background: '#161821'
+    foreground: '#d2d4de'
+
+  # Normal colors
+  normal:
+    black:   '#161821'
+    red:     '#e27878'
+    green:   '#b4be82'
+    yellow:  '#e2a478'
+    blue:    '#84a0c6'
+    magenta: '#a093c7'
+    cyan:    '#89b8c2'
+    white:   '#c6c8d1'
+
+  # Bright colors
+  bright:
+    black:   '#6b7089'
+    red:     '#e98989'
+    green:   '#c0ca8e'
+    yellow:  '#e9b189'
+    blue:    '#91acd1'
+    magenta: '#ada0d3'
+    cyan:    '#95c4ce'
+    white:   '#d2d4de'
+
+# Colors (Iceberg Light)
+Iceberg_Light: &Iceberg_Light
+  # Default colors
+  primary:
+    background: '#e8e9ec'
+    foreground: '#33374c'
+
+  # Normal colors
+  normal:
+    black:   '#dcdfe7'
+    red:     '#cc517a'
+    green:   '#668e3d'
+    yellow:  '#c57339'
+    blue:    '#2d539e'
+    magenta: '#7759b4'
+    cyan:    '#3f83a6'
+    white:   '#33374c'
+
+  # Bright colors
+  bright:
+    black:   '#8389a3'
+    red:     '#cc3768'
+    green:   '#598030'
+    yellow:  '#b6662d'
+    blue:    '#22478e'
+    magenta: '#6845ad'
+    cyan:    '#327698'
+    white:   '#262a3f'
+
+#------------------------------------------------IR Black
+
+# Colors (IR Black)
+IR_Black: &IR_Black
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#ffffff'
+
+  cursor:
+    text: '#ffffff'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#4e4e4e'
+    red:     '#ff6c60'
+    green:   '#a8ff60'
+    yellow:  '#ffffb6'
+    blue:    '#96cbfe'
+    magenta: '#ff73fd'
+    cyan:    '#c6c5fe'
+    white:   '#eeeeee'
+
+  # Bright colors
+  bright:
+    black:   '#7c7c7c'
+    red:     '#ffb6b0'
+    green:   '#ceffab'
+    yellow:  '#ffffcb'
+    blue:    '#b5dcfe'
+    magenta: '#ff9cfe'
+    cyan:    '#dfdffe'
+    white:   '#ffffff'
+
+#------------------------------------------------iTerm Default
+
+# Colors (iTerm 2 default theme)
+iTerm_Default: &iTerm_Default
+  # Default colors
+  primary:
+    background: '#101421'
+    foreground: '#fffbf6'
+
+ # Normal colors
+  normal:
+    black:   '#2e2e2e'
+    red:     '#eb4129'
+    green:   '#abe047'
+    yellow:  '#f6c744'
+    blue:    '#47a0f3'
+    magenta: '#7b5cb0'
+    cyan:    '#64dbed'
+    white:   '#e5e9f0'
+
+ # Bright colors
+  bright:
+    black:   '#565656'
+    red:     '#ec5357'
+    green:   '#c0e17d'
+    yellow:  '#f9da6a'
+    blue:    '#49a4f8'
+    magenta: '#a47de9'
+    cyan:    '#99faf2'
+    white:   '#ffffff'
+
+#------------------------------------------------Jellybeans
+
+# Colors (Jellybeans)
+Jellybeans: &Jellybeans
+  # Default colors
+  primary:
+    background: '#161616'
+    foreground: '#e4e4e4'
+
+  # Cursor volors
+  cursor:
+    text: '#feffff'
+    cursor: '#ffb472'
+
+  # Normal colors
+  normal:
+    black:   '#a3a3a3'
+    red:     '#e98885'
+    green:   '#a3c38b'
+    yellow:  '#ffc68d'
+    blue:    '#a6cae2'
+    magenta: '#e7cdfb'
+    cyan:    '#00a69f'
+    white:   '#e4e4e4'
+
+  # Bright colors
+  bright:
+    black:   '#c8c8c8'
+    red:     '#ffb2b0'
+    green:   '#c8e2b9'
+    yellow:  '#ffe1af'
+    blue:    '#bddff7'
+    magenta: '#fce2ff'
+    cyan:    '#0bbdb6'
+    white:   '#feffff'
+
+  # Selection colors
+  selection:
+    text: '#5963a2'
+    background: '#f6f6f6'
+
+#------------------------------------------------Kitty
+
+Kitty: &Kitty
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#dddddd'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#cc0403'
+    green:   '#19cb00'
+    yellow:  '#cecb00'
+    blue:    '#0d73cc'
+    magenta: '#cb1ed1'
+    cyan:    '#0dcdcd'
+    white:   '#dddddd'
+
+  # Bright colors
+  bright:
+    black:   '#767676'
+    red:     '#f2201f'
+    green:   '#23fd00'
+    yellow:  '#fffd00'
+    blue:    '#1a8fff'
+    magenta: '#fd28ff'
+    cyan:    '#14ffff'
+    white:   '#ffffff'
+
+#------------------------------------------------Material Theme
+
+# Colors (Material Theme)
+Material_Theme: &Material_Theme
+  # Default colors
+  primary:
+    background: '#263238'
+    foreground: '#eeffff'
+
+  # Normal colors
+  normal:
+    black:   '#000000'  # Arbitrary
+    red:     '#e53935'
+    green:   '#91b859'
+    yellow:  '#ffb62c'
+    blue:    '#6182b8'
+    magenta: '#ff5370'  # Dark pink of the original material theme
+    cyan:    '#39adb5'
+    white:   '#a0a0a0'  # Arbitrary
+
+  # Bright colors
+  bright:
+    black:   '#4e4e4e'  # Arbitrary
+    red:     '#ff5370'
+    green:   '#c3e88d'
+    yellow:  '#ffcb6b'
+    blue:    '#82aaff'
+    magenta: '#f07178'  # Pink of the original material theme
+    cyan:    '#89ddff'
+    white:   '#ffffff'  # Arbitrary
+
+#------------------------------------------------Molokai
+
+# Colors (Molokai Dark)
+Molokai: &Molokai
+  # Default colors
+  primary:
+    background: '#1B1D1E'
+    foreground: '#F8F8F2'
+  # Normal colors
+  normal:
+    black:   '#333333'
+    red:     '#C4265E'
+    green:   '#86B42B'
+    yellow:  '#B3B42B'
+    blue:    '#6A7EC8'
+    magenta: '#8C6BC8'
+    cyan:    '#56ADBC'
+    white:   '#E3E3DD'
+  # Bright colors
+  bright:
+    black:   '#666666'
+    red:     '#F92672'
+    green:   '#A6E22E'
+    yellow:  '#E2E22E'
+    blue:    '#819AFF'
+    magenta: '#AE81FF'
+    cyan:    '#66D9EF'
+    white:   '#F8F8F2'
+
+#------------------------------------------------Monokai
+
+# Colors (Monokai Dark)
+Monokai_Dark: &Monokai_Dark
+  # Default colors
+  primary:
+    background: '#272822'
+    foreground: '#F8F8F2'
+
+  # Normal colors
+  normal:
+   black:   '#272822'
+   red:     '#F92672'
+   green:   '#A6E22E'
+   yellow:  '#F4BF75'
+   blue:    '#66D9EF'
+   magenta: '#AE81FF'
+   cyan:    '#A1EFE4'
+   white:   '#F8F8F2'
+
+  # Bright colors
+  bright:
+   black:   '#75715E'
+   red:     '#F92672'
+   green:   '#A6E22E'
+   yellow:  '#F4BF75'
+   blue:    '#66D9EF'
+   magenta: '#AE81FF'
+   cyan:    '#A1EFE4'
+   white:   '#F9F8F5'
+
+#------------------------------------------------Monokai Pro
+
+# Colors (Monokai Pro)
+Monokai_Pro: &Monokai_Pro
+  # Default colors
+  primary:
+    background: '#2D2A2E'
+    foreground: '#FCFCFA'
+
+  # Normal colors
+  normal:
+    black:   '#403E41'
+    red:     '#FF6188'
+    green:   '#A9DC76'
+    yellow:  '#FFD866'
+    blue:    '#FC9867'
+    magenta: '#AB9DF2'
+    cyan:    '#78DCE8'
+    white:   '#FCFCFA'
+
+  # Bright colors
+  bright:
+    black:   '#727072'
+    red:     '#FF6188'
+    green:   '#A9DC76'
+    yellow:  '#FFD866'
+    blue:    '#FC9867'
+    magenta: '#AB9DF2'
+    cyan:    '#78DCE8'
+    white:   '#FCFCFA'
+
+#------------------------------------------------Monokai Soda
+
+# Colors (Monokai Soda)
+Monokai_Soda: &Monokai_Soda
+  # Default colors
+  primary:
+    background: '#1a1a1a'
+    foreground: '#c4c5b5'
+
+  # Normal colors
+  normal:
+    black:   '#1a1a1a'
+    red:     '#f4005f'
+    green:   '#98e024'
+    yellow:  '#fa8419'
+    blue:    '#9d65ff'
+    magenta: '#f4005f'
+    cyan:    '#58d1eb'
+    white:   '#c4c5b5'
+
+  # Bright colors
+  bright:
+    black:   '#625e4c'
+    red:     '#f4005f'
+    green:   '#98e024'
+    yellow:  '#e0d561'
+    blue:    '#9d65ff'
+    magenta: '#f4005f'
+    cyan:    '#58d1eb'
+    white:   '#f6f6ef'
+
+#------------------------------------------------New Moon
+
+# Colors (New Moon)
+New_Moon: &New_Moon
+  # Default colors
+  primary:
+    background: '#2D2D2D'
+    foreground: '#B3B9C5'
+  # Normal colors
+  normal:
+    black: '#2D2D2D'
+    red: '#F2777A'
+    green: '#92D192'
+    yellow: '#FFD479'
+    blue: '#6AB0F3'
+    magenta: '#E1A6F2'
+    cyan: '#76D4D6'
+    white: '#B3B9C5'
+  # Bright colors
+  bright:
+    black: '#777C85'
+    red: '#F2777A'
+    green: '#76D4D6'
+    yellow: '#FFEEA6'
+    blue: '#6AB0F3'
+    magenta: '#E1A6F2'
+    cyan: '#76D4D6'
+    white: '#FFFFFF'
+
+#------------------------------------------------Nightfly
+
+# Colors (Nightfly)
+Nightfly: &Nightfly
+   # Default colors
+  primary:
+     background: '#011627'
+     foreground: '#acb4c2'
+
+  cursor:
+    text: '#fafafa'
+    cursor: '#9ca1aa'
+
+  selection:
+    text: '#080808'
+    background: '#b2ceee'
+
+   # Normal colors
+  normal:
+    black:   '#1d3b53'
+    red:     '#fc514e'
+    green:   '#a1cd5e'
+    yellow:  '#e3d18a'
+    blue:    '#82aaff'
+    magenta: '#c792ea'
+    cyan:    '#7fdbca'
+    white:   '#a1aab8'
+
+   # Bright colors
+  bright:
+    black:   '#7c8f8f'
+    red:     '#ff5874'
+    green:   '#21c7a8'
+    yellow:  '#ecc48d'
+    blue:    '#82aaff'
+    magenta: '#ae81ff'
+    cyan:    '#7fdbca'
+    white:   '#d6deeb'
+
+#------------------------------------------------Night Owl
+
+# Colors (Night Owl)
+Night_Owl: &Night_Owl
+   # Default colors
+  primary:
+    background: '#011627'
+    foreground: '#d6deeb'
+
+  cursor:
+    text: '#011627'
+    cursor: '#d6deeb'
+
+  selection:
+    background: '#1b90dd'
+
+   # Normal colors
+  normal:
+    black:   '#011627'
+    red:     '#ef5350'
+    green:   '#22da6e'
+    yellow:  '#c5e478'
+    blue:    '#82aaff'
+    magenta: '#c792ea'
+    cyan:    '#21c7a8'
+    white:   '#ffffff'
+
+   # Bright colors
+  bright:
+    black:   '#575656'
+    red:     '#ef5350'
+    green:   '#22da6e'
+    yellow:  '#ffeb95'
+    blue:    '#82aaff'
+    magenta: '#c792ea'
+    cyan:    '#7fdbca'
+    white:   '#ffffff'
+
+#------------------------------------------------Nord
+
+# Colors (Nord)
+Nord: &Nord
+   # Default colors
+   primary:
+     background: '#2E3440'
+     foreground: '#D8DEE9'
+
+   # Normal colors
+   normal:
+     black:   '#3B4252'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#88C0D0'
+     white:   '#E5E9F0'
+
+   # Bright colors
+   bright:
+     black:   '#4C566A'
+     red:     '#BF616A'
+     green:   '#A3BE8C'
+     yellow:  '#EBCB8B'
+     blue:    '#81A1C1'
+     magenta: '#B48EAD'
+     cyan:    '#8FBCBB'
+     white:   '#ECEFF4'
+
+#------------------------------------------------Nova
+
+# Colors (Nova)
+Nova: &Nova
+  # Default colors
+  primary:
+    background: '#3C4C55'
+    foreground: '#C5D4DD'
+
+  cursor:
+    text: '#212121'
+    cursor: '#C0C5CE'
+
+  # Normal colors
+  normal:
+    black:   '#3C4C55'
+    red:     '#DF8C8C'
+    green:   '#A8CE93'
+    yellow:  '#DADA93'
+    blue:    '#83AFE5'
+    magenta: '#9A93E1'
+    cyan:    '#7FC1CA'
+    white:   '#C5D4DD'
+
+  # Bright colors
+  bright:
+    black:   '#899BA6'
+    red:     '#F2C38F'
+    green:   '#A8CE93'
+    yellow:  '#DADA93'
+    blue:    '#83AFE5'
+    magenta: '#D18EC2'
+    cyan:    '#7FC1CA'
+    white:   '#E6EEF3'
+
+#------------------------------------------------Oceanic Next
+
+# Colors (Oceanic Next)
+Oceanic_Next: &Oceanic_Next
+  # Default colors
+  primary:
+    background: '#1b2b34'
+    foreground: '#d8dee9'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1b2b34'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#343d46'
+    red:     '#EC5f67'
+    green:   '#99C794'
+    yellow:  '#FAC863'
+    blue:    '#6699cc'
+    magenta: '#c594c5'
+    cyan:    '#5fb3b3'
+    white:   '#d8dee9'
+
+  # Bright colors
+  bright:
+    black:   '#343d46'
+    red:     '#EC5f67'
+    green:   '#99C794'
+    yellow:  '#FAC863'
+    blue:    '#6699cc'
+    magenta: '#c594c5'
+    cyan:    '#5fb3b3'
+    white:   '#d8dee9'
+
+#------------------------------------------------One
+#------------------------------------------------One Dark
+
+# Colors (One Dark)
+One_Dark: &One_Dark
+  primary:
+    background: '#282c34'
+    foreground: '#abb2bf'
+  cursor:
+    text:       CellBackground
+    cursor:     '#528bff' # syntax-cursor-color
+  selection:
+    text:       CellForeground
+    background: '#3e4451' # syntax-selection-color
+  normal:
+    black:      '#5c6370' # mono-3
+    red:        '#e06c75' # red 1
+    green:      '#98c379'
+    yellow:     '#e5c07b' # orange 2
+    blue:       '#61afef'
+    magenta:    '#c678dd'
+    cyan:       '#56b6c2'
+    white:      '#828997' # mono-2
+
+#------------------------------------------------One Light
+
+# Colors (One Light)
+One_Light: &One_Light
+  primary:
+    background: '#fafafa'
+    foreground: '#383a42'
+  cursor:
+    text:       CellBackground
+    cursor:     '#526eff' # syntax-cursor-color
+  selection:
+    text:       CellForeground
+    background: '#e5e5e6' # syntax-selection-color
+  normal:
+    black:      '#696c77' # mono-2
+    red:        '#e45649' # red 1
+    green:      '#50a14f'
+    yellow:     '#c18401' # orange 2
+    blue:       '#4078f2'
+    magenta:    '#a626a4'
+    cyan:       '#0184bc'
+    white:      '#a0a1a7' # mono-3
+
+#------------------------------------------------Oxide
+
+# Colors (Oxide)
+Oxide: &Oxide
+  # Default colors
+  primary:
+    background: '#212121'
+    foreground: '#c0c5ce'
+    bright_foreground: '#f3f4f5'
+
+  cursor:
+    text: '#212121'
+    cursor: '#c0c5ce'
+
+  # Normal colors
+  normal:
+    black:   '#212121'
+    red:     '#e57373'
+    green:   '#a6bc69'
+    yellow:  '#fac863'
+    blue:    '#6699cc'
+    magenta: '#c594c5'
+    cyan:    '#5fb3b3'
+    white:   '#c0c5ce'
+
+  # Bright colors
+  bright:
+    black:   '#5c5c5c'
+    red:     '#e57373'
+    green:   '#a6bc69'
+    yellow:  '#fac863'
+    blue:    '#6699cc'
+    magenta: '#c594c5'
+    cyan:    '#5fb3b3'
+    white:   '#f3f4f5'
+
+#------------------------------------------------Pear
+
+# Colors (PearDarkBlue)
+Pear: &Pear
+    # Default colors
+    primary:
+        background: "#222226"
+        foreground: "#ffffff"
+
+    # Normal colors
+    normal:
+        black: "#222226"
+        red: "#f841a0" # Uses magenta instead.
+        green: "#25c141"
+        yellow: "#fdf454"
+        blue: "#2f9ded"
+        magenta: "#f97137" # Uses orange instead.
+        cyan: "#19cde6"
+        white: "#ffffff"
+
+    # Bright colors
+    bright:
+        black: "#969696"
+        red: "#f6188f" # Uses magenta instead.
+        green: "#1ebb2b"
+        yellow: "#fdf834"
+        blue: "#2186ec"
+        magenta: "#f85a21" # Uses orange instead.
+        cyan: "#12c3e2"
+        white: "#ffffff"
+
+#------------------------------------------------Pencil
+
+# Colors (Pencil Light)
+Pencil_Light: &Pencil_Light
+  # Default Colors
+  primary:
+    background: '#f1f1f1'
+    foreground: '#424242'
+  # Normal colors
+  normal:
+    black:   '#212121'
+    red:     '#c30771'
+    green:   '#10a778'
+    yellow:  '#a89c14'
+    blue:    '#008ec4'
+    magenta: '#523c79'
+    cyan:    '#20a5ba'
+    white:   '#e0e0e0'
+  # Bright colors
+  bright:
+    black:   '#212121'
+    red:     '#fb007a'
+    green:   '#5fd7af'
+    yellow:  '#f3e430'
+    blue:    '#20bbfc'
+    magenta: '#6855de'
+    cyan:    '#4fb8cc'
+    white:   '#f1f1f1'
+
+# Colors (Pencil Dark)
+Pencil_Dark: &Pencil_Dark
+  # Default Colors
+  primary:
+    background: '#212121'
+    foreground: '#f1f1f1'
+  # Normal colors
+  normal:
+    black:   '#212121'
+    red:     '#c30771'
+    green:   '#10a778'
+    yellow:  '#a89c14'
+    blue:    '#008ec4'
+    magenta: '#523c79'
+    cyan:    '#20a5ba'
+    white:   '#e0e0e0'
+  # Bright colors
+  bright:
+    black:   '#212121'
+    red:     '#fb007a'
+    green:   '#5fd7af'
+    yellow:  '#f3e430'
+    blue:    '#20bbfc'
+    magenta: '#6855de'
+    cyan:    '#4fb8cc'
+    white:   '#f1f1f1'
+
+#------------------------------------------------Seabird
+
+# Colors (Seagull)
+Seabird: &Seabird
+  # Default colors
+  primary:
+    background: '#ffffff'
+    foreground: '#61707a'
+
+  # Default colors
+  normal:
+    black:   '#0b141a'
+    red:     '#ff4053'
+    green:   '#11ab00'
+    yellow:  '#bf8c00'
+    blue:    '#0099ff'
+    magenta: '#9854ff'
+    cyan:    '#00a5ab'
+    white:   '#ffffff'
+
+  # Bright colors
+  bright:
+    black:   '#0b141a'
+    red:     '#ff4053'
+    green:   '#11ab00'
+    yellow:  '#bf8c00'
+    blue:    '#0099ff'
+    magenta: '#9854ff'
+    cyan:    '#00a5ab'
+    white:   '#ffffff'
+
+#------------------------------------------------Seoul256
+
+# Colors (Seoul256)
+Seoul256: &Seoul256
+  # Default colors
+  primary:
+    background: '#3a3a3a'
+    foreground: '#d0d0d0'
+
+  # Normal colors
+  normal:
+    black:   '#4e4e4e'
+    red:     '#d68787'
+    green:   '#5f865f'
+    yellow:  '#d8af5f'
+    blue:    '#85add4'
+    magenta: '#d7afaf'
+    cyan:    '#87afaf'
+    white:   '#d0d0d0'
+
+  # Bright colors
+  bright:
+    black:   '#626262'
+    red:     '#d75f87'
+    green:   '#87af87'
+    yellow:  '#ffd787'
+    blue:    '#add4fb'
+    magenta: '#ffafaf'
+    cyan:    '#87d7d7'
+    white:   '#e4e4e4'
+
+#------------------------------------------------Seoul256-light
+
+# Colors (Seoul256-light)
+Seoul256_light: &Seoul256_light
+  # Default colors
+  primary:
+    background: '#dadada'
+    foreground: '#4e4e4e'
+
+  # Normal colors
+  normal:
+    black:   '#4e4e4e'
+    red:     '#af5f5f'
+    green:   '#5f885f'
+    yellow:  '#af8760'
+    blue:    '#5f87ae'
+    magenta: '#875f87'
+    cyan:    '#5f8787'
+    white:   '#e4e4e4'
+
+  # Bright colors
+  bright:
+    black:   '#3a3a3a'
+    red:     '#870100'
+    green:   '#005f00'
+    yellow:  '#d8865f'
+    blue:    '#0087af'
+    magenta: '#87025f'
+    cyan:    '#008787'
+    white:   '#eeeeee'
+
+#------------------------------------------------Snazzy
+
+# Colors (Snazzy)
+Snazzy: &Snazzy
+  # Default colors
+  primary:
+    background: '#282a36'
+    foreground: '#eff0eb'
+
+  # Normal colors
+  normal:
+    black:   '#282a36'
+    red:     '#ff5c57'
+    green:   '#5af78e'
+    yellow:  '#f3f99d'
+    blue:    '#57c7ff'
+    magenta: '#ff6ac1'
+    cyan:    '#9aedfe'
+    white:   '#f1f1f0'
+
+  # Bright colors
+  bright:
+    black:   '#686868'
+    red:     '#ff5c57'
+    green:   '#5af78e'
+    yellow:  '#f3f99d'
+    blue:    '#57c7ff'
+    magenta: '#ff6ac1'
+    cyan:    '#9aedfe'
+    white:   '#f1f1f0'
+
+#------------------------------------------------Solarized
+
+# Colors (Solarized Light)
+Solarized_Light: &Solarized_Light
+  # Default colors
+  primary:
+    background: '#fdf6e3' # base3
+    foreground: '#657b83' # base00
+
+  # Cursor colors
+  cursor:
+    text:   '#fdf6e3' # base3
+    cursor: '#657b83' # base00
+
+  # Normal colors
+  normal:
+    black:   '#073642' # base02
+    red:     '#dc322f' # red
+    green:   '#859900' # green
+    yellow:  '#b58900' # yellow
+    blue:    '#268bd2' # blue
+    magenta: '#d33682' # magenta
+    cyan:    '#2aa198' # cyan
+    white:   '#eee8d5' # base2
+
+  # Bright colors
+  bright:
+    black:   '#002b36' # base03
+    red:     '#cb4b16' # orange
+    green:   '#586e75' # base01
+    yellow:  '#657b83' # base00
+    blue:    '#839496' # base0
+    magenta: '#6c71c4' # violet
+    cyan:    '#93a1a1' # base1
+    white:   '#fdf6e3' # base3
+
+# Colors (Solarized Dark)
+Solarized_Dark: &Solarized_Dark
+  # Default colors
+  primary:
+    background: '#002b36' # base03
+    foreground: '#839496' # base0
+
+  # Cursor colors
+  cursor:
+    text:   '#002b36' # base03
+    cursor: '#839496' # base0
+
+  # Normal colors
+  normal:
+    black:   '#073642' # base02
+    red:     '#dc322f' # red
+    green:   '#859900' # green
+    yellow:  '#b58900' # yellow
+    blue:    '#268bd2' # blue
+    magenta: '#d33682' # magenta
+    cyan:    '#2aa198' # cyan
+    white:   '#eee8d5' # base2
+
+  # Bright colors
+  bright:
+    black:   '#002b36' # base03
+    red:     '#cb4b16' # orange
+    green:   '#586e75' # base01
+    yellow:  '#657b83' # base00
+    blue:    '#839496' # base0
+    magenta: '#6c71c4' # violet
+    cyan:    '#93a1a1' # base1
+    white:   '#fdf6e3' # base3
+
+#------------------------------------------------Sourcerer
+
+# scorcerer colors
+Sourcerer: &Sourcerer
+  primary:
+    background: '#222222'
+    foreground: '#c2c2b0'
+
+  cursor:
+    text:   '#c2c2b0'
+    cursor: '#c2c2b0'
+
+  normal:
+    black:   '#111111'
+    red:     '#aa4450'
+    green:   '#719611'
+    yellow:  '#cc8800'
+    blue:    '#6688aa'
+    magenta: '#8f6f8f'
+    cyan:    '#528b8b'
+    white:   '#d3d3d3'
+
+  bright:
+    black:   '#181818'
+    red:     '#ff6a6a'
+    green:   '#b1d631'
+    yellow:  '#ff9800'
+    blue:    '#90b0d1'
+    magenta: '#8181a6'
+    cyan:    '#87ceeb'
+    white:   '#c1cdc1'
+
+#------------------------------------------------substrata
+
+# Colors (substrata)
+substrata: &substrata
+  primary:
+    background: '#191c25'
+    foreground: '#b5b4c9'
+  normal:
+    black:   '#2e313d'
+    red:     '#cf8164'
+    green:   '#76a065'
+    yellow:  '#ab924c'
+    blue:    '#8296b0'
+    magenta: '#a18daf'
+    cyan:    '#659ea2'
+    white:   '#b5b4c9'
+  bright:
+    black:   '#5b5f71'
+    red:     '#fe9f7c'
+    green:   '#92c47e'
+    yellow:  '#d2b45f'
+    blue:    '#a0b9d8'
+    magenta: '#c6aed7'
+    cyan:    '#7dc2c7'
+    white:   '#f0ecfe'
+
+#------------------------------------------------Taerminal
+
+# Colors (Taerminal)
+Taerminal: &Taerminal
+  # Default colors
+  primary:
+    background: '#26282a'
+    foreground: '#f0f0f0'
+  cursor:
+    background: '#f0f0f0'
+    foreground: '#26282a'
+
+  # Normal colors
+  normal:
+    black:   '#26282a'
+    red:     '#ff8878'
+    green:   '#b4fb73'
+    yellow:  '#fffcb7'
+    blue:    '#8bbce5'
+    magenta: '#ffb2fe'
+    cyan:    '#a2e1f8'
+    white:   '#f1f1f1'
+
+  # Bright colors
+  bright:
+    black:   '#6f6f6f'
+    red:     '#fe978b'
+    green:   '#d6fcba'
+    yellow:  '#fffed5'
+    blue:    '#c2e3ff'
+    magenta: '#ffc6ff'
+    cyan:    '#c0e9f8'
+    white:   '#ffffff'
+
+#------------------------------------------------Tango
+
+# Colors (Tango)
+Tango: &Tango
+  primary:
+    background: '#000000'
+    foreground: '#00ff00'
+
+  # Normal colors
+  normal:
+      black:   '#2e3436'
+      red:     '#cc0000'
+      green:   '#73d216'
+      yellow:  '#edd400'
+      blue:    '#3465a4'
+      magenta: '#75507b'
+      cyan:    '#06989a'
+      white:   '#d3d7cf'
+
+  # Bright colors
+  bright:
+      black:   '#2e3436'
+      red:     '#ef2929'
+      green:   '#8ae234'
+      yellow:  '#fce94f'
+      blue:    '#729fcf'
+      magenta: '#ad7fa8'
+      cyan:    '#34e2e2'
+      white:   '#eeeeec'
+
+#------------------------------------------------Tangoish
+
+# Colors (Tangoish)
+# Note: Orange is used in place of Cyan
+Tangoish: &Tangoish
+  primary:
+    background: '#2e3436'
+    foreground: '#eeeeec'
+
+  # Normal colors
+  normal:
+     black:   '#2e3436'
+     red:     '#cc0000'
+     green:   '#73d216'
+     yellow:  '#edd400'
+     blue:    '#3465a4'
+     magenta: '#75507b'
+     cyan:    '#f57900'
+     white:   '#d3d7cf'
+
+  # Bright colors
+  bright:
+     black:   '#2e3436'
+     red:     '#ef2929'
+     green:   '#8ae234'
+     yellow:  '#fce94f'
+     blue:    '#729fcf'
+     magenta: '#ad7fa8'
+     cyan:    '#fcaf3e'
+     white:   '#eeeeec'
+
+#------------------------------------------------Tender
+
+# Colors (Tender)
+Tender: &Tender
+  # Default colors
+  primary:
+    background: '#282828'
+    foreground: '#eeeeee'
+
+  # Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#f43753'
+    green:   '#c9d05c'
+    yellow:  '#ffc24b'
+    blue:    '#b3deef'
+    magenta: '#d3b987'
+    cyan:    '#73cef4'
+    white:   '#eeeeee'
+
+  # Bright colors
+  bright:
+    black:   '#4c4c4c'
+    red:     '#f43753'
+    green:   '#c9d05c'
+    yellow:  '#ffc24b'
+    blue:    '#b3deef'
+    magenta: '#d3b987'
+    cyan:    '#73cef4'
+    white:   '#feffff'
+
+#------------------------------------------------Terminal.app
+
+# Colors (Terminal.app)
+Terminal_app: &Terminal_app
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#b6b6b6'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#990000'
+    green:   '#00a600'
+    yellow:  '#999900'
+    blue:    '#0000b2'
+    magenta: '#b200b2'
+    cyan:    '#00a6b2'
+    white:   '#bfbfbf'
+
+  # Bright colors
+  bright:
+    black:   '#666666'
+    red:     '#e50000'
+    green:   '#00d900'
+    yellow:  '#e5e500'
+    blue:    '#0000ff'
+    magenta: '#e500e5'
+    cyan:    '#00e5e5'
+    white:   '#e5e5e5'
+
+# Colors (Terminal.app Basic)
+Terminal_app_Basic: &Terminal_app_Basic
+  primary:
+    background: '#FFFFFF'
+    foreground: '#000000'
+  normal:
+    black:      '#000000'
+    red:        '#990000'
+    green:      '#00A600'
+    yellow:     '#999900'
+    blue:       '#0000B2'
+    magenta:    '#B200B2'
+    cyan:       '#00A6B2'
+    white:      '#BFBFBF'
+  bright:
+    black:      '#666666'
+    red:        '#E50000'
+    green:      '#00D900'
+    yellow:     '#E5E500'
+    blue:       '#0000FF'
+    magenta:    '#E500E5'
+    cyan:       '#00E5E5'
+    white:      '#E5E5E5'
+
+#------------------------------------------------Tomorrow Night
+
+# Colors (Tomorrow Night)
+Tomorrow_Night: &Tomorrow_Night
+  # Default colors
+  primary:
+    background: '#1d1f21'
+    foreground: '#c5c8c6'
+
+  # Colors the cursor will use if `custom_cursor_colors` is true
+  cursor:
+    text: '#1d1f21'
+    cursor: '#ffffff'
+
+  # Normal colors
+  normal:
+    black:   '#1d1f21'
+    red:     '#cc6666'
+    green:   '#b5bd68'
+    yellow:  '#e6c547'
+    blue:    '#81a2be'
+    magenta: '#b294bb'
+    cyan:    '#70c0ba'
+    white:   '#373b41'
+
+  # Bright colors
+  bright:
+    black:   '#666666'
+    red:     '#ff3334'
+    green:   '#9ec400'
+    yellow:  '#f0c674'
+    blue:    '#81a2be'
+    magenta: '#b77ee0'
+    cyan:    '#54ced6'
+    white:   '#282a2e'
+
+#------------------------------------------------Tomorrow Night Bright
+
+# Colors (Tomorrow Night Bright)
+Tomorrow_Night_Bright: &Tomorrow_Night_Bright
+  # Default colors
+  primary:
+    background: '#000000'
+    foreground: '#eaeaea'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#d54e53'
+    green:   '#b9ca4a'
+    yellow:  '#e6c547'
+    blue:    '#7aa6da'
+    magenta: '#c397d8'
+    cyan:    '#70c0ba'
+    white:   '#424242'
+
+  # Bright colors
+  bright:
+    black:   '#666666'
+    red:     '#ff3334'
+    green:   '#9ec400'
+    yellow:  '#e7c547'
+    blue:    '#7aa6da'
+    magenta: '#b77ee0'
+    cyan:    '#54ced6'
+    white:   '#2a2a2a'
+
+#------------------------------------------------Ubuntu
+
+# Colors (Ubuntu)
+Ubuntu: &Ubuntu
+  # Default colors
+  primary:
+    background: '#300a24'
+    foreground: '#eeeeec'
+
+  # Normal colors
+  normal:
+    black:   '#2e3436'
+    red:     '#cc0000'
+    green:   '#4e9a06'
+    yellow:  '#c4a000'
+    blue:    '#3465a4'
+    magenta: '#75507b'
+    cyan:    '#06989a'
+    white:   '#d3d7cf'
+
+  # Bright colors
+  bright:
+    black:   '#555753'
+    red:     '#ef2929'
+    green:   '#8ae234'
+    yellow:  '#fce94f'
+    blue:    '#729fcf'
+    magenta: '#ad7fa8'
+    cyan:    '#34e2e2'
+    white:   '#eeeeec'
+
+#------------------------------------------------Wombat
+
+# Colors (Wombat)
+Wombat: &Wombat
+  # Default colors
+  primary:
+    background: '#1f1f1f'
+    foreground: '#e5e1d8'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#f7786d'
+    green:   '#bde97c'
+    yellow:  '#efdfac'
+    blue:    '#6ebaf8'
+    magenta: '#ef88ff'
+    cyan:    '#90fdf8'
+    white:   '#e5e1d8'
+
+  # Bright colors
+  bright:
+    black:   '#b4b4b4'
+    red:     '#f99f92'
+    green:   '#e3f7a1'
+    yellow:  '#f2e9bf'
+    blue:    '#b3d2ff'
+    magenta: '#e5bdff'
+    cyan:    '#c2fefa'
+    white:   '#ffffff'
+
+#------------------------------------------------XTerm
+
+# XTerm's default colors
+XTerm: &XTerm
+   # Default colors
+   primary:
+     background: '#000000'
+     foreground: '#ffffff'
+   # Normal colors
+   normal:
+     black:   '#000000'
+     red:     '#cd0000'
+     green:   '#00cd00'
+     yellow:  '#cdcd00'
+     blue:    '#0000ee'
+     magenta: '#cd00cd'
+     cyan:    '#00cdcd'
+     white:   '#e5e5e5'
+
+   # Bright colors
+   bright:
+     black:   '#7f7f7f'
+     red:     '#ff0000'
+     green:   '#00ff00'
+     yellow:  '#ffff00'
+     blue:    '#5c5cff'
+     magenta: '#ff00ff'
+     cyan:    '#00ffff'
+     white:   '#ffffff'
+
+#------------------------------------------------Pop!_OS
+
+Pop_OS: &Pop_OS
+  # Default colors
+  primary:
+    background: '#333333'
+    foreground: '#F2F2F2'
+
+  # Normal colors
+  normal:
+    black:   '#333333'
+    red:     '#CC0000'
+    green:   '#4E9A06'
+    yellow:  '#C4A000'
+    blue:    '#3465A4'
+    magenta: '#75507B'
+    cyan:    '#06989A'
+    white:   '#D3D7CF'
+
+  # Bright colors
+  bright:
+    black:   '#88807C'
+    red:     '#F15D22'
+    green:   '#73C48F'
+    yellow:  '#FFCE51'
+    blue:    '#48B9C7'
+    magenta: '#AD7FA8'
+    cyan:    '#34E2E2'
+    white:   '#EEEEEC'
+
+#------------------------------------------------Panda
+
+# Colors (Panda)
+Panda: &Panda
+  primary:
+    background: '#292A2B'
+    foreground: '#E6E6E6'
+
+  normal:
+    black:   '#292A2B'
+    red:     '#FF2C6D'
+    green:   '#19f9d8'
+    yellow:  '#FFB86C'
+    blue:    '#45A9F9'
+    magenta: '#FF75B5'
+    cyan:    '#67d3c2'
+    orange:  '#B084EB'
+    white:   '#E6E6E6'
+  bright:
+    black:   '#292A2B'
+    red:     '#FF2C6D'
+    green:   '#19f9d8'
+    yellow:  '#ffcc95'
+    blue:    '#6FC1FF'
+    magenta: '#FF9AC1'
+    cyan:    '#67d3c2'
+    white:   '#ffffff'
+
+#------------------------------------------------Spacemacs light
+
+Spacemacs_light: &Spacemacs_light
+  primary:
+    foreground: '#64526F'
+    background: '#FAF7EE'
+
+  cursor:
+    cursor:     '#64526F'
+    text:       '#FAF7EE'
+  normal:
+    black:      '#FAF7EE'
+    red:        '#DF201C'
+    green:      '#29A0AD'
+    yellow:     '#DB742E'
+    blue:       '#3980C2'
+    magenta:    '#2C9473'
+    cyan:       '#6B3062'
+    white:      '#64526F'
+
+  bright:
+    black:      '#9F93A1'
+    red:        '#DF201C'
+    green:      '#29A0AD'
+    yellow:     '#DB742E'
+    blue:       '#3980C2'
+    magenta:    '#2C9473'
+    cyan:       '#6B3062'
+    white:      '#64526F'
+
+#------------------------------------------------Visual Studio Code Terminal
+
+# VSCode's integrated terminal default colors
+# Primary and dimmed colors needed
+
+VSCode: &VSCode
+  # Default colors
+  primary:
+    background: '#1e1e1e' #Background from Dark Theme
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#cd3131'
+    green:   '#0dbc79'
+    yellow:  '#e5e510'
+    blue:    '#2472c8'
+    magenta: '#bc3fbc'
+    cyan:    '#11a8cd'
+    white:   '#e5e5e5'
+
+  # Bright colors
+  bright:
+    black:   '#666666'
+    red:     '#f14c4c'
+    green:   '#23d18b'
+    yellow:  '#f5f543'
+    blue:    '#3b8eea'
+    magenta: '#d670d6'
+    cyan:    '#29b8db'
+    white:   '#e5e5e5'
+
+#------------------------------------------------Zenburn
+
+# Basic Zenburn Color Scheme - Colors cribbed from the putty version https://gist.github.com/danidiaz/88406bf002009fd97454
+# Dimmed colors needed
+
+Zenburn: &Zenburn
+  primary:
+    background: '#333333'
+    foreground: '#ffffff'
+      
+    bright_foreground: '#ffffff'
+    bright_background: '#555555'
+      
+  cursor:
+    text:    '#000000'
+    cursor:  '#00ff00'
+      
+  normal:
+    black:   '#4d4d4d'
+    red:     '#bb0000'
+    green:   '#98f898'
+    yellow:  '#f0e68c'
+    blue:    '#96853f'
+    magenta: '#ffdead'
+    cyan:    '#ffa0a0'
+    white:   '#f5deb3'
+      
+  bright:
+    black:   '#555555'
+    red:     '#ff5555'
+    green:   '#55ff55'
+    yellow:  '#ffff55'
+    blue:    '#87ceeb'
+    magenta: '#ff55ff'
+    cyan:    '#ffd700'
+    white:   '#ffffff'
+#------------------------------------------------Themes-Gogh
+
+#------------------------------------------------3024Day_
+
+3024Day_: &3024Day_
+
+  primary:
+    background: "#f7f7f7"
+    foreground: "#4a4543"
+
+  cursor:
+    cursor:   "#4a4543"
+
+  normal:
+    black:    "#090300"
+    red:      "#db2d20"
+    green:    "#01a252"
+    yellow:   "#fded02"
+    blue:     "#01a0e4"
+    magenta:  "#a16a94"
+    cyan:     "#b5e4f4"
+    white:    "#a5a2a2"
+
+  bright:
+    black:    "#5c5855"
+    red:      "#e8bbd0"
+    green:    "#3a3432"
+    yellow:   "#4a4543"
+    blue:     "#807d7c"
+    magenta:  "#d6d5d4"
+    cyan:     "#cdab53"
+    white:    "#f7f7f7"
+
+#------------------------------------------------3024Night_
+
+3024Night_: &3024Night_
+
+  primary:
+    background: "#090300"
+    foreground: "#a5a2a2"
+
+  cursor:
+    cursor:   "#a5a2a2"
+
+  normal:
+    black:    "#090300"
+    red:      "#db2d20"
+    green:    "#01a252"
+    yellow:   "#fded02"
+    blue:     "#01a0e4"
+    magenta:  "#a16a94"
+    cyan:     "#b5e4f4"
+    white:    "#a5a2a2"
+
+  bright:
+    black:    "#5c5855"
+    red:      "#e8bbd0"
+    green:    "#3a3432"
+    yellow:   "#4a4543"
+    blue:     "#807d7c"
+    magenta:  "#d6d5d4"
+    cyan:     "#cdab53"
+    white:    "#f7f7f7"
+
+#------------------------------------------------_bash_
+
+_bash_: &_bash_
+
+  primary:
+    background: "#292D3E"
+    foreground: "#BFC7D5"
+
+  cursor:
+    cursor:   "#BFC7D5"
+
+  normal:
+    black:    "#292D3E"
+    red:      "#F07178"
+    green:    "#C3E88D"
+    yellow:   "#FFCB6B"
+    blue:     "#82AAFF"
+    magenta:  "#C792EA"
+    cyan:     "#60ADEC"
+    white:    "#ABB2BF"
+
+  bright:
+    black:    "#959DCB"
+    red:      "#F07178"
+    green:    "#C3E88D"
+    yellow:   "#FF5572"
+    blue:     "#82AAFF"
+    magenta:  "#FFCB6B"
+    cyan:     "#676E95"
+    white:    "#FFFEFE"
+
+#------------------------------------------------Aci_
+
+Aci_: &Aci_
+
+  primary:
+    background: "#0d1926"
+    foreground: "#b4e1fd"
+
+  cursor:
+    cursor:   "#b4e1fd"
+
+  normal:
+    black:    "#363636"
+    red:      "#ff0883"
+    green:    "#83ff08"
+    yellow:   "#ff8308"
+    blue:     "#0883ff"
+    magenta:  "#8308ff"
+    cyan:     "#08ff83"
+    white:    "#b6b6b6"
+
+  bright:
+    black:    "#424242"
+    red:      "#ff1e8e"
+    green:    "#8eff1e"
+    yellow:   "#ff8e1e"
+    blue:     "#1e8eff"
+    magenta:  "#8e1eff"
+    cyan:     "#1eff8e"
+    white:    "#c2c2c2"
+
+#------------------------------------------------Aco_
+
+Aco_: &Aco_
+
+  primary:
+    background: "#1f1305"
+    foreground: "#b4e1fd"
+
+  cursor:
+    cursor:   "#b4e1fd"
+
+  normal:
+    black:    "#3f3f3f"
+    red:      "#ff0883"
+    green:    "#83ff08"
+    yellow:   "#ff8308"
+    blue:     "#0883ff"
+    magenta:  "#8308ff"
+    cyan:     "#08ff83"
+    white:    "#bebebe"
+
+  bright:
+    black:    "#474747"
+    red:      "#ff1e8e"
+    green:    "#8eff1e"
+    yellow:   "#ff8e1e"
+    blue:     "#1e8eff"
+    magenta:  "#8e1eff"
+    cyan:     "#1eff8e"
+    white:    "#c4c4c4"
+
+#------------------------------------------------AdventureTime_
+
+AdventureTime_: &AdventureTime_
+
+  primary:
+    background: "#1f1d45"
+    foreground: "#f8dcc0"
+
+  cursor:
+    cursor:   "#f8dcc0"
+
+  normal:
+    black:    "#050404"
+    red:      "#bd0013"
+    green:    "#4ab118"
+    yellow:   "#e7741e"
+    blue:     "#0f4ac6"
+    magenta:  "#665993"
+    cyan:     "#70a598"
+    white:    "#f8dcc0"
+
+  bright:
+    black:    "#4e7cbf"
+    red:      "#fc5f5a"
+    green:    "#9eff6e"
+    yellow:   "#efc11a"
+    blue:     "#1997c6"
+    magenta:  "#9b5953"
+    cyan:     "#c8faf4"
+    white:    "#f6f5fb"
+
+#------------------------------------------------Afterglow_
+
+Afterglow_: &Afterglow_
+
+  primary:
+    background: "#222222"
+    foreground: "#d0d0d0"
+
+  cursor:
+    cursor:   "#d0d0d0"
+
+  normal:
+    black:    "#151515"
+    red:      "#a53c23"
+    green:    "#7b9246"
+    yellow:   "#d3a04d"
+    blue:     "#6c99bb"
+    magenta:  "#9f4e85"
+    cyan:     "#7dd6cf"
+    white:    "#d0d0d0"
+
+  bright:
+    black:    "#505050"
+    red:      "#a53c23"
+    green:    "#7b9246"
+    yellow:   "#d3a04d"
+    blue:     "#547c99"
+    magenta:  "#9f4e85"
+    cyan:     "#7dd6cf"
+    white:    "#f5f5f5"
+
+#------------------------------------------------AlienBlood_
+
+AlienBlood_: &AlienBlood_
+
+  primary:
+    background: "#0f1610"
+    foreground: "#637d75"
+
+  cursor:
+    cursor:   "#637d75"
+
+  normal:
+    black:    "#112616"
+    red:      "#7f2b27"
+    green:    "#2f7e25"
+    yellow:   "#717f24"
+    blue:     "#2f6a7f"
+    magenta:  "#47587f"
+    cyan:     "#327f77"
+    white:    "#647d75"
+
+  bright:
+    black:    "#3c4812"
+    red:      "#e08009"
+    green:    "#18e000"
+    yellow:   "#bde000"
+    blue:     "#00aae0"
+    magenta:  "#0058e0"
+    cyan:     "#00e0c4"
+    white:    "#73fa91"
+
+#------------------------------------------------Argonaut_
+
+Argonaut_: &Argonaut_
+
+  primary:
+    background: "#0e1019"
+    foreground: "#fffaf4"
+
+  cursor:
+    cursor:   "#fffaf4"
+
+  normal:
+    black:    "#232323"
+    red:      "#ff000f"
+    green:    "#8ce10b"
+    yellow:   "#ffb900"
+    blue:     "#008df8"
+    magenta:  "#6d43a6"
+    cyan:     "#00d8eb"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#444444"
+    red:      "#ff2740"
+    green:    "#abe15b"
+    yellow:   "#ffd242"
+    blue:     "#0092ff"
+    magenta:  "#9a5feb"
+    cyan:     "#67fff0"
+    white:    "#ffffff"
+
+#------------------------------------------------Arthur_
+
+Arthur_: &Arthur_
+
+  primary:
+    background: "#1c1c1c"
+    foreground: "#ddeedd"
+
+  cursor:
+    cursor:   "#ddeedd"
+
+  normal:
+    black:    "#3d352a"
+    red:      "#cd5c5c"
+    green:    "#86af80"
+    yellow:   "#e8ae5b"
+    blue:     "#6495ed"
+    magenta:  "#deb887"
+    cyan:     "#b0c4de"
+    white:    "#bbaa99"
+
+  bright:
+    black:    "#554444"
+    red:      "#cc5533"
+    green:    "#88aa22"
+    yellow:   "#ffa75d"
+    blue:     "#87ceeb"
+    magenta:  "#996600"
+    cyan:     "#b0c4de"
+    white:    "#ddccbb"
+
+#------------------------------------------------Atom_
+
+Atom_: &Atom_
+
+  primary:
+    background: "#161719"
+    foreground: "#c5c8c6"
+
+  cursor:
+    cursor:   "#c5c8c6"
+
+  normal:
+    black:    "#000000"
+    red:      "#fd5ff1"
+    green:    "#87c38a"
+    yellow:   "#ffd7b1"
+    blue:     "#85befd"
+    magenta:  "#b9b6fc"
+    cyan:     "#85befd"
+    white:    "#e0e0e0"
+
+  bright:
+    black:    "#000000"
+    red:      "#fd5ff1"
+    green:    "#94fa36"
+    yellow:   "#f5ffa8"
+    blue:     "#96cbfe"
+    magenta:  "#b9b6fc"
+    cyan:     "#85befd"
+    white:    "#e0e0e0"
+
+#------------------------------------------------Azu_
+
+Azu_: &Azu_
+
+  primary:
+    background: "#09111a"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#000000"
+    red:      "#ac6d74"
+    green:    "#74ac6d"
+    yellow:   "#aca46d"
+    blue:     "#6d74ac"
+    magenta:  "#a46dac"
+    cyan:     "#6daca4"
+    white:    "#e6e6e6"
+
+  bright:
+    black:    "#262626"
+    red:      "#d6b8bc"
+    green:    "#bcd6b8"
+    yellow:   "#d6d3b8"
+    blue:     "#b8bcd6"
+    magenta:  "#d3b8d6"
+    cyan:     "#b8d6d3"
+    white:    "#ffffff"
+
+#------------------------------------------------BelafonteDay_
+
+BelafonteDay_: &BelafonteDay_
+
+  primary:
+    background: "#d5ccba"
+    foreground: "#45373c"
+
+  cursor:
+    cursor:   "#45373c"
+
+  normal:
+    black:    "#20111b"
+    red:      "#be100e"
+    green:    "#858162"
+    yellow:   "#eaa549"
+    blue:     "#426a79"
+    magenta:  "#97522c"
+    cyan:     "#989a9c"
+    white:    "#968c83"
+
+  bright:
+    black:    "#5e5252"
+    red:      "#be100e"
+    green:    "#858162"
+    yellow:   "#eaa549"
+    blue:     "#426a79"
+    magenta:  "#97522c"
+    cyan:     "#989a9c"
+    white:    "#d5ccba"
+
+#------------------------------------------------BelafonteNight_
+
+BelafonteNight_: &BelafonteNight_
+
+  primary:
+    background: "#20111b"
+    foreground: "#968c83"
+
+  cursor:
+    cursor:   "#968c83"
+
+  normal:
+    black:    "#20111b"
+    red:      "#be100e"
+    green:    "#858162"
+    yellow:   "#eaa549"
+    blue:     "#426a79"
+    magenta:  "#97522c"
+    cyan:     "#989a9c"
+    white:    "#968c83"
+
+  bright:
+    black:    "#5e5252"
+    red:      "#be100e"
+    green:    "#858162"
+    yellow:   "#eaa549"
+    blue:     "#426a79"
+    magenta:  "#97522c"
+    cyan:     "#989a9c"
+    white:    "#d5ccba"
+
+#------------------------------------------------Bim_
+
+Bim_: &Bim_
+
+  primary:
+    background: "#012849"
+    foreground: "#a9bed8"
+
+  cursor:
+    cursor:   "#a9bed8"
+
+  normal:
+    black:    "#2c2423"
+    red:      "#f557a0"
+    green:    "#a9ee55"
+    yellow:   "#f5a255"
+    blue:     "#5ea2ec"
+    magenta:  "#a957ec"
+    cyan:     "#5eeea0"
+    white:    "#918988"
+
+  bright:
+    black:    "#918988"
+    red:      "#f579b2"
+    green:    "#bbee78"
+    yellow:   "#f5b378"
+    blue:     "#81b3ec"
+    magenta:  "#bb79ec"
+    cyan:     "#81eeb2"
+    white:    "#f5eeec"
+
+#------------------------------------------------BirdsOfParadise_
+
+BirdsOfParadise_: &BirdsOfParadise_
+
+  primary:
+    background: "#2a1f1d"
+    foreground: "#e0dbb7"
+
+  cursor:
+    cursor:   "#e0dbb7"
+
+  normal:
+    black:    "#573d26"
+    red:      "#be2d26"
+    green:    "#6ba18a"
+    yellow:   "#e99d2a"
+    blue:     "#5a86ad"
+    magenta:  "#ac80a6"
+    cyan:     "#74a6ad"
+    white:    "#e0dbb7"
+
+  bright:
+    black:    "#9b6c4a"
+    red:      "#e84627"
+    green:    "#95d8ba"
+    yellow:   "#d0d150"
+    blue:     "#b8d3ed"
+    magenta:  "#d19ecb"
+    cyan:     "#93cfd7"
+    white:    "#fff9d5"
+
+#------------------------------------------------Blazer_
+
+Blazer_: &Blazer_
+
+  primary:
+    background: "#0d1926"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#000000"
+    red:      "#b87a7a"
+    green:    "#7ab87a"
+    yellow:   "#b8b87a"
+    blue:     "#7a7ab8"
+    magenta:  "#b87ab8"
+    cyan:     "#7ab8b8"
+    white:    "#d9d9d9"
+
+  bright:
+    black:    "#262626"
+    red:      "#dbbdbd"
+    green:    "#bddbbd"
+    yellow:   "#dbdbbd"
+    blue:     "#bdbddb"
+    magenta:  "#dbbddb"
+    cyan:     "#bddbdb"
+    white:    "#ffffff"
+
+#------------------------------------------------BlulocoLight_
+
+BlulocoLight_: &BlulocoLight_
+
+  primary:
+    background: "#f9f9f9"
+    foreground: "#383a42"
+
+  cursor:
+    cursor:   "#383a42"
+
+  normal:
+    black:    "#d5d6dd"
+    red:      "#d52753"
+    green:    "#23974a"
+    yellow:   "#df631c"
+    blue:     "#275fe4"
+    magenta:  "#823ff1"
+    cyan:     "#27618d"
+    white:    "#000000"
+
+  bright:
+    black:    "#e4e5ed"
+    red:      "#ff6480"
+    green:    "#3cbc66"
+    yellow:   "#c5a332"
+    blue:     "#0099e1"
+    magenta:  "#ce33c0"
+    cyan:     "#6d93bb"
+    white:    "#26272d"
+
+#------------------------------------------------Borland_
+
+Borland_: &Borland_
+
+  primary:
+    background: "#0000a4"
+    foreground: "#ffff4e"
+
+  cursor:
+    cursor:   "#ffff4e"
+
+  normal:
+    black:    "#4f4f4f"
+    red:      "#ff6c60"
+    green:    "#a8ff60"
+    yellow:   "#ffffb6"
+    blue:     "#96cbfe"
+    magenta:  "#ff73fd"
+    cyan:     "#c6c5fe"
+    white:    "#eeeeee"
+
+  bright:
+    black:    "#7c7c7c"
+    red:      "#ffb6b0"
+    green:    "#ceffac"
+    yellow:   "#ffffcc"
+    blue:     "#b5dcff"
+    magenta:  "#ff9cfe"
+    cyan:     "#dfdffe"
+    white:    "#ffffff"
+
+#------------------------------------------------Broadcast_
+
+Broadcast_: &Broadcast_
+
+  primary:
+    background: "#2b2b2b"
+    foreground: "#e6e1dc"
+
+  cursor:
+    cursor:   "#e6e1dc"
+
+  normal:
+    black:    "#000000"
+    red:      "#da4939"
+    green:    "#519f50"
+    yellow:   "#ffd24a"
+    blue:     "#6d9cbe"
+    magenta:  "#d0d0ff"
+    cyan:     "#6e9cbe"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#323232"
+    red:      "#ff7b6b"
+    green:    "#83d182"
+    yellow:   "#ffff7c"
+    blue:     "#9fcef0"
+    magenta:  "#ffffff"
+    cyan:     "#a0cef0"
+    white:    "#ffffff"
+
+#------------------------------------------------Brogrammer_
+
+Brogrammer_: &Brogrammer_
+
+  primary:
+    background: "#131313"
+    foreground: "#d6dbe5"
+
+  cursor:
+    cursor:   "#d6dbe5"
+
+  normal:
+    black:    "#1f1f1f"
+    red:      "#f81118"
+    green:    "#2dc55e"
+    yellow:   "#ecba0f"
+    blue:     "#2a84d2"
+    magenta:  "#4e5ab7"
+    cyan:     "#1081d6"
+    white:    "#d6dbe5"
+
+  bright:
+    black:    "#d6dbe5"
+    red:      "#de352e"
+    green:    "#1dd361"
+    yellow:   "#f3bd09"
+    blue:     "#1081d6"
+    magenta:  "#5350b9"
+    cyan:     "#0f7ddb"
+    white:    "#ffffff"
+
+#------------------------------------------------C64_
+
+C64_: &C64_
+
+  primary:
+    background: "#40318d"
+    foreground: "#7869c4"
+
+  cursor:
+    cursor:   "#7869c4"
+
+  normal:
+    black:    "#090300"
+    red:      "#883932"
+    green:    "#55a049"
+    yellow:   "#bfce72"
+    blue:     "#40318d"
+    magenta:  "#8b3f96"
+    cyan:     "#67b6bd"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#000000"
+    red:      "#883932"
+    green:    "#55a049"
+    yellow:   "#bfce72"
+    blue:     "#40318d"
+    magenta:  "#8b3f96"
+    cyan:     "#67b6bd"
+    white:    "#f7f7f7"
+
+#------------------------------------------------Cai_
+
+Cai_: &Cai_
+
+  primary:
+    background: "#09111a"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#000000"
+    red:      "#ca274d"
+    green:    "#4dca27"
+    yellow:   "#caa427"
+    blue:     "#274dca"
+    magenta:  "#a427ca"
+    cyan:     "#27caa4"
+    white:    "#808080"
+
+  bright:
+    black:    "#808080"
+    red:      "#e98da3"
+    green:    "#a3e98d"
+    yellow:   "#e9d48d"
+    blue:     "#8da3e9"
+    magenta:  "#d48de9"
+    cyan:     "#8de9d4"
+    white:    "#ffffff"
+
+#------------------------------------------------Chalk_
+
+Chalk_: &Chalk_
+
+  primary:
+    background: "#2D2D2D"
+    foreground: "#D4D4D4"
+
+  cursor:
+    cursor:   "#D4D4D4"
+
+  normal:
+    black:    "#646464"
+    red:      "#F58E8E"
+    green:    "#A9D3AB"
+    yellow:   "#FED37E"
+    blue:     "#7AABD4"
+    magenta:  "#D6ADD5"
+    cyan:     "#79D4D5"
+    white:    "#D4D4D4"
+
+  bright:
+    black:    "#646464"
+    red:      "#F58E8E"
+    green:    "#A9D3AB"
+    yellow:   "#FED37E"
+    blue:     "#7AABD4"
+    magenta:  "#D6ADD5"
+    cyan:     "#79D4D5"
+    white:    "#D4D4D4"
+
+#------------------------------------------------Chalkboard_
+
+Chalkboard_: &Chalkboard_
+
+  primary:
+    background: "#29262f"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#000000"
+    red:      "#c37372"
+    green:    "#72c373"
+    yellow:   "#c2c372"
+    blue:     "#7372c3"
+    magenta:  "#c372c2"
+    cyan:     "#72c2c3"
+    white:    "#d9d9d9"
+
+  bright:
+    black:    "#323232"
+    red:      "#dbaaaa"
+    green:    "#aadbaa"
+    yellow:   "#dadbaa"
+    blue:     "#aaaadb"
+    magenta:  "#dbaada"
+    cyan:     "#aadadb"
+    white:    "#ffffff"
+
+#------------------------------------------------Ciapre_
+
+Ciapre_: &Ciapre_
+
+  primary:
+    background: "#191c27"
+    foreground: "#aea47a"
+
+  cursor:
+    cursor:   "#aea47a"
+
+  normal:
+    black:    "#181818"
+    red:      "#810009"
+    green:    "#48513b"
+    yellow:   "#cc8b3f"
+    blue:     "#576d8c"
+    magenta:  "#724d7c"
+    cyan:     "#5c4f4b"
+    white:    "#aea47f"
+
+  bright:
+    black:    "#555555"
+    red:      "#ac3835"
+    green:    "#a6a75d"
+    yellow:   "#dcdf7c"
+    blue:     "#3097c6"
+    magenta:  "#d33061"
+    cyan:     "#f3dbb2"
+    white:    "#f4f4f4"
+
+#------------------------------------------------CloneofUbuntu_
+
+CloneofUbuntu_: &CloneofUbuntu_
+
+  primary:
+    background: "#300a24"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#2E3436"
+    red:      "#CC0000"
+    green:    "#4E9A06"
+    yellow:   "#C4A000"
+    blue:     "#3465A4"
+    magenta:  "#75507B"
+    cyan:     "#06989A"
+    white:    "#D3D7CF"
+
+  bright:
+    black:    "#555753"
+    red:      "#EF2929"
+    green:    "#8AE234"
+    yellow:   "#FCE94F"
+    blue:     "#729FCF"
+    magenta:  "#AD7FA8"
+    cyan:     "#34E2E2"
+    white:    "#EEEEEC"
+
+#------------------------------------------------CLRS_
+
+CLRS_: &CLRS_
+
+  primary:
+    background: "#ffffff"
+    foreground: "#262626"
+
+  cursor:
+    cursor:   "#262626"
+
+  normal:
+    black:    "#000000"
+    red:      "#f8282a"
+    green:    "#328a5d"
+    yellow:   "#fa701d"
+    blue:     "#135cd0"
+    magenta:  "#9f00bd"
+    cyan:     "#33c3c1"
+    white:    "#b3b3b3"
+
+  bright:
+    black:    "#555753"
+    red:      "#fb0416"
+    green:    "#2cc631"
+    yellow:   "#fdd727"
+    blue:     "#1670ff"
+    magenta:  "#e900b0"
+    cyan:     "#3ad5ce"
+    white:    "#eeeeec"
+
+#------------------------------------------------CobaltNeon_
+
+CobaltNeon_: &CobaltNeon_
+
+  primary:
+    background: "#142838"
+    foreground: "#8ff586"
+
+  cursor:
+    cursor:   "#8ff586"
+
+  normal:
+    black:    "#142631"
+    red:      "#ff2320"
+    green:    "#3ba5ff"
+    yellow:   "#e9e75c"
+    blue:     "#8ff586"
+    magenta:  "#781aa0"
+    cyan:     "#8ff586"
+    white:    "#ba46b2"
+
+  bright:
+    black:    "#fff688"
+    red:      "#d4312e"
+    green:    "#8ff586"
+    yellow:   "#e9f06d"
+    blue:     "#3c7dd2"
+    magenta:  "#8230a7"
+    cyan:     "#6cbc67"
+    white:    "#8ff586"
+
+#------------------------------------------------Cobalt2_
+
+Cobalt2_: &Cobalt2_
+
+  primary:
+    background: "#132738"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff0000"
+    green:    "#38de21"
+    yellow:   "#ffe50a"
+    blue:     "#1460d2"
+    magenta:  "#ff005d"
+    cyan:     "#00bbbb"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#f40e17"
+    green:    "#3bd01d"
+    yellow:   "#edc809"
+    blue:     "#5555ff"
+    magenta:  "#ff55ff"
+    cyan:     "#6ae3fa"
+    white:    "#ffffff"
+
+#------------------------------------------------Colorcli_
+
+Colorcli_: &Colorcli_
+
+  primary:
+    background: "#FFFFFF"
+    foreground: "#005F87"
+
+  cursor:
+    cursor:   "#005F87"
+
+  normal:
+    black:    "#000000"
+    red:      "#D70000"
+    green:    "#5FAF00"
+    yellow:   "#5FAF00"
+    blue:     "#005F87"
+    magenta:  "#D70000"
+    cyan:     "#5F5F5F"
+    white:    "#E4E4E4"
+
+  bright:
+    black:    "#5F5F5F"
+    red:      "#D70000"
+    green:    "#5F5F5F"
+    yellow:   "#FFFF00"
+    blue:     "#0087AF"
+    magenta:  "#0087AF"
+    cyan:     "#0087AF"
+    white:    "#FFFFFF"
+
+#------------------------------------------------CrayonPonyFish_
+
+CrayonPonyFish_: &CrayonPonyFish_
+
+  primary:
+    background: "#150707"
+    foreground: "#68525a"
+
+  cursor:
+    cursor:   "#68525a"
+
+  normal:
+    black:    "#2b1b1d"
+    red:      "#91002b"
+    green:    "#579524"
+    yellow:   "#ab311b"
+    blue:     "#8c87b0"
+    magenta:  "#692f50"
+    cyan:     "#e8a866"
+    white:    "#68525a"
+
+  bright:
+    black:    "#3d2b2e"
+    red:      "#c5255d"
+    green:    "#8dff57"
+    yellow:   "#c8381d"
+    blue:     "#cfc9ff"
+    magenta:  "#fc6cba"
+    cyan:     "#ffceaf"
+    white:    "#b0949d"
+
+#------------------------------------------------DarkPastel_
+
+DarkPastel_: &DarkPastel_
+
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff5555"
+    green:    "#55ff55"
+    yellow:   "#ffff55"
+    blue:     "#5555ff"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff5555"
+    green:    "#55ff55"
+    yellow:   "#ffff55"
+    blue:     "#5555ff"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------Darkside_
+
+Darkside_: &Darkside_
+
+  primary:
+    background: "#222324"
+    foreground: "#bababa"
+
+  cursor:
+    cursor:   "#bababa"
+
+  normal:
+    black:    "#000000"
+    red:      "#e8341c"
+    green:    "#68c256"
+    yellow:   "#f2d42c"
+    blue:     "#1c98e8"
+    magenta:  "#8e69c9"
+    cyan:     "#1c98e8"
+    white:    "#bababa"
+
+  bright:
+    black:    "#000000"
+    red:      "#e05a4f"
+    green:    "#77b869"
+    yellow:   "#efd64b"
+    blue:     "#387cd3"
+    magenta:  "#957bbe"
+    cyan:     "#3d97e2"
+    white:    "#bababa"
+
+#------------------------------------------------DeHydration_
+
+DeHydration_: &DeHydration_
+
+  primary:
+    background: "#333333"
+    foreground: "#cccccc"
+
+  cursor:
+    cursor:   "#cccccc"
+
+  normal:
+    black:    "#333333"
+    red:      "#ff5555"
+    green:    "#5fd38d"
+    yellow:   "#ff9955"
+    blue:     "#3771c8"
+    magenta:  "#bc5fd3"
+    cyan:     "#5fd3bc"
+    white:    "#999999"
+
+  bright:
+    black:    "#666666"
+    red:      "#ff8080"
+    green:    "#87deaa"
+    yellow:   "#ffb380"
+    blue:     "#5f8dd3"
+    magenta:  "#cd87de"
+    cyan:     "#87decd"
+    white:    "#cccccc"
+
+#------------------------------------------------Desert_
+
+Desert_: &Desert_
+
+  primary:
+    background: "#333333"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#4d4d4d"
+    red:      "#ff2b2b"
+    green:    "#98fb98"
+    yellow:   "#f0e68c"
+    blue:     "#cd853f"
+    magenta:  "#ffdead"
+    cyan:     "#ffa0a0"
+    white:    "#f5deb3"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff5555"
+    green:    "#55ff55"
+    yellow:   "#ffff55"
+    blue:     "#87ceff"
+    magenta:  "#ff55ff"
+    cyan:     "#ffd700"
+    white:    "#ffffff"
+
+#------------------------------------------------DimmedMonokai_
+
+DimmedMonokai_: &DimmedMonokai_
+
+  primary:
+    background: "#1f1f1f"
+    foreground: "#b9bcba"
+
+  cursor:
+    cursor:   "#b9bcba"
+
+  normal:
+    black:    "#3a3d43"
+    red:      "#be3f48"
+    green:    "#879a3b"
+    yellow:   "#c5a635"
+    blue:     "#4f76a1"
+    magenta:  "#855c8d"
+    cyan:     "#578fa4"
+    white:    "#b9bcba"
+
+  bright:
+    black:    "#888987"
+    red:      "#fb001f"
+    green:    "#0f722f"
+    yellow:   "#c47033"
+    blue:     "#186de3"
+    magenta:  "#fb0067"
+    cyan:     "#2e706d"
+    white:    "#fdffb9"
+
+#------------------------------------------------Dracula_
+
+Dracula_: &Dracula_
+
+  primary:
+    background: "#282a36"
+    foreground: "#94A3A5"
+
+  cursor:
+    cursor:   "#94A3A5"
+
+  normal:
+    black:    "#44475a"
+    red:      "#ff5555"
+    green:    "#50fa7b"
+    yellow:   "#ffb86c"
+    blue:     "#8be9fd"
+    magenta:  "#bd93f9"
+    cyan:     "#ff79c6"
+    white:    "#94A3A5"
+
+  bright:
+    black:    "#000000"
+    red:      "#ff5555"
+    green:    "#50fa7b"
+    yellow:   "#ffb86c"
+    blue:     "#8be9fd"
+    magenta:  "#bd93f9"
+    cyan:     "#ff79c6"
+    white:    "#ffffff"
+
+#------------------------------------------------Earthsong_
+
+Earthsong_: &Earthsong_
+
+  primary:
+    background: "#292520"
+    foreground: "#e5c7a9"
+
+  cursor:
+    cursor:   "#e5c7a9"
+
+  normal:
+    black:    "#121418"
+    red:      "#c94234"
+    green:    "#85c54c"
+    yellow:   "#f5ae2e"
+    blue:     "#1398b9"
+    magenta:  "#d0633d"
+    cyan:     "#509552"
+    white:    "#e5c6aa"
+
+  bright:
+    black:    "#675f54"
+    red:      "#ff645a"
+    green:    "#98e036"
+    yellow:   "#e0d561"
+    blue:     "#5fdaff"
+    magenta:  "#ff9269"
+    cyan:     "#84f088"
+    white:    "#f6f7ec"
+
+#------------------------------------------------Elemental_
+
+Elemental_: &Elemental_
+
+  primary:
+    background: "#22211d"
+    foreground: "#807a74"
+
+  cursor:
+    cursor:   "#807a74"
+
+  normal:
+    black:    "#3c3c30"
+    red:      "#98290f"
+    green:    "#479a43"
+    yellow:   "#7f7111"
+    blue:     "#497f7d"
+    magenta:  "#7f4e2f"
+    cyan:     "#387f58"
+    white:    "#807974"
+
+  bright:
+    black:    "#555445"
+    red:      "#e0502a"
+    green:    "#61e070"
+    yellow:   "#d69927"
+    blue:     "#79d9d9"
+    magenta:  "#cd7c54"
+    cyan:     "#59d599"
+    white:    "#fff1e9"
+
+#------------------------------------------------Elementary_
+
+Elementary_: &Elementary_
+
+  primary:
+    background: "#101010"
+    foreground: "#f2f2f2"
+
+  cursor:
+    cursor:   "#f2f2f2"
+
+  normal:
+    black:    "#303030"
+    red:      "#e1321a"
+    green:    "#6ab017"
+    yellow:   "#ffc005"
+    blue:     "#004f9e"
+    magenta:  "#ec0048"
+    cyan:     "#2aa7e7"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#5d5d5d"
+    red:      "#ff361e"
+    green:    "#7bc91f"
+    yellow:   "#ffd00a"
+    blue:     "#0071ff"
+    magenta:  "#ff1d62"
+    cyan:     "#4bb8fd"
+    white:    "#a020f0"
+
+#------------------------------------------------Elic_
+
+Elic_: &Elic_
+
+  primary:
+    background: "#4A453E"
+    foreground: "#f2f2f2"
+
+  cursor:
+    cursor:   "#f2f2f2"
+
+  normal:
+    black:    "#303030"
+    red:      "#e1321a"
+    green:    "#6ab017"
+    yellow:   "#ffc005"
+    blue:     "#729FCF"
+    magenta:  "#ec0048"
+    cyan:     "#f2f2f2"
+    white:    "#2aa7e7"
+
+  bright:
+    black:    "#5d5d5d"
+    red:      "#ff361e"
+    green:    "#7bc91f"
+    yellow:   "#ffd00a"
+    blue:     "#0071ff"
+    magenta:  "#ff1d62"
+    cyan:     "#4bb8fd"
+    white:    "#a020f0"
+
+#------------------------------------------------Elio_
+
+Elio_: &Elio_
+
+  primary:
+    background: "#041A3B"
+    foreground: "#f2f2f2"
+
+  cursor:
+    cursor:   "#f2f2f2"
+
+  normal:
+    black:    "#303030"
+    red:      "#e1321a"
+    green:    "#6ab017"
+    yellow:   "#ffc005"
+    blue:     "#729FCF"
+    magenta:  "#ec0048"
+    cyan:     "#2aa7e7"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#5d5d5d"
+    red:      "#ff361e"
+    green:    "#7bc91f"
+    yellow:   "#ffd00a"
+    blue:     "#0071ff"
+    magenta:  "#ff1d62"
+    cyan:     "#4bb8fd"
+    white:    "#a020f0"
+
+#------------------------------------------------EspressoLibre_
+
+EspressoLibre_: &EspressoLibre_
+
+  primary:
+    background: "#2a211c"
+    foreground: "#b8a898"
+
+  cursor:
+    cursor:   "#b8a898"
+
+  normal:
+    black:    "#000000"
+    red:      "#cc0000"
+    green:    "#1a921c"
+    yellow:   "#f0e53a"
+    blue:     "#0066ff"
+    magenta:  "#c5656b"
+    cyan:     "#06989a"
+    white:    "#d3d7cf"
+
+  bright:
+    black:    "#555753"
+    red:      "#ef2929"
+    green:    "#9aff87"
+    yellow:   "#fffb5c"
+    blue:     "#43a8ed"
+    magenta:  "#ff818a"
+    cyan:     "#34e2e2"
+    white:    "#eeeeec"
+
+#------------------------------------------------Espresso_
+
+Espresso_: &Espresso_
+
+  primary:
+    background: "#323232"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#353535"
+    red:      "#d25252"
+    green:    "#a5c261"
+    yellow:   "#ffc66d"
+    blue:     "#6c99bb"
+    magenta:  "#d197d9"
+    cyan:     "#bed6ff"
+    white:    "#eeeeec"
+
+  bright:
+    black:    "#535353"
+    red:      "#f00c0c"
+    green:    "#c2e075"
+    yellow:   "#e1e48b"
+    blue:     "#8ab7d9"
+    magenta:  "#efb5f7"
+    cyan:     "#dcf4ff"
+    white:    "#ffffff"
+
+#------------------------------------------------FairyFloss_
+
+FairyFloss_: &FairyFloss_
+
+  primary:
+    background: "#5A5475"
+    foreground: "#C2FFDF"
+
+  cursor:
+    cursor:   "#FFB8D1"
+
+  normal:
+    black:    "#42395D"
+    red:      "#A8757B"
+    green:    "#FF857F"
+    yellow:   "#E6C000"
+    blue:     "#AE81FF"
+    magenta:  "#716799"
+    cyan:     "#C2FFDF"
+    white:    "#F8F8F2"
+
+  bright:
+    black:    "#75507B"
+    red:      "#FFB8D1"
+    green:    "#F1568E"
+    yellow:   "#D5A425"
+    blue:     "#C5A3FF"
+    magenta:  "#8077A8"
+    cyan:     "#C2FFFF"
+    white:    "#F8F8F0"
+
+#------------------------------------------------FairyFlossDark_
+
+FairyFlossDark_: &FairyFlossDark_
+
+  primary:
+    background: "#42395D"
+    foreground: "#C2FFDF"
+
+  cursor:
+    cursor:   "#FFB8D1"
+
+  normal:
+    black:    "#42395D"
+    red:      "#A8757B"
+    green:    "#FF857F"
+    yellow:   "#E6C000"
+    blue:     "#AE81FF"
+    magenta:  "#716799"
+    cyan:     "#C2FFDF"
+    white:    "#F8F8F2"
+
+  bright:
+    black:    "#75507B"
+    red:      "#FFB8D1"
+    green:    "#F1568E"
+    yellow:   "#D5A425"
+    blue:     "#C5A3FF"
+    magenta:  "#8077A8"
+    cyan:     "#C2FFFF"
+    white:    "#F8F8F0"
+
+#------------------------------------------------Fishtank_
+
+Fishtank_: &Fishtank_
+
+  primary:
+    background: "#232537"
+    foreground: "#ecf0fe"
+
+  cursor:
+    cursor:   "#ecf0fe"
+
+  normal:
+    black:    "#03073c"
+    red:      "#c6004a"
+    green:    "#acf157"
+    yellow:   "#fecd5e"
+    blue:     "#525fb8"
+    magenta:  "#986f82"
+    cyan:     "#968763"
+    white:    "#ecf0fc"
+
+  bright:
+    black:    "#6c5b30"
+    red:      "#da4b8a"
+    green:    "#dbffa9"
+    yellow:   "#fee6a9"
+    blue:     "#b2befa"
+    magenta:  "#fda5cd"
+    cyan:     "#a5bd86"
+    white:    "#f6ffec"
+
+#------------------------------------------------FlatRemix_
+
+FlatRemix_: &FlatRemix_
+
+  primary:
+    background: "#272a34"
+    foreground: "#FFFFFF"
+
+  cursor:
+    cursor:   "#FFFFFF"
+
+  normal:
+    black:    "#1F2229"
+    red:      "#D41919"
+    green:    "#5EBDAB"
+    yellow:   "#FEA44C"
+    blue:     "#367bf0"
+    magenta:  "#BF2E5D"
+    cyan:     "#49AEE6"
+    white:    "#E6E6E6"
+
+  bright:
+    black:    "#8C42AB"
+    red:      "#EC0101"
+    green:    "#47D4B9"
+    yellow:   "#FF8A18"
+    blue:     "#277FFF"
+    magenta:  "#D71655"
+    cyan:     "#05A1F7"
+    white:    "#FFFFFF"
+
+#------------------------------------------------Flat_
+
+Flat_: &Flat_
+
+  primary:
+    background: "#1F2D3A"
+    foreground: "#1abc9c"
+
+  cursor:
+    cursor:   "#1abc9c"
+
+  normal:
+    black:    "#2c3e50"
+    red:      "#c0392b"
+    green:    "#27ae60"
+    yellow:   "#f39c12"
+    blue:     "#2980b9"
+    magenta:  "#8e44ad"
+    cyan:     "#16a085"
+    white:    "#bdc3c7"
+
+  bright:
+    black:    "#34495e"
+    red:      "#e74c3c"
+    green:    "#2ecc71"
+    yellow:   "#f1c40f"
+    blue:     "#3498db"
+    magenta:  "#9b59b6"
+    cyan:     "#2AA198"
+    white:    "#ecf0f1"
+
+#------------------------------------------------Flatland_
+
+Flatland_: &Flatland_
+
+  primary:
+    background: "#1d1f21"
+    foreground: "#b8dbef"
+
+  cursor:
+    cursor:   "#b8dbef"
+
+  normal:
+    black:    "#1d1d19"
+    red:      "#f18339"
+    green:    "#9fd364"
+    yellow:   "#f4ef6d"
+    blue:     "#5096be"
+    magenta:  "#695abc"
+    cyan:     "#d63865"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#1d1d19"
+    red:      "#d22a24"
+    green:    "#a7d42c"
+    yellow:   "#ff8949"
+    blue:     "#61b9d0"
+    magenta:  "#695abc"
+    cyan:     "#d63865"
+    white:    "#ffffff"
+
+#------------------------------------------------Foxnightly_
+
+Foxnightly_: &Foxnightly_
+
+  primary:
+    background: "#2A2A2E"
+    foreground: "#D7D7DB"
+
+  cursor:
+    cursor:   "#D7D7DB"
+
+  normal:
+    black:    "#2A2A2E"
+    red:      "#B98EFF"
+    green:    "#FF7DE9"
+    yellow:   "#729FCF"
+    blue:     "#66A05B"
+    magenta:  "#75507B"
+    cyan:     "#ACACAE"
+    white:    "#FFFFFF"
+
+  bright:
+    black:    "#A40000"
+    red:      "#BF4040"
+    green:    "#66A05B"
+    yellow:   "#FFB86C"
+    blue:     "#729FCF"
+    magenta:  "#8F5902"
+    cyan:     "#C4A000"
+    white:    "#5C3566"
+
+#------------------------------------------------Freya_
+
+Freya_: &Freya_
+
+  primary:
+    background: "#252e32"
+    foreground: "#94a3a5"
+
+  cursor:
+    cursor:   "#839496"
+
+  normal:
+    black:    "#073642"
+    red:      "#dc322f"
+    green:    "#859900"
+    yellow:   "#b58900"
+    blue:     "#268bd2"
+    magenta:  "#ec0048"
+    cyan:     "#2aa198"
+    white:    "#94a3a5"
+
+  bright:
+    black:    "#586e75"
+    red:      "#cb4b16"
+    green:    "#859900"
+    yellow:   "#b58900"
+    blue:     "#268bd2"
+    magenta:  "#d33682"
+    cyan:     "#2aa198"
+    white:    "#6c71c4"
+
+#------------------------------------------------FrontendDelight_
+
+FrontendDelight_: &FrontendDelight_
+
+  primary:
+    background: "#1b1c1d"
+    foreground: "#adadad"
+
+  cursor:
+    cursor:   "#adadad"
+
+  normal:
+    black:    "#242526"
+    red:      "#f8511b"
+    green:    "#565747"
+    yellow:   "#fa771d"
+    blue:     "#2c70b7"
+    magenta:  "#f02e4f"
+    cyan:     "#3ca1a6"
+    white:    "#adadad"
+
+  bright:
+    black:    "#5fac6d"
+    red:      "#f74319"
+    green:    "#74ec4c"
+    yellow:   "#fdc325"
+    blue:     "#3393ca"
+    magenta:  "#e75e4f"
+    cyan:     "#4fbce6"
+    white:    "#8c735b"
+
+#------------------------------------------------FrontendFunForrest_
+
+FrontendFunForrest_: &FrontendFunForrest_
+
+  primary:
+    background: "#251200"
+    foreground: "#dec165"
+
+  cursor:
+    cursor:   "#dec165"
+
+  normal:
+    black:    "#000000"
+    red:      "#d6262b"
+    green:    "#919c00"
+    yellow:   "#be8a13"
+    blue:     "#4699a3"
+    magenta:  "#8d4331"
+    cyan:     "#da8213"
+    white:    "#ddc265"
+
+  bright:
+    black:    "#7f6a55"
+    red:      "#e55a1c"
+    green:    "#bfc65a"
+    yellow:   "#ffcb1b"
+    blue:     "#7cc9cf"
+    magenta:  "#d26349"
+    cyan:     "#e6a96b"
+    white:    "#ffeaa3"
+
+#------------------------------------------------FrontendGalaxy_
+
+FrontendGalaxy_: &FrontendGalaxy_
+
+  primary:
+    background: "#1d2837"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#f9555f"
+    green:    "#21b089"
+    yellow:   "#fef02a"
+    blue:     "#589df6"
+    magenta:  "#944d95"
+    cyan:     "#1f9ee7"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#fa8c8f"
+    green:    "#35bb9a"
+    yellow:   "#ffff55"
+    blue:     "#589df6"
+    magenta:  "#e75699"
+    cyan:     "#3979bc"
+    white:    "#ffffff"
+
+#------------------------------------------------GeoHot_
+
+GeoHot_: &GeoHot_
+
+  primary:
+    background: "#1F1E1F"
+    foreground: "#FFFFFF"
+
+  cursor:
+    cursor:   "#FFFFFF"
+
+  normal:
+    black:    "#F9F5F5"
+    red:      "#CC0000"
+    green:    "#1F1E1F"
+    yellow:   "#ADA110"
+    blue:     "#FF004E"
+    magenta:  "#75507B"
+    cyan:     "#06919A"
+    white:    "#FFFFFF"
+
+  bright:
+    black:    "#555753"
+    red:      "#EF2929"
+    green:    "#FF0000"
+    yellow:   "#ADA110"
+    blue:     "#5F4AA6"
+    magenta:  "#B74438"
+    cyan:     "#408F0C"
+    white:    "#FFFFFF"
+
+#------------------------------------------------Github_
+
+Github_: &Github_
+
+  primary:
+    background: "#f4f4f4"
+    foreground: "#3e3e3e"
+
+  cursor:
+    cursor:   "#3e3e3e"
+
+  normal:
+    black:    "#3e3e3e"
+    red:      "#970b16"
+    green:    "#07962a"
+    yellow:   "#f8eec7"
+    blue:     "#003e8a"
+    magenta:  "#e94691"
+    cyan:     "#89d1ec"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#666666"
+    red:      "#de0000"
+    green:    "#87d5a2"
+    yellow:   "#f1d007"
+    blue:     "#2e6cba"
+    magenta:  "#ffa29f"
+    cyan:     "#1cfafe"
+    white:    "#ffffff"
+
+#------------------------------------------------gooey_
+
+gooey_: &gooey_
+
+  primary:
+    background: "#0D101B"
+    foreground: "#EBEEF9"
+
+  cursor:
+    cursor:   "#EBEEF9"
+
+  normal:
+    black:    "#000009"
+    red:      "#BB4F6C"
+    green:    "#72CCAE"
+    yellow:   "#C65E3D"
+    blue:     "#58B6CA"
+    magenta:  "#6488C4"
+    cyan:     "#8D84C6"
+    white:    "#858893"
+
+  bright:
+    black:    "#1f222d"
+    red:      "#ee829f"
+    green:    "#a5ffe1"
+    yellow:   "#f99170"
+    blue:     "#8be9fd"
+    magenta:  "#97bbf7"
+    cyan:     "#c0b7f9"
+    white:    "#ffffff"
+
+#------------------------------------------------GoogleDark_
+
+GoogleDark_: &GoogleDark_
+
+  primary:
+    background: "#000000"
+    foreground: "#EEEEEE"
+
+  cursor:
+    cursor:   "#EEEEEE"
+
+  normal:
+    black:    "#000000"
+    red:      "#EA4335"
+    green:    "#34A853"
+    yellow:   "#FBBC05"
+    blue:     "#4285F4"
+    magenta:  "#A142F4"
+    cyan:     "#24C1E0"
+    white:    "#EEEEEE"
+
+  bright:
+    black:    "#656565"
+    red:      "#EA4335"
+    green:    "#34A853"
+    yellow:   "#FBBC05"
+    blue:     "#4285F4"
+    magenta:  "#A142F4"
+    cyan:     "#24C1E0"
+    white:    "#FFFFFF"
+
+#------------------------------------------------GoogleLight_
+
+GoogleLight_: &GoogleLight_
+
+  primary:
+    background: "#FFFFFF"
+    foreground: "#656565"
+
+  cursor:
+    cursor:   "#656565"
+
+  normal:
+    black:    "#000000"
+    red:      "#EA4335"
+    green:    "#34A853"
+    yellow:   "#FBBC05"
+    blue:     "#4285F4"
+    magenta:  "#A142F4"
+    cyan:     "#24C1E0"
+    white:    "#EEEEEE"
+
+  bright:
+    black:    "#656565"
+    red:      "#EA4335"
+    green:    "#34A853"
+    yellow:   "#FBBC05"
+    blue:     "#4285F4"
+    magenta:  "#A142F4"
+    cyan:     "#24C1E0"
+    white:    "#FFFFFF"
+
+#------------------------------------------------gotham_
+
+gotham_: &gotham_
+
+  primary:
+    background: "#0a0f14"
+    foreground: "#98d1ce"
+
+  cursor:
+    cursor:   "#98d1ce"
+
+  normal:
+    black:    "#0a0f14"
+    red:      "#c33027"
+    green:    "#26a98b"
+    yellow:   "#edb54b"
+    blue:     "#195465"
+    magenta:  "#4e5165"
+    cyan:     "#33859d"
+    white:    "#98d1ce"
+
+  bright:
+    black:    "#10151b"
+    red:      "#d26939"
+    green:    "#081f2d"
+    yellow:   "#245361"
+    blue:     "#093748"
+    magenta:  "#888ba5"
+    cyan:     "#599caa"
+    white:    "#d3ebe9"
+
+#------------------------------------------------Grape_
+
+Grape_: &Grape_
+
+  primary:
+    background: "#171423"
+    foreground: "#9f9fa1"
+
+  cursor:
+    cursor:   "#9f9fa1"
+
+  normal:
+    black:    "#2d283f"
+    red:      "#ed2261"
+    green:    "#1fa91b"
+    yellow:   "#8ddc20"
+    blue:     "#487df4"
+    magenta:  "#8d35c9"
+    cyan:     "#3bdeed"
+    white:    "#9e9ea0"
+
+  bright:
+    black:    "#59516a"
+    red:      "#f0729a"
+    green:    "#53aa5e"
+    yellow:   "#b2dc87"
+    blue:     "#a9bcec"
+    magenta:  "#ad81c2"
+    cyan:     "#9de3eb"
+    white:    "#a288f7"
+
+#------------------------------------------------Grass_
+
+Grass_: &Grass_
+
+  primary:
+    background: "#13773d"
+    foreground: "#fff0a5"
+
+  cursor:
+    cursor:   "#fff0a5"
+
+  normal:
+    black:    "#000000"
+    red:      "#bb0000"
+    green:    "#00bb00"
+    yellow:   "#e7b000"
+    blue:     "#0000a3"
+    magenta:  "#950062"
+    cyan:     "#00bbbb"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#bb0000"
+    green:    "#00bb00"
+    yellow:   "#e7b000"
+    blue:     "#0000bb"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------GruvboxDark_
+
+GruvboxDark_: &GruvboxDark_
+
+  primary:
+    background: "#282828"
+    foreground: "#ebdbb2"
+
+  cursor:
+    cursor:   "#ebdbb2"
+
+  normal:
+    black:    "#282828"
+    red:      "#cc241d"
+    green:    "#98971a"
+    yellow:   "#d79921"
+    blue:     "#458588"
+    magenta:  "#b16286"
+    cyan:     "#689d6a"
+    white:    "#a89984"
+
+  bright:
+    black:    "#928374"
+    red:      "#fb4934"
+    green:    "#b8bb26"
+    yellow:   "#fabd2f"
+    blue:     "#83a598"
+    magenta:  "#d3869b"
+    cyan:     "#8ec07c"
+    white:    "#ebdbb2"
+
+#------------------------------------------------Gruvbox_
+
+Gruvbox_: &Gruvbox_
+
+  primary:
+    background: "#fbf1c7"
+    foreground: "#3c3836"
+
+  cursor:
+    cursor:   "#3c3836"
+
+  normal:
+    black:    "#fbf1c7"
+    red:      "#cc241d"
+    green:    "#98971a"
+    yellow:   "#d79921"
+    blue:     "#458588"
+    magenta:  "#b16286"
+    cyan:     "#689d6a"
+    white:    "#7c6f64"
+
+  bright:
+    black:    "#928374"
+    red:      "#9d0006"
+    green:    "#79740e"
+    yellow:   "#b57614"
+    blue:     "#076678"
+    magenta:  "#8f3f71"
+    cyan:     "#427b58"
+    white:    "#3c3836"
+
+#------------------------------------------------Hardcore_
+
+Hardcore_: &Hardcore_
+
+  primary:
+    background: "#121212"
+    foreground: "#a0a0a0"
+
+  cursor:
+    cursor:   "#a0a0a0"
+
+  normal:
+    black:    "#1b1d1e"
+    red:      "#f92672"
+    green:    "#a6e22e"
+    yellow:   "#fd971f"
+    blue:     "#66d9ef"
+    magenta:  "#9e6ffe"
+    cyan:     "#5e7175"
+    white:    "#ccccc6"
+
+  bright:
+    black:    "#505354"
+    red:      "#ff669d"
+    green:    "#beed5f"
+    yellow:   "#e6db74"
+    blue:     "#66d9ef"
+    magenta:  "#9e6ffe"
+    cyan:     "#a3babf"
+    white:    "#f8f8f2"
+
+#------------------------------------------------Harper_
+
+Harper_: &Harper_
+
+  primary:
+    background: "#010101"
+    foreground: "#a8a49d"
+
+  cursor:
+    cursor:   "#a8a49d"
+
+  normal:
+    black:    "#010101"
+    red:      "#f8b63f"
+    green:    "#7fb5e1"
+    yellow:   "#d6da25"
+    blue:     "#489e48"
+    magenta:  "#b296c6"
+    cyan:     "#f5bfd7"
+    white:    "#a8a49d"
+
+  bright:
+    black:    "#726e6a"
+    red:      "#f8b63f"
+    green:    "#7fb5e1"
+    yellow:   "#d6da25"
+    blue:     "#489e48"
+    magenta:  "#b296c6"
+    cyan:     "#f5bfd7"
+    white:    "#fefbea"
+
+#------------------------------------------------HemisuDark_
+
+HemisuDark_: &HemisuDark_
+
+  primary:
+    background: "#000000"
+    foreground: "#FFFFFF"
+
+  cursor:
+    cursor:   "#BAFFAA"
+
+  normal:
+    black:    "#444444"
+    red:      "#FF0054"
+    green:    "#B1D630"
+    yellow:   "#9D895E"
+    blue:     "#67BEE3"
+    magenta:  "#B576BC"
+    cyan:     "#569A9F"
+    white:    "#EDEDED"
+
+  bright:
+    black:    "#777777"
+    red:      "#D65E75"
+    green:    "#BAFFAA"
+    yellow:   "#ECE1C8"
+    blue:     "#9FD3E5"
+    magenta:  "#DEB3DF"
+    cyan:     "#B6E0E5"
+    white:    "#FFFFFF"
+
+#------------------------------------------------HemisuLight_
+
+HemisuLight_: &HemisuLight_
+
+  primary:
+    background: "#EFEFEF"
+    foreground: "#444444"
+
+  cursor:
+    cursor:   "#FF0054"
+
+  normal:
+    black:    "#777777"
+    red:      "#FF0055"
+    green:    "#739100"
+    yellow:   "#503D15"
+    blue:     "#538091"
+    magenta:  "#5B345E"
+    cyan:     "#538091"
+    white:    "#999999"
+
+  bright:
+    black:    "#999999"
+    red:      "#D65E76"
+    green:    "#9CC700"
+    yellow:   "#947555"
+    blue:     "#9DB3CD"
+    magenta:  "#A184A4"
+    cyan:     "#85B2AA"
+    white:    "#BABABA"
+
+#------------------------------------------------Highway_
+
+Highway_: &Highway_
+
+  primary:
+    background: "#222225"
+    foreground: "#ededed"
+
+  cursor:
+    cursor:   "#ededed"
+
+  normal:
+    black:    "#000000"
+    red:      "#d00e18"
+    green:    "#138034"
+    yellow:   "#ffcb3e"
+    blue:     "#006bb3"
+    magenta:  "#6b2775"
+    cyan:     "#384564"
+    white:    "#ededed"
+
+  bright:
+    black:    "#5d504a"
+    red:      "#f07e18"
+    green:    "#b1d130"
+    yellow:   "#fff120"
+    blue:     "#4fc2fd"
+    magenta:  "#de0071"
+    cyan:     "#5d504a"
+    white:    "#ffffff"
+
+#------------------------------------------------HipsterGreen_
+
+HipsterGreen_: &HipsterGreen_
+
+  primary:
+    background: "#100b05"
+    foreground: "#84c138"
+
+  cursor:
+    cursor:   "#84c138"
+
+  normal:
+    black:    "#000000"
+    red:      "#b6214a"
+    green:    "#00a600"
+    yellow:   "#bfbf00"
+    blue:     "#246eb2"
+    magenta:  "#b200b2"
+    cyan:     "#00a6b2"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#86a93e"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------Homebrew_
+
+Homebrew_: &Homebrew_
+
+  primary:
+    background: "#000000"
+    foreground: "#00ff00"
+
+  cursor:
+    cursor:   "#00ff00"
+
+  normal:
+    black:    "#000000"
+    red:      "#990000"
+    green:    "#00a600"
+    yellow:   "#999900"
+    blue:     "#0000b2"
+    magenta:  "#b200b2"
+    cyan:     "#00a6b2"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#00d900"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------HorizonBright_
+
+HorizonBright_: &HorizonBright_
+
+  primary:
+    background: "#FDF0ED"
+    foreground: "#1C1E26"
+
+  cursor:
+    cursor:   "#1C1E26"
+
+  normal:
+    black:    "#16161C"
+    red:      "#DA103F"
+    green:    "#1EB980"
+    yellow:   "#F6661E"
+    blue:     "#26BBD9"
+    magenta:  "#EE64AE"
+    cyan:     "#1D8991"
+    white:    "#FADAD1"
+
+  bright:
+    black:    "#1A1C23"
+    red:      "#F43E5C"
+    green:    "#07DA8C"
+    yellow:   "#F77D26"
+    blue:     "#3FC6DE"
+    magenta:  "#F075B7"
+    cyan:     "#1EAEAE"
+    white:    "#FDF0ED"
+
+#------------------------------------------------HorizonDark_
+
+HorizonDark_: &HorizonDark_
+
+  primary:
+    background: "#1C1E26"
+    foreground: "#FDF0ED"
+
+  cursor:
+    cursor:   "#FDF0ED"
+
+  normal:
+    black:    "#16161C"
+    red:      "#E95678"
+    green:    "#29D398"
+    yellow:   "#FAB795"
+    blue:     "#26BBD9"
+    magenta:  "#EE64AE"
+    cyan:     "#59E3E3"
+    white:    "#FADAD1"
+
+  bright:
+    black:    "#232530"
+    red:      "#EC6A88"
+    green:    "#3FDAA4"
+    yellow:   "#FBC3A7"
+    blue:     "#3FC6DE"
+    magenta:  "#F075B7"
+    cyan:     "#6BE6E6"
+    white:    "#FDF0ED"
+
+#------------------------------------------------Hurtado_
+
+Hurtado_: &Hurtado_
+
+  primary:
+    background: "#000000"
+    foreground: "#dbdbdb"
+
+  cursor:
+    cursor:   "#dbdbdb"
+
+  normal:
+    black:    "#575757"
+    red:      "#ff1b00"
+    green:    "#a5e055"
+    yellow:   "#fbe74a"
+    blue:     "#496487"
+    magenta:  "#fd5ff1"
+    cyan:     "#86e9fe"
+    white:    "#cbcccb"
+
+  bright:
+    black:    "#262626"
+    red:      "#d51d00"
+    green:    "#a5df55"
+    yellow:   "#fbe84a"
+    blue:     "#89beff"
+    magenta:  "#c001c1"
+    cyan:     "#86eafe"
+    white:    "#dbdbdb"
+
+#------------------------------------------------Hybrid_
+
+Hybrid_: &Hybrid_
+
+  primary:
+    background: "#141414"
+    foreground: "#94a3a5"
+
+  cursor:
+    cursor:   "#94a3a5"
+
+  normal:
+    black:    "#282a2e"
+    red:      "#A54242"
+    green:    "#8C9440"
+    yellow:   "#de935f"
+    blue:     "#5F819D"
+    magenta:  "#85678F"
+    cyan:     "#5E8D87"
+    white:    "#969896"
+
+  bright:
+    black:    "#373b41"
+    red:      "#cc6666"
+    green:    "#b5bd68"
+    yellow:   "#f0c674"
+    blue:     "#81a2be"
+    magenta:  "#b294bb"
+    cyan:     "#8abeb7"
+    white:    "#c5c8c6"
+
+#------------------------------------------------ibm3270_
+
+ibm3270_: &ibm3270_
+
+  primary:
+    background: "#000000"
+    foreground: "#FDFDFD"
+
+  cursor:
+    cursor:   "#FDFDFD"
+
+  normal:
+    black:    "#222222"
+    red:      "#F01818"
+    green:    "#24D830"
+    yellow:   "#F0D824"
+    blue:     "#7890F0"
+    magenta:  "#F078D8"
+    cyan:     "#54E4E4"
+    white:    "#A5A5A5"
+
+  bright:
+    black:    "#888888"
+    red:      "#EF8383"
+    green:    "#7ED684"
+    yellow:   "#EFE28B"
+    blue:     "#B3BFEF"
+    magenta:  "#EFB3E3"
+    cyan:     "#9CE2E2"
+    white:    "#FFFFFF"
+
+#------------------------------------------------ICGreenPPL_
+
+ICGreenPPL_: &ICGreenPPL_
+
+  primary:
+    background: "#3a3d3f"
+    foreground: "#d9efd3"
+
+  cursor:
+    cursor:   "#d9efd3"
+
+  normal:
+    black:    "#1f1f1f"
+    red:      "#fb002a"
+    green:    "#339c24"
+    yellow:   "#659b25"
+    blue:     "#149b45"
+    magenta:  "#53b82c"
+    cyan:     "#2cb868"
+    white:    "#e0ffef"
+
+  bright:
+    black:    "#032710"
+    red:      "#a7ff3f"
+    green:    "#9fff6d"
+    yellow:   "#d2ff6d"
+    blue:     "#72ffb5"
+    magenta:  "#50ff3e"
+    cyan:     "#22ff71"
+    white:    "#daefd0"
+
+#------------------------------------------------ICOrangePPL_
+
+ICOrangePPL_: &ICOrangePPL_
+
+  primary:
+    background: "#262626"
+    foreground: "#ffcb83"
+
+  cursor:
+    cursor:   "#ffcb83"
+
+  normal:
+    black:    "#000000"
+    red:      "#c13900"
+    green:    "#a4a900"
+    yellow:   "#caaf00"
+    blue:     "#bd6d00"
+    magenta:  "#fc5e00"
+    cyan:     "#f79500"
+    white:    "#ffc88a"
+
+  bright:
+    black:    "#6a4f2a"
+    red:      "#ff8c68"
+    green:    "#f6ff40"
+    yellow:   "#ffe36e"
+    blue:     "#ffbe55"
+    magenta:  "#fc874f"
+    cyan:     "#c69752"
+    white:    "#fafaff"
+
+#------------------------------------------------IdleToes_
+
+IdleToes_: &IdleToes_
+
+  primary:
+    background: "#323232"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#323232"
+    red:      "#d25252"
+    green:    "#7fe173"
+    yellow:   "#ffc66d"
+    blue:     "#4099ff"
+    magenta:  "#f680ff"
+    cyan:     "#bed6ff"
+    white:    "#eeeeec"
+
+  bright:
+    black:    "#535353"
+    red:      "#f07070"
+    green:    "#9dff91"
+    yellow:   "#ffe48b"
+    blue:     "#5eb7f7"
+    magenta:  "#ff9dff"
+    cyan:     "#dcf4ff"
+    white:    "#ffffff"
+
+#------------------------------------------------IrBlack_
+
+IrBlack_: &IrBlack_
+
+  primary:
+    background: "#000000"
+    foreground: "#eeeeee"
+
+  cursor:
+    cursor:   "#ffa560"
+
+  normal:
+    black:    "#4e4e4e"
+    red:      "#ff6c60"
+    green:    "#a8ff60"
+    yellow:   "#ffffb6"
+    blue:     "#69cbfe"
+    magenta:  "#ff73Fd"
+    cyan:     "#c6c5fe"
+    white:    "#eeeeee"
+
+  bright:
+    black:    "#7c7c7c"
+    red:      "#ffb6b0"
+    green:    "#ceffac"
+    yellow:   "#ffffcb"
+    blue:     "#b5dcfe"
+    magenta:  "#ff9cfe"
+    cyan:     "#dfdffe"
+    white:    "#ffffff"
+
+#------------------------------------------------JackieBrown_
+
+JackieBrown_: &JackieBrown_
+
+  primary:
+    background: "#2c1d16"
+    foreground: "#ffcc2f"
+
+  cursor:
+    cursor:   "#ffcc2f"
+
+  normal:
+    black:    "#2c1d16"
+    red:      "#ef5734"
+    green:    "#2baf2b"
+    yellow:   "#bebf00"
+    blue:     "#246eb2"
+    magenta:  "#d05ec1"
+    cyan:     "#00acee"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#86a93e"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------Japanesque_
+
+Japanesque_: &Japanesque_
+
+  primary:
+    background: "#1e1e1e"
+    foreground: "#f7f6ec"
+
+  cursor:
+    cursor:   "#f7f6ec"
+
+  normal:
+    black:    "#343935"
+    red:      "#cf3f61"
+    green:    "#7bb75b"
+    yellow:   "#e9b32a"
+    blue:     "#4c9ad4"
+    magenta:  "#a57fc4"
+    cyan:     "#389aad"
+    white:    "#fafaf6"
+
+  bright:
+    black:    "#595b59"
+    red:      "#d18fa6"
+    green:    "#767f2c"
+    yellow:   "#78592f"
+    blue:     "#135979"
+    magenta:  "#604291"
+    cyan:     "#76bbca"
+    white:    "#b2b5ae"
+
+#------------------------------------------------Jellybeans_
+
+Jellybeans_: &Jellybeans_
+
+  primary:
+    background: "#121212"
+    foreground: "#dedede"
+
+  cursor:
+    cursor:   "#dedede"
+
+  normal:
+    black:    "#929292"
+    red:      "#e27373"
+    green:    "#94b979"
+    yellow:   "#ffba7b"
+    blue:     "#97bedc"
+    magenta:  "#e1c0fa"
+    cyan:     "#00988e"
+    white:    "#dedede"
+
+  bright:
+    black:    "#bdbdbd"
+    red:      "#ffa1a1"
+    green:    "#bddeab"
+    yellow:   "#ffdca0"
+    blue:     "#b1d8f6"
+    magenta:  "#fbdaff"
+    cyan:     "#1ab2a8"
+    white:    "#ffffff"
+
+#------------------------------------------------Jup_
+
+Jup_: &Jup_
+
+  primary:
+    background: "#758480"
+    foreground: "#23476a"
+
+  cursor:
+    cursor:   "#23476a"
+
+  normal:
+    black:    "#000000"
+    red:      "#dd006f"
+    green:    "#6fdd00"
+    yellow:   "#dd6f00"
+    blue:     "#006fdd"
+    magenta:  "#6f00dd"
+    cyan:     "#00dd6f"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#7d7d7d"
+    red:      "#ff74b9"
+    green:    "#b9ff74"
+    yellow:   "#ffb974"
+    blue:     "#74b9ff"
+    magenta:  "#b974ff"
+    cyan:     "#74ffb9"
+    white:    "#ffffff"
+
+#------------------------------------------------Kibble_
+
+Kibble_: &Kibble_
+
+  primary:
+    background: "#0e100a"
+    foreground: "#f7f7f7"
+
+  cursor:
+    cursor:   "#f7f7f7"
+
+  normal:
+    black:    "#4d4d4d"
+    red:      "#c70031"
+    green:    "#29cf13"
+    yellow:   "#d8e30e"
+    blue:     "#3449d1"
+    magenta:  "#8400ff"
+    cyan:     "#0798ab"
+    white:    "#e2d1e3"
+
+  bright:
+    black:    "#5a5a5a"
+    red:      "#f01578"
+    green:    "#6ce05c"
+    yellow:   "#f3f79e"
+    blue:     "#97a4f7"
+    magenta:  "#c495f0"
+    cyan:     "#68f2e0"
+    white:    "#ffffff"
+
+#------------------------------------------------kokuban_
+
+kokuban_: &kokuban_
+
+  primary:
+    background: "#0D4A08"
+    foreground: "#D8E2D7"
+
+  cursor:
+    cursor:   "#D8E2D7"
+
+  normal:
+    black:    "#2E8744"
+    red:      "#D84E4C"
+    green:    "#95DA5A"
+    yellow:   "#D6E264"
+    blue:     "#4B9ED7"
+    magenta:  "#945FC5"
+    cyan:     "#D89B25"
+    white:    "#D8E2D7"
+
+  bright:
+    black:    "#34934F"
+    red:      "#FF4F59"
+    green:    "#AFF56A"
+    yellow:   "#FCFF75"
+    blue:     "#57AEFF"
+    magenta:  "#AE63E9"
+    cyan:     "#FFAA2B"
+    white:    "#FFFEFE"
+
+#------------------------------------------------laserwave_
+
+laserwave_: &laserwave_
+
+  primary:
+    background: "#1F1926"
+    foreground: "#E0E0E0"
+
+  cursor:
+    cursor:   "#C7C7C7"
+
+  normal:
+    black:    "#39243A"
+    red:      "#EB64B9"
+    green:    "#AFD686"
+    yellow:   "#FEAE87"
+    blue:     "#40B4C4"
+    magenta:  "#B381C5"
+    cyan:     "#215969"
+    white:    "#91889b"
+
+  bright:
+    black:    "#716485"
+    red:      "#FC2377"
+    green:    "#50FA7B"
+    yellow:   "#FFE261"
+    blue:     "#74DFC4"
+    magenta:  "#6D75E0"
+    cyan:     "#B4DCE7"
+    white:    "#FFFFFF"
+
+#------------------------------------------------LaterThisEvening_
+
+LaterThisEvening_: &LaterThisEvening_
+
+  primary:
+    background: "#222222"
+    foreground: "#959595"
+
+  cursor:
+    cursor:   "#959595"
+
+  normal:
+    black:    "#2b2b2b"
+    red:      "#d45a60"
+    green:    "#afba67"
+    yellow:   "#e5d289"
+    blue:     "#a0bad6"
+    magenta:  "#c092d6"
+    cyan:     "#91bfb7"
+    white:    "#3c3d3d"
+
+  bright:
+    black:    "#454747"
+    red:      "#d3232f"
+    green:    "#aabb39"
+    yellow:   "#e5be39"
+    blue:     "#6699d6"
+    magenta:  "#ab53d6"
+    cyan:     "#5fc0ae"
+    white:    "#c1c2c2"
+
+#------------------------------------------------Lavandula_
+
+Lavandula_: &Lavandula_
+
+  primary:
+    background: "#050014"
+    foreground: "#736e7d"
+
+  cursor:
+    cursor:   "#736e7d"
+
+  normal:
+    black:    "#230046"
+    red:      "#7d1625"
+    green:    "#337e6f"
+    yellow:   "#7f6f49"
+    blue:     "#4f4a7f"
+    magenta:  "#5a3f7f"
+    cyan:     "#58777f"
+    white:    "#736e7d"
+
+  bright:
+    black:    "#372d46"
+    red:      "#e05167"
+    green:    "#52e0c4"
+    yellow:   "#e0c386"
+    blue:     "#8e87e0"
+    magenta:  "#a776e0"
+    cyan:     "#9ad4e0"
+    white:    "#8c91fa"
+
+#------------------------------------------------LiquidCarbonTransparent_
+
+LiquidCarbonTransparent_: &LiquidCarbonTransparent_
+
+  primary:
+    background: "#000000"
+    foreground: "#afc2c2"
+
+  cursor:
+    cursor:   "#afc2c2"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff3030"
+    green:    "#559a70"
+    yellow:   "#ccac00"
+    blue:     "#0099cc"
+    magenta:  "#cc69c8"
+    cyan:     "#7ac4cc"
+    white:    "#bccccc"
+
+  bright:
+    black:    "#000000"
+    red:      "#ff3030"
+    green:    "#559a70"
+    yellow:   "#ccac00"
+    blue:     "#0099cc"
+    magenta:  "#cc69c8"
+    cyan:     "#7ac4cc"
+    white:    "#bccccc"
+
+#------------------------------------------------LiquidCarbon_
+
+LiquidCarbon_: &LiquidCarbon_
+
+  primary:
+    background: "#303030"
+    foreground: "#afc2c2"
+
+  cursor:
+    cursor:   "#afc2c2"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff3030"
+    green:    "#559a70"
+    yellow:   "#ccac00"
+    blue:     "#0099cc"
+    magenta:  "#cc69c8"
+    cyan:     "#7ac4cc"
+    white:    "#bccccc"
+
+  bright:
+    black:    "#000000"
+    red:      "#ff3030"
+    green:    "#559a70"
+    yellow:   "#ccac00"
+    blue:     "#0099cc"
+    magenta:  "#cc69c8"
+    cyan:     "#7ac4cc"
+    white:    "#bccccc"
+
+#------------------------------------------------LunariaDark_
+
+LunariaDark_: &LunariaDark_
+
+  primary:
+    background: "#36464E"
+    foreground: "#CACED8"
+
+  cursor:
+    cursor:   "#CACED8"
+
+  normal:
+    black:    "#36464E"
+    red:      "#846560"
+    green:    "#809984"
+    yellow:   "#A79A79"
+    blue:     "#555673"
+    magenta:  "#866C83"
+    cyan:     "#7E98B4"
+    white:    "#CACED8"
+
+  bright:
+    black:    "#404F56"
+    red:      "#BB928B"
+    green:    "#BFDCC2"
+    yellow:   "#F1DFB6"
+    blue:     "#777798"
+    magenta:  "#BF9DB9"
+    cyan:     "#BDDCFF"
+    white:    "#DFE2ED"
+
+#------------------------------------------------LunariaEclipse_
+
+LunariaEclipse_: &LunariaEclipse_
+
+  primary:
+    background: "#323F46"
+    foreground: "#C9CDD7"
+
+  cursor:
+    cursor:   "#C9CDD7"
+
+  normal:
+    black:    "#323F46"
+    red:      "#83615B"
+    green:    "#7F9781"
+    yellow:   "#A69875"
+    blue:     "#53516F"
+    magenta:  "#856880"
+    cyan:     "#7D96B2"
+    white:    "#C9CDD7"
+
+  bright:
+    black:    "#3D4950"
+    red:      "#BA9088"
+    green:    "#BEDBC1"
+    yellow:   "#F1DFB4"
+    blue:     "#767495"
+    magenta:  "#BE9CB8"
+    cyan:     "#BCDBFF"
+    white:    "#DFE2ED"
+
+#------------------------------------------------LunariaLight_
+
+LunariaLight_: &LunariaLight_
+
+  primary:
+    background: "#EBE4E1"
+    foreground: "#484646"
+
+  cursor:
+    cursor:   "#484646"
+
+  normal:
+    black:    "#3E3C3D"
+    red:      "#783C1F"
+    green:    "#497D46"
+    yellow:   "#8F750B"
+    blue:     "#3F3566"
+    magenta:  "#793F62"
+    cyan:     "#3778A9"
+    white:    "#D5CFCC"
+
+  bright:
+    black:    "#484646"
+    red:      "#B06240"
+    green:    "#7BC175"
+    yellow:   "#DCB735"
+    blue:     "#5C4F89"
+    magenta:  "#B56895"
+    cyan:     "#64BAFF"
+    white:    "#EBE4E1"
+
+#------------------------------------------------Maia_
+
+Maia_: &Maia_
+
+  primary:
+    background: "#31363B"
+    foreground: "#BDC3C7"
+
+  cursor:
+    cursor:   "#BDC3C7"
+
+  normal:
+    black:    "#232423"
+    red:      "#BA2922"
+    green:    "#7E807E"
+    yellow:   "#4C4F4D"
+    blue:     "#16A085"
+    magenta:  "#43746A"
+    cyan:     "#00CCCC"
+    white:    "#E0E0E0"
+
+  bright:
+    black:    "#282928"
+    red:      "#CC372C"
+    green:    "#8D8F8D"
+    yellow:   "#4E524F"
+    blue:     "#13BF9D"
+    magenta:  "#487D72"
+    cyan:     "#00D1D1"
+    white:    "#E8E8E8"
+
+#------------------------------------------------ManPage_
+
+ManPage_: &ManPage_
+
+  primary:
+    background: "#fef49c"
+    foreground: "#000000"
+
+  cursor:
+    cursor:   "#000000"
+
+  normal:
+    black:    "#000000"
+    red:      "#cc0000"
+    green:    "#00a600"
+    yellow:   "#999900"
+    blue:     "#0000b2"
+    magenta:  "#b200b2"
+    cyan:     "#00a6b2"
+    white:    "#cccccc"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#00d900"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------Mar_
+
+Mar_: &Mar_
+
+  primary:
+    background: "#ffffff"
+    foreground: "#23476a"
+
+  cursor:
+    cursor:   "#23476a"
+
+  normal:
+    black:    "#000000"
+    red:      "#b5407b"
+    green:    "#7bb540"
+    yellow:   "#b57b40"
+    blue:     "#407bb5"
+    magenta:  "#7b40b5"
+    cyan:     "#40b57b"
+    white:    "#f8f8f8"
+
+  bright:
+    black:    "#737373"
+    red:      "#cd73a0"
+    green:    "#a0cd73"
+    yellow:   "#cda073"
+    blue:     "#73a0cd"
+    magenta:  "#a073cd"
+    cyan:     "#73cda0"
+    white:    "#ffffff"
+
+#------------------------------------------------Material_
+
+Material_: &Material_
+
+  primary:
+    background: "#1E282C"
+    foreground: "#C3C7D1"
+
+  cursor:
+    cursor:   "#657B83"
+
+  normal:
+    black:    "#073641"
+    red:      "#EB606B"
+    green:    "#C3E88D"
+    yellow:   "#F7EB95"
+    blue:     "#80CBC3"
+    magenta:  "#FF2490"
+    cyan:     "#AEDDFF"
+    white:    "#FFFFFF"
+
+  bright:
+    black:    "#002B36"
+    red:      "#EB606B"
+    green:    "#C3E88D"
+    yellow:   "#F7EB95"
+    blue:     "#7DC6BF"
+    magenta:  "#6C71C3"
+    cyan:     "#34434D"
+    white:    "#FFFFFF"
+
+#------------------------------------------------Mathias_
+
+Mathias_: &Mathias_
+
+  primary:
+    background: "#000000"
+    foreground: "#bbbbbb"
+
+  cursor:
+    cursor:   "#bbbbbb"
+
+  normal:
+    black:    "#000000"
+    red:      "#e52222"
+    green:    "#a6e32d"
+    yellow:   "#fc951e"
+    blue:     "#c48dff"
+    magenta:  "#fa2573"
+    cyan:     "#67d9f0"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff5555"
+    green:    "#55ff55"
+    yellow:   "#ffff55"
+    blue:     "#5555ff"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------Medallion_
+
+Medallion_: &Medallion_
+
+  primary:
+    background: "#1d1908"
+    foreground: "#cac296"
+
+  cursor:
+    cursor:   "#cac296"
+
+  normal:
+    black:    "#000000"
+    red:      "#b64c00"
+    green:    "#7c8b16"
+    yellow:   "#d3bd26"
+    blue:     "#616bb0"
+    magenta:  "#8c5a90"
+    cyan:     "#916c25"
+    white:    "#cac29a"
+
+  bright:
+    black:    "#5e5219"
+    red:      "#ff9149"
+    green:    "#b2ca3b"
+    yellow:   "#ffe54a"
+    blue:     "#acb8ff"
+    magenta:  "#ffa0ff"
+    cyan:     "#ffbc51"
+    white:    "#fed698"
+
+#------------------------------------------------Misterioso_
+
+Misterioso_: &Misterioso_
+
+  primary:
+    background: "#2d3743"
+    foreground: "#e1e1e0"
+
+  cursor:
+    cursor:   "#e1e1e0"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff4242"
+    green:    "#74af68"
+    yellow:   "#ffad29"
+    blue:     "#338f86"
+    magenta:  "#9414e6"
+    cyan:     "#23d7d7"
+    white:    "#e1e1e0"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff3242"
+    green:    "#74cd68"
+    yellow:   "#ffb929"
+    blue:     "#23d7d7"
+    magenta:  "#ff37ff"
+    cyan:     "#00ede1"
+    white:    "#ffffff"
+
+#------------------------------------------------Miu_
+
+Miu_: &Miu_
+
+  primary:
+    background: "#0d1926"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#000000"
+    red:      "#b87a7a"
+    green:    "#7ab87a"
+    yellow:   "#b8b87a"
+    blue:     "#7a7ab8"
+    magenta:  "#b87ab8"
+    cyan:     "#7ab8b8"
+    white:    "#d9d9d9"
+
+  bright:
+    black:    "#262626"
+    red:      "#dbbdbd"
+    green:    "#bddbbd"
+    yellow:   "#dbdbbd"
+    blue:     "#bdbddb"
+    magenta:  "#dbbddb"
+    cyan:     "#bddbdb"
+    white:    "#ffffff"
+
+#------------------------------------------------Molokai_
+
+Molokai_: &Molokai_
+
+  primary:
+    background: "#1b1d1e"
+    foreground: "#BBBBBB"
+
+  cursor:
+    cursor:   "#BBBBBB"
+
+  normal:
+    black:    "#1b1d1e"
+    red:      "#7325FA"
+    green:    "#23E298"
+    yellow:   "#60D4DF"
+    blue:     "#D08010"
+    magenta:  "#FF0087"
+    cyan:     "#D0A843"
+    white:    "#BBBBBB"
+
+  bright:
+    black:    "#555555"
+    red:      "#9D66F6"
+    green:    "#5FE0B1"
+    yellow:   "#6DF2FF"
+    blue:     "#FFAF00"
+    magenta:  "#FF87AF"
+    cyan:     "#FFCE51"
+    white:    "#FFFFFF"
+
+#------------------------------------------------MonaLisa_
+
+MonaLisa_: &MonaLisa_
+
+  primary:
+    background: "#120b0d"
+    foreground: "#f7d66a"
+
+  cursor:
+    cursor:   "#f7d66a"
+
+  normal:
+    black:    "#351b0e"
+    red:      "#9b291c"
+    green:    "#636232"
+    yellow:   "#c36e28"
+    blue:     "#515c5d"
+    magenta:  "#9b1d29"
+    cyan:     "#588056"
+    white:    "#f7d75c"
+
+  bright:
+    black:    "#874228"
+    red:      "#ff4331"
+    green:    "#b4b264"
+    yellow:   "#ff9566"
+    blue:     "#9eb2b4"
+    magenta:  "#ff5b6a"
+    cyan:     "#8acd8f"
+    white:    "#ffe598"
+
+#------------------------------------------------mono-amber_
+
+mono-amber_: &mono-amber_
+
+  primary:
+    background: "#2B1900"
+    foreground: "#FF9400"
+
+  cursor:
+    cursor:   "#FF9400"
+
+  normal:
+    black:    "#402500"
+    red:      "#FF9400"
+    green:    "#FF9400"
+    yellow:   "#FF9400"
+    blue:     "#FF9400"
+    magenta:  "#FF9400"
+    cyan:     "#FF9400"
+    white:    "#FF9400"
+
+  bright:
+    black:    "#FF9400"
+    red:      "#FF9400"
+    green:    "#FF9400"
+    yellow:   "#FF9400"
+    blue:     "#FF9400"
+    magenta:  "#FF9400"
+    cyan:     "#FF9400"
+    white:    "#FF9400"
+
+#------------------------------------------------mono-cyan_
+
+mono-cyan_: &mono-cyan_
+
+  primary:
+    background: "#00222B"
+    foreground: "#00CCFF"
+
+  cursor:
+    cursor:   "#00CCFF"
+
+  normal:
+    black:    "#003340"
+    red:      "#00CCFF"
+    green:    "#00CCFF"
+    yellow:   "#00CCFF"
+    blue:     "#00CCFF"
+    magenta:  "#00CCFF"
+    cyan:     "#00CCFF"
+    white:    "#00CCFF"
+
+  bright:
+    black:    "#00CCFF"
+    red:      "#00CCFF"
+    green:    "#00CCFF"
+    yellow:   "#00CCFF"
+    blue:     "#00CCFF"
+    magenta:  "#00CCFF"
+    cyan:     "#00CCFF"
+    white:    "#00CCFF"
+
+#------------------------------------------------mono-green_
+
+mono-green_: &mono-green_
+
+  primary:
+    background: "#022B00"
+    foreground: "#0BFF00"
+
+  cursor:
+    cursor:   "#0BFF00"
+
+  normal:
+    black:    "#034000"
+    red:      "#0BFF00"
+    green:    "#0BFF00"
+    yellow:   "#0BFF00"
+    blue:     "#0BFF00"
+    magenta:  "#0BFF00"
+    cyan:     "#0BFF00"
+    white:    "#0BFF00"
+
+  bright:
+    black:    "#0BFF00"
+    red:      "#0BFF00"
+    green:    "#0BFF00"
+    yellow:   "#0BFF00"
+    blue:     "#0BFF00"
+    magenta:  "#0BFF00"
+    cyan:     "#0BFF00"
+    white:    "#0BFF00"
+
+#------------------------------------------------mono-red_
+
+mono-red_: &mono-red_
+
+  primary:
+    background: "#2B0C00"
+    foreground: "#FF3600"
+
+  cursor:
+    cursor:   "#FF3600"
+
+  normal:
+    black:    "#401200"
+    red:      "#FF3600"
+    green:    "#FF3600"
+    yellow:   "#FF3600"
+    blue:     "#FF3600"
+    magenta:  "#FF3600"
+    cyan:     "#FF3600"
+    white:    "#FF3600"
+
+  bright:
+    black:    "#FF3600"
+    red:      "#FF3600"
+    green:    "#FF3600"
+    yellow:   "#FF3600"
+    blue:     "#FF3600"
+    magenta:  "#FF3600"
+    cyan:     "#FF3600"
+    white:    "#FF3600"
+
+#------------------------------------------------mono-white_
+
+mono-white_: &mono-white_
+
+  primary:
+    background: "#262626"
+    foreground: "#FAFAFA"
+
+  cursor:
+    cursor:   "#FAFAFA"
+
+  normal:
+    black:    "#3B3B3B"
+    red:      "#FAFAFA"
+    green:    "#FAFAFA"
+    yellow:   "#FAFAFA"
+    blue:     "#FAFAFA"
+    magenta:  "#FAFAFA"
+    cyan:     "#FAFAFA"
+    white:    "#FAFAFA"
+
+  bright:
+    black:    "#FAFAFA"
+    red:      "#FAFAFA"
+    green:    "#FAFAFA"
+    yellow:   "#FAFAFA"
+    blue:     "#FAFAFA"
+    magenta:  "#FAFAFA"
+    cyan:     "#FAFAFA"
+    white:    "#FAFAFA"
+
+#------------------------------------------------mono-yellow_
+
+mono-yellow_: &mono-yellow_
+
+  primary:
+    background: "#2B2400"
+    foreground: "#FFD300"
+
+  cursor:
+    cursor:   "#FFD300"
+
+  normal:
+    black:    "#403500"
+    red:      "#FFD300"
+    green:    "#FFD300"
+    yellow:   "#FFD300"
+    blue:     "#FFD300"
+    magenta:  "#FFD300"
+    cyan:     "#FFD300"
+    white:    "#FFD300"
+
+  bright:
+    black:    "#FFD300"
+    red:      "#FFD300"
+    green:    "#FFD300"
+    yellow:   "#FFD300"
+    blue:     "#FFD300"
+    magenta:  "#FFD300"
+    cyan:     "#FFD300"
+    white:    "#FFD300"
+
+#------------------------------------------------MonokaiDark_
+
+MonokaiDark_: &MonokaiDark_
+
+  primary:
+    background: "#272822"
+    foreground: "#f8f8f2"
+
+  cursor:
+    cursor:   "#f8f8f2"
+
+  normal:
+    black:    "#75715e"
+    red:      "#f92672"
+    green:    "#a6e22e"
+    yellow:   "#f4bf75"
+    blue:     "#66d9ef"
+    magenta:  "#ae81ff"
+    cyan:     "#2AA198"
+    white:    "#f9f8f5"
+
+  bright:
+    black:    "#272822"
+    red:      "#f92672"
+    green:    "#a6e22e"
+    yellow:   "#f4bf75"
+    blue:     "#66d9ef"
+    magenta:  "#ae81ff"
+    cyan:     "#2AA198"
+    white:    "#f8f8f2"
+
+#------------------------------------------------MonokaiPro_
+
+MonokaiPro_: &MonokaiPro_
+
+  primary:
+    background: "#363537"
+    foreground: "#f7f1fe"
+
+  cursor:
+    cursor:   "#f7f1fe"
+
+  normal:
+    black:    "#363537"
+    red:      "#ff618e"
+    green:    "#6ed892"
+    yellow:   "#ffe572"
+    blue:     "#ff935b"
+    magenta:  "#938ae0"
+    cyan:     "#3bd4e4"
+    white:    "#f7f1fe"
+
+  bright:
+    black:    "#363537"
+    red:      "#ff618e"
+    green:    "#6ed892"
+    yellow:   "#ffe572"
+    blue:     "#ff935b"
+    magenta:  "#938ae0"
+    cyan:     "#3bd4e4"
+    white:    "#f7f1fe"
+
+#------------------------------------------------MonokaiSoda_
+
+MonokaiSoda_: &MonokaiSoda_
+
+  primary:
+    background: "#1a1a1a"
+    foreground: "#c4c5b5"
+
+  cursor:
+    cursor:   "#c4c5b5"
+
+  normal:
+    black:    "#1a1a1a"
+    red:      "#f4005f"
+    green:    "#98e024"
+    yellow:   "#fa8419"
+    blue:     "#9d65ff"
+    magenta:  "#f4005f"
+    cyan:     "#58d1eb"
+    white:    "#c4c5b5"
+
+  bright:
+    black:    "#625e4c"
+    red:      "#f4005f"
+    green:    "#98e024"
+    yellow:   "#e0d561"
+    blue:     "#9d65ff"
+    magenta:  "#f4005f"
+    cyan:     "#58d1eb"
+    white:    "#f6f6ef"
+
+#------------------------------------------------N0tch2k_
+
+N0tch2k_: &N0tch2k_
+
+  primary:
+    background: "#222222"
+    foreground: "#a0a0a0"
+
+  cursor:
+    cursor:   "#a0a0a0"
+
+  normal:
+    black:    "#383838"
+    red:      "#a95551"
+    green:    "#666666"
+    yellow:   "#a98051"
+    blue:     "#657d3e"
+    magenta:  "#767676"
+    cyan:     "#c9c9c9"
+    white:    "#d0b8a3"
+
+  bright:
+    black:    "#474747"
+    red:      "#a97775"
+    green:    "#8c8c8c"
+    yellow:   "#a99175"
+    blue:     "#98bd5e"
+    magenta:  "#a3a3a3"
+    cyan:     "#dcdcdc"
+    white:    "#d8c8bb"
+
+#------------------------------------------------neon-night_
+
+neon-night_: &neon-night_
+
+  primary:
+    background: "#20242d"
+    foreground: "#C7C8FF"
+
+  cursor:
+    cursor:   "#C7C8FF"
+
+  normal:
+    black:    "#20242d"
+    red:      "#FF8E8E"
+    green:    "#7EFDD0"
+    yellow:   "#FCAD3F"
+    blue:     "#69B4F9"
+    magenta:  "#DD92F6"
+    cyan:     "#8CE8ff"
+    white:    "#C9CCCD"
+
+  bright:
+    black:    "#20242d"
+    red:      "#FF8E8E"
+    green:    "#7EFDD0"
+    yellow:   "#FCAD3F"
+    blue:     "#69B4F9"
+    magenta:  "#DD92F6"
+    cyan:     "#8CE8ff"
+    white:    "#C9CCCD"
+
+#------------------------------------------------Neopolitan_
+
+Neopolitan_: &Neopolitan_
+
+  primary:
+    background: "#271f19"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#800000"
+    green:    "#61ce3c"
+    yellow:   "#fbde2d"
+    blue:     "#253b76"
+    magenta:  "#ff0080"
+    cyan:     "#8da6ce"
+    white:    "#f8f8f8"
+
+  bright:
+    black:    "#000000"
+    red:      "#800000"
+    green:    "#61ce3c"
+    yellow:   "#fbde2d"
+    blue:     "#253b76"
+    magenta:  "#ff0080"
+    cyan:     "#8da6ce"
+    white:    "#f8f8f8"
+
+#------------------------------------------------Nep_
+
+Nep_: &Nep_
+
+  primary:
+    background: "#758480"
+    foreground: "#23476a"
+
+  cursor:
+    cursor:   "#23476a"
+
+  normal:
+    black:    "#000000"
+    red:      "#dd6f00"
+    green:    "#00dd6f"
+    yellow:   "#6fdd00"
+    blue:     "#6f00dd"
+    magenta:  "#dd006f"
+    cyan:     "#006fdd"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#7d7d7d"
+    red:      "#ffb974"
+    green:    "#74ffb9"
+    yellow:   "#b9ff74"
+    blue:     "#b974ff"
+    magenta:  "#ff74b9"
+    cyan:     "#74b9ff"
+    white:    "#ffffff"
+
+#------------------------------------------------Neutron_
+
+Neutron_: &Neutron_
+
+  primary:
+    background: "#1c1e22"
+    foreground: "#e6e8ef"
+
+  cursor:
+    cursor:   "#e6e8ef"
+
+  normal:
+    black:    "#23252b"
+    red:      "#b54036"
+    green:    "#5ab977"
+    yellow:   "#deb566"
+    blue:     "#6a7c93"
+    magenta:  "#a4799d"
+    cyan:     "#3f94a8"
+    white:    "#e6e8ef"
+
+  bright:
+    black:    "#23252b"
+    red:      "#b54036"
+    green:    "#5ab977"
+    yellow:   "#deb566"
+    blue:     "#6a7c93"
+    magenta:  "#a4799d"
+    cyan:     "#3f94a8"
+    white:    "#ebedf2"
+
+#------------------------------------------------NightOwl_
+
+NightOwl_: &NightOwl_
+
+  primary:
+    background: "#011627"
+    foreground: "#d6deeb"
+
+  cursor:
+    cursor:   "#d6deeb"
+
+  normal:
+    black:    "#011627"
+    red:      "#EF5350"
+    green:    "#22da6e"
+    yellow:   "#addb67"
+    blue:     "#82aaff"
+    magenta:  "#c792ea"
+    cyan:     "#21c7a8"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#575656"
+    red:      "#ef5350"
+    green:    "#22da6e"
+    yellow:   "#ffeb95"
+    blue:     "#82aaff"
+    magenta:  "#c792ea"
+    cyan:     "#7fdbca"
+    white:    "#ffffff"
+
+#------------------------------------------------NightlionV1_
+
+NightlionV1_: &NightlionV1_
+
+  primary:
+    background: "#000000"
+    foreground: "#bbbbbb"
+
+  cursor:
+    cursor:   "#bbbbbb"
+
+  normal:
+    black:    "#4c4c4c"
+    red:      "#bb0000"
+    green:    "#5fde8f"
+    yellow:   "#f3f167"
+    blue:     "#276bd8"
+    magenta:  "#bb00bb"
+    cyan:     "#00dadf"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff5555"
+    green:    "#55ff55"
+    yellow:   "#ffff55"
+    blue:     "#5555ff"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------NightlionV2_
+
+NightlionV2_: &NightlionV2_
+
+  primary:
+    background: "#171717"
+    foreground: "#bbbbbb"
+
+  cursor:
+    cursor:   "#bbbbbb"
+
+  normal:
+    black:    "#4c4c4c"
+    red:      "#bb0000"
+    green:    "#04f623"
+    yellow:   "#f3f167"
+    blue:     "#64d0f0"
+    magenta:  "#ce6fdb"
+    cyan:     "#00dadf"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff5555"
+    green:    "#7df71d"
+    yellow:   "#ffff55"
+    blue:     "#62cbe8"
+    magenta:  "#ff9bf5"
+    cyan:     "#00ccd8"
+    white:    "#ffffff"
+
+#------------------------------------------------nighty_
+
+nighty_: &nighty_
+
+  primary:
+    background: "#2F2F2F"
+    foreground: "#DFDFDF"
+
+  cursor:
+    cursor:   "#DFDFDF"
+
+  normal:
+    black:    "#373D48"
+    red:      "#9B3E46"
+    green:    "#095B32"
+    yellow:   "#808020"
+    blue:     "#1D3E6F"
+    magenta:  "#823065"
+    cyan:     "#3A7458"
+    white:    "#828282"
+
+  bright:
+    black:    "#5C6370"
+    red:      "#D0555F"
+    green:    "#119955"
+    yellow:   "#DFE048"
+    blue:     "#4674B8"
+    magenta:  "#ED86C9"
+    cyan:     "#70D2A4"
+    white:    "#DFDFDF"
+
+#------------------------------------------------NordLight_
+
+NordLight_: &NordLight_
+
+  primary:
+    background: "#ebeaf2"
+    foreground: "#004f7c"
+
+  cursor:
+    cursor:   "#439ECF"
+
+  normal:
+    black:    "#353535"
+    red:      "#E64569"
+    green:    "#89D287"
+    yellow:   "#DAB752"
+    blue:     "#439ECF"
+    magenta:  "#D961DC"
+    cyan:     "#64AAAF"
+    white:    "#B3B3B3"
+
+  bright:
+    black:    "#535353"
+    red:      "#E4859A"
+    green:    "#A2CCA1"
+    yellow:   "#E1E387"
+    blue:     "#6FBBE2"
+    magenta:  "#E586E7"
+    cyan:     "#96DCDA"
+    white:    "#DEDEDE"
+
+#------------------------------------------------Nord_
+
+Nord_: &Nord_
+
+  primary:
+    background: "#2E3440"
+    foreground: "#D8DEE9"
+
+  cursor:
+    cursor:   "#D8DEE9"
+
+  normal:
+    black:    "#3B4252"
+    red:      "#BF616A"
+    green:    "#A3BE8C"
+    yellow:   "#EBCB8B"
+    blue:     "#81A1C1"
+    magenta:  "#B48EAD"
+    cyan:     "#88C0D0"
+    white:    "#E5E9F0"
+
+  bright:
+    black:    "#4C566A"
+    red:      "#BF616A"
+    green:    "#A3BE8C"
+    yellow:   "#EBCB8B"
+    blue:     "#81A1C1"
+    magenta:  "#B48EAD"
+    cyan:     "#8FBCBB"
+    white:    "#ECEFF4"
+
+#------------------------------------------------Novel_
+
+Novel_: &Novel_
+
+  primary:
+    background: "#dfdbc3"
+    foreground: "#3b2322"
+
+  cursor:
+    cursor:   "#3b2322"
+
+  normal:
+    black:    "#000000"
+    red:      "#cc0000"
+    green:    "#009600"
+    yellow:   "#d06b00"
+    blue:     "#0000cc"
+    magenta:  "#cc00cc"
+    cyan:     "#0087cc"
+    white:    "#cccccc"
+
+  bright:
+    black:    "#808080"
+    red:      "#cc0000"
+    green:    "#009600"
+    yellow:   "#d06b00"
+    blue:     "#0000cc"
+    magenta:  "#cc00cc"
+    cyan:     "#0087cc"
+    white:    "#ffffff"
+
+#------------------------------------------------Obsidian_
+
+Obsidian_: &Obsidian_
+
+  primary:
+    background: "#283033"
+    foreground: "#cdcdcd"
+
+  cursor:
+    cursor:   "#cdcdcd"
+
+  normal:
+    black:    "#000000"
+    red:      "#a60001"
+    green:    "#00bb00"
+    yellow:   "#fecd22"
+    blue:     "#3a9bdb"
+    magenta:  "#bb00bb"
+    cyan:     "#00bbbb"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff0003"
+    green:    "#93c863"
+    yellow:   "#fef874"
+    blue:     "#a1d7ff"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------OceanDark_
+
+OceanDark_: &OceanDark_
+
+  primary:
+    background: "#1C1F27"
+    foreground: "#979CAC"
+
+  cursor:
+    cursor:   "#979CAC"
+
+  normal:
+    black:    "#4F4F4F"
+    red:      "#AF4B57"
+    green:    "#AFD383"
+    yellow:   "#E5C079"
+    blue:     "#7D90A4"
+    magenta:  "#A4799D"
+    cyan:     "#85A6A5"
+    white:    "#EEEDEE"
+
+  bright:
+    black:    "#7B7B7B"
+    red:      "#AF4B57"
+    green:    "#CEFFAB"
+    yellow:   "#FFFECC"
+    blue:     "#B5DCFE"
+    magenta:  "#FB9BFE"
+    cyan:     "#DFDFFD"
+    white:    "#FEFFFE"
+
+#------------------------------------------------Ocean_
+
+Ocean_: &Ocean_
+
+  primary:
+    background: "#224fbc"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#990000"
+    green:    "#00a600"
+    yellow:   "#999900"
+    blue:     "#0000b2"
+    magenta:  "#b200b2"
+    cyan:     "#00a6b2"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#00d900"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------OceanicNext_
+
+OceanicNext_: &OceanicNext_
+
+  primary:
+    background: "#121b21"
+    foreground: "#b3b8c3"
+
+  cursor:
+    cursor:   "#b3b8c3"
+
+  normal:
+    black:    "#121C21"
+    red:      "#E44754"
+    green:    "#89BD82"
+    yellow:   "#F7BD51"
+    blue:     "#5486C0"
+    magenta:  "#B77EB8"
+    cyan:     "#50A5A4"
+    white:    "#FFFFFF"
+
+  bright:
+    black:    "#52606B"
+    red:      "#E44754"
+    green:    "#89BD82"
+    yellow:   "#F7BD51"
+    blue:     "#5486C0"
+    magenta:  "#B77EB8"
+    cyan:     "#50A5A4"
+    white:    "#FFFFFF"
+
+#------------------------------------------------Ollie_
+
+Ollie_: &Ollie_
+
+  primary:
+    background: "#222125"
+    foreground: "#8a8dae"
+
+  cursor:
+    cursor:   "#8a8dae"
+
+  normal:
+    black:    "#000000"
+    red:      "#ac2e31"
+    green:    "#31ac61"
+    yellow:   "#ac4300"
+    blue:     "#2d57ac"
+    magenta:  "#b08528"
+    cyan:     "#1fa6ac"
+    white:    "#8a8eac"
+
+  bright:
+    black:    "#5b3725"
+    red:      "#ff3d48"
+    green:    "#3bff99"
+    yellow:   "#ff5e1e"
+    blue:     "#4488ff"
+    magenta:  "#ffc21d"
+    cyan:     "#1ffaff"
+    white:    "#5b6ea7"
+
+#------------------------------------------------Omni_
+
+Omni_: &Omni_
+
+  primary:
+    background: "#191622"
+    foreground: "#ABB2BF"
+
+  cursor:
+    cursor:   "#ABB2BF"
+
+  normal:
+    black:    "#191622"
+    red:      "#E96379"
+    green:    "#67e480"
+    yellow:   "#E89E64"
+    blue:     "#78D1E1"
+    magenta:  "#988BC7"
+    cyan:     "#FF79C6"
+    white:    "#ABB2BF"
+
+  bright:
+    black:    "#000000"
+    red:      "#E96379"
+    green:    "#67e480"
+    yellow:   "#E89E64"
+    blue:     "#78D1E1"
+    magenta:  "#988BC7"
+    cyan:     "#FF79C6"
+    white:    "#ffffff"
+
+#------------------------------------------------OneDark_
+
+OneDark_: &OneDark_
+
+  primary:
+    background: "#1E2127"
+    foreground: "#5C6370"
+
+  cursor:
+    cursor:   "#5C6370"
+
+  normal:
+    black:    "#000000"
+    red:      "#E06C75"
+    green:    "#98C379"
+    yellow:   "#D19A66"
+    blue:     "#61AFEF"
+    magenta:  "#C678DD"
+    cyan:     "#56B6C2"
+    white:    "#ABB2BF"
+
+  bright:
+    black:    "#5C6370"
+    red:      "#E06C75"
+    green:    "#98C379"
+    yellow:   "#D19A66"
+    blue:     "#61AFEF"
+    magenta:  "#C678DD"
+    cyan:     "#56B6C2"
+    white:    "#FFFEFE"
+
+#------------------------------------------------OneHalfBlack_
+
+OneHalfBlack_: &OneHalfBlack_
+
+  primary:
+    background: "#000000"
+    foreground: "#dcdfe4"
+
+  cursor:
+    cursor:   "#dcdfe4"
+
+  normal:
+    black:    "#282c34"
+    red:      "#e06c75"
+    green:    "#98c379"
+    yellow:   "#e5c07b"
+    blue:     "#61afef"
+    magenta:  "#c678dd"
+    cyan:     "#56b6c2"
+    white:    "#dcdfe4"
+
+  bright:
+    black:    "#282c34"
+    red:      "#e06c75"
+    green:    "#98c379"
+    yellow:   "#e5c07b"
+    blue:     "#61afef"
+    magenta:  "#c678dd"
+    cyan:     "#56b6c2"
+    white:    "#dcdfe4"
+
+#------------------------------------------------OneLight_
+
+OneLight_: &OneLight_
+
+  primary:
+    background: "#F8F8F8"
+    foreground: "#2A2B32"
+
+  cursor:
+    cursor:   "#2A2B32"
+
+  normal:
+    black:    "#000000"
+    red:      "#DA3E39"
+    green:    "#41933E"
+    yellow:   "#855504"
+    blue:     "#315EEE"
+    magenta:  "#930092"
+    cyan:     "#0E6FAD"
+    white:    "#8E8F96"
+
+  bright:
+    black:    "#2A2B32"
+    red:      "#DA3E39"
+    green:    "#41933E"
+    yellow:   "#855504"
+    blue:     "#315EEE"
+    magenta:  "#930092"
+    cyan:     "#0E6FAD"
+    white:    "#FFFEFE"
+
+#------------------------------------------------palenight_
+
+palenight_: &palenight_
+
+  primary:
+    background: "#292D3E"
+    foreground: "#BFC7D5"
+
+  cursor:
+    cursor:   "#BFC7D5"
+
+  normal:
+    black:    "#292D3E"
+    red:      "#F07178"
+    green:    "#C3E88D"
+    yellow:   "#FFCB6B"
+    blue:     "#82AAFF"
+    magenta:  "#C792EA"
+    cyan:     "#60ADEC"
+    white:    "#ABB2BF"
+
+  bright:
+    black:    "#959DCB"
+    red:      "#F07178"
+    green:    "#C3E88D"
+    yellow:   "#FF5572"
+    blue:     "#82AAFF"
+    magenta:  "#FFCB6B"
+    cyan:     "#676E95"
+    white:    "#FFFEFE"
+
+#------------------------------------------------Pali_
+
+Pali_: &Pali_
+
+  primary:
+    background: "#232E37"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#0a0a0a"
+    red:      "#ab8f74"
+    green:    "#74ab8f"
+    yellow:   "#8fab74"
+    blue:     "#8f74ab"
+    magenta:  "#ab748f"
+    cyan:     "#748fab"
+    white:    "#F2F2F2"
+
+  bright:
+    black:    "#5D5D5D"
+    red:      "#FF1D62"
+    green:    "#9cc3af"
+    yellow:   "#FFD00A"
+    blue:     "#af9cc3"
+    magenta:  "#FF1D62"
+    cyan:     "#4BB8FD"
+    white:    "#A020F0"
+
+#------------------------------------------------Panda_
+
+Panda_: &Panda_
+
+  primary:
+    background: "#1D1E20"
+    foreground: "#F0F0F0"
+
+  cursor:
+    cursor:   "#F0F0F0"
+
+  normal:
+    black:    "#1F1F20"
+    red:      "#FB055A"
+    green:    "#26FFD4"
+    yellow:   "#FDAA5A"
+    blue:     "#5C9FFF"
+    magenta:  "#FC59A6"
+    cyan:     "#26FFD4"
+    white:    "#F0F0F0"
+
+  bright:
+    black:    "#5C6370"
+    red:      "#FB055A"
+    green:    "#26FFD4"
+    yellow:   "#FEBE7E"
+    blue:     "#55ADFF"
+    magenta:  "#FD95D0"
+    cyan:     "#26FFD4"
+    white:    "#F0F0F0"
+
+#------------------------------------------------PaperColorDark_
+
+PaperColorDark_: &PaperColorDark_
+
+  primary:
+    background: "#1C1C1C"
+    foreground: "#D0D0D0"
+
+  cursor:
+    cursor:   "#D0D0D0"
+
+  normal:
+    black:    "#1C1C1C"
+    red:      "#AF005F"
+    green:    "#5FAF00"
+    yellow:   "#D7AF5F"
+    blue:     "#5FAFD7"
+    magenta:  "#808080"
+    cyan:     "#D7875F"
+    white:    "#D0D0D0"
+
+  bright:
+    black:    "#585858"
+    red:      "#5FAF5F"
+    green:    "#AFD700"
+    yellow:   "#AF87D7"
+    blue:     "#FFAF00"
+    magenta:  "#FF5FAF"
+    cyan:     "#00AFAF"
+    white:    "#5F8787"
+
+#------------------------------------------------PaperColorLight_
+
+PaperColorLight_: &PaperColorLight_
+
+  primary:
+    background: "#EEEEEE"
+    foreground: "#444444"
+
+  cursor:
+    cursor:   "#444444"
+
+  normal:
+    black:    "#EEEEEE"
+    red:      "#AF0000"
+    green:    "#008700"
+    yellow:   "#5F8700"
+    blue:     "#0087AF"
+    magenta:  "#878787"
+    cyan:     "#005F87"
+    white:    "#444444"
+
+  bright:
+    black:    "#BCBCBC"
+    red:      "#D70000"
+    green:    "#D70087"
+    yellow:   "#8700AF"
+    blue:     "#D75F00"
+    magenta:  "#D75F00"
+    cyan:     "#005FAF"
+    white:    "#005F87"
+
+#------------------------------------------------ParaisoDark_
+
+ParaisoDark_: &ParaisoDark_
+
+  primary:
+    background: "#2f1e2e"
+    foreground: "#a39e9b"
+
+  cursor:
+    cursor:   "#a39e9b"
+
+  normal:
+    black:    "#2f1e2e"
+    red:      "#ef6155"
+    green:    "#48b685"
+    yellow:   "#fec418"
+    blue:     "#06b6ef"
+    magenta:  "#815ba4"
+    cyan:     "#5bc4bf"
+    white:    "#a39e9b"
+
+  bright:
+    black:    "#776e71"
+    red:      "#ef6155"
+    green:    "#48b685"
+    yellow:   "#fec418"
+    blue:     "#06b6ef"
+    magenta:  "#815ba4"
+    cyan:     "#5bc4bf"
+    white:    "#e7e9db"
+
+#------------------------------------------------PaulMillr_
+
+PaulMillr_: &PaulMillr_
+
+  primary:
+    background: "#000000"
+    foreground: "#f2f2f2"
+
+  cursor:
+    cursor:   "#f2f2f2"
+
+  normal:
+    black:    "#2a2a2a"
+    red:      "#ff0000"
+    green:    "#79ff0f"
+    yellow:   "#d3bf00"
+    blue:     "#396bd7"
+    magenta:  "#b449be"
+    cyan:     "#66ccff"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#666666"
+    red:      "#ff0080"
+    green:    "#66ff66"
+    yellow:   "#f3d64e"
+    blue:     "#709aed"
+    magenta:  "#db67e6"
+    cyan:     "#7adff2"
+    white:    "#ffffff"
+
+#------------------------------------------------PencilDark_
+
+PencilDark_: &PencilDark_
+
+  primary:
+    background: "#212121"
+    foreground: "#f1f1f1"
+
+  cursor:
+    cursor:   "#f1f1f1"
+
+  normal:
+    black:    "#212121"
+    red:      "#c30771"
+    green:    "#10a778"
+    yellow:   "#a89c14"
+    blue:     "#008ec4"
+    magenta:  "#523c79"
+    cyan:     "#20a5ba"
+    white:    "#d9d9d9"
+
+  bright:
+    black:    "#424242"
+    red:      "#fb007a"
+    green:    "#5fd7af"
+    yellow:   "#f3e430"
+    blue:     "#20bbfc"
+    magenta:  "#6855de"
+    cyan:     "#4fb8cc"
+    white:    "#f1f1f1"
+
+#------------------------------------------------PencilLight_
+
+PencilLight_: &PencilLight_
+
+  primary:
+    background: "#f1f1f1"
+    foreground: "#424242"
+
+  cursor:
+    cursor:   "#424242"
+
+  normal:
+    black:    "#212121"
+    red:      "#c30771"
+    green:    "#10a778"
+    yellow:   "#a89c14"
+    blue:     "#008ec4"
+    magenta:  "#523c79"
+    cyan:     "#20a5ba"
+    white:    "#d9d9d9"
+
+  bright:
+    black:    "#424242"
+    red:      "#fb007a"
+    green:    "#5fd7af"
+    yellow:   "#f3e430"
+    blue:     "#20bbfc"
+    magenta:  "#6855de"
+    cyan:     "#4fb8cc"
+    white:    "#f1f1f1"
+
+#------------------------------------------------Peppermint_
+
+Peppermint_: &Peppermint_
+
+  primary:
+    background: "#000000"
+    foreground: "#C7C7C7"
+
+  cursor:
+    cursor:   "#BBBBBB"
+
+  normal:
+    black:    "#353535"
+    red:      "#E64569"
+    green:    "#89D287"
+    yellow:   "#DAB752"
+    blue:     "#439ECF"
+    magenta:  "#D961DC"
+    cyan:     "#64AAAF"
+    white:    "#B3B3B3"
+
+  bright:
+    black:    "#535353"
+    red:      "#E4859A"
+    green:    "#A2CCA1"
+    yellow:   "#E1E387"
+    blue:     "#6FBBE2"
+    magenta:  "#E586E7"
+    cyan:     "#96DCDA"
+    white:    "#DEDEDE"
+
+#------------------------------------------------Pixiefloss_
+
+Pixiefloss_: &Pixiefloss_
+
+  primary:
+    background: "#241f33"
+    foreground: "#d1cae8"
+
+  cursor:
+    cursor:   "#d1cae8"
+
+  normal:
+    black:    "#2f2942"
+    red:      "#ff857f"
+    green:    "#48b685"
+    yellow:   "#e6c000"
+    blue:     "#ae81ff"
+    magenta:  "#ef6155"
+    cyan:     "#c2ffdf"
+    white:    "#f8f8f2"
+
+  bright:
+    black:    "#75507b"
+    red:      "#f1568e"
+    green:    "#5adba2"
+    yellow:   "#d5a425"
+    blue:     "#c5a3ff"
+    magenta:  "#ef6155"
+    cyan:     "#c2ffff"
+    white:    "#f8f8f0"
+
+#------------------------------------------------Pnevma_
+
+Pnevma_: &Pnevma_
+
+  primary:
+    background: "#1c1c1c"
+    foreground: "#d0d0d0"
+
+  cursor:
+    cursor:   "#d0d0d0"
+
+  normal:
+    black:    "#2f2e2d"
+    red:      "#a36666"
+    green:    "#90a57d"
+    yellow:   "#d7af87"
+    blue:     "#7fa5bd"
+    magenta:  "#c79ec4"
+    cyan:     "#8adbb4"
+    white:    "#d0d0d0"
+
+  bright:
+    black:    "#4a4845"
+    red:      "#d78787"
+    green:    "#afbea2"
+    yellow:   "#e4c9af"
+    blue:     "#a1bdce"
+    magenta:  "#d7beda"
+    cyan:     "#b1e7dd"
+    white:    "#efefef"
+
+#------------------------------------------------PowerShell_
+
+PowerShell_: &PowerShell_
+
+  primary:
+    background: "#052454"
+    foreground: "#F6F6F7"
+
+  cursor:
+    cursor:   "#F6F6F7"
+
+  normal:
+    black:    "#000000"
+    red:      "#7E0008"
+    green:    "#098003"
+    yellow:   "#C4A000"
+    blue:     "#010083"
+    magenta:  "#D33682"
+    cyan:     "#0E807F"
+    white:    "#7F7C7F"
+
+  bright:
+    black:    "#808080"
+    red:      "#EF2929"
+    green:    "#1CFE3C"
+    yellow:   "#FEFE45"
+    blue:     "#268AD2"
+    magenta:  "#FE13FA"
+    cyan:     "#29FFFE"
+    white:    "#C2C1C3"
+
+#------------------------------------------------Pro_
+
+Pro_: &Pro_
+
+  primary:
+    background: "#000000"
+    foreground: "#f2f2f2"
+
+  cursor:
+    cursor:   "#f2f2f2"
+
+  normal:
+    black:    "#000000"
+    red:      "#990000"
+    green:    "#00a600"
+    yellow:   "#999900"
+    blue:     "#2009db"
+    magenta:  "#b200b2"
+    cyan:     "#00a6b2"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#00d900"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------PurplePeopleEater_
+
+PurplePeopleEater_: &PurplePeopleEater_
+
+  primary:
+    background: "#161b22"
+    foreground: "#c9d1d9"
+
+  cursor:
+    cursor:   "#c9d1d9"
+
+  normal:
+    black:    "#0d1117"
+    red:      "#e34c26"
+    green:    "#238636"
+    yellow:   "#ed9a51"
+    blue:     "#a5d6ff"
+    magenta:  "#6eb0e8"
+    cyan:     "#c09aeb"
+    white:    "#c9d1d9"
+
+  bright:
+    black:    "#0d1117"
+    red:      "#ff7b72"
+    green:    "#3bab4a"
+    yellow:   "#ffa657"
+    blue:     "#a5d6ff"
+    magenta:  "#79c0ff"
+    cyan:     "#b694df"
+    white:    "#c9d1d9"
+
+#------------------------------------------------RedAlert_
+
+RedAlert_: &RedAlert_
+
+  primary:
+    background: "#762423"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#d62e4e"
+    green:    "#71be6b"
+    yellow:   "#beb86b"
+    blue:     "#489bee"
+    magenta:  "#e979d7"
+    cyan:     "#6bbeb8"
+    white:    "#d6d6d6"
+
+  bright:
+    black:    "#262626"
+    red:      "#e02553"
+    green:    "#aff08c"
+    yellow:   "#dfddb7"
+    blue:     "#65aaf1"
+    magenta:  "#ddb7df"
+    cyan:     "#b7dfdd"
+    white:    "#ffffff"
+
+#------------------------------------------------RedSands_
+
+RedSands_: &RedSands_
+
+  primary:
+    background: "#7a251e"
+    foreground: "#d7c9a7"
+
+  cursor:
+    cursor:   "#d7c9a7"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff3f00"
+    green:    "#00bb00"
+    yellow:   "#e7b000"
+    blue:     "#0072ff"
+    magenta:  "#bb00bb"
+    cyan:     "#00bbbb"
+    white:    "#bbbbbb"
+
+  bright:
+    black:    "#555555"
+    red:      "#bb0000"
+    green:    "#00bb00"
+    yellow:   "#e7b000"
+    blue:     "#0072ae"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------Relaxed_
+
+Relaxed_: &Relaxed_
+
+  primary:
+    background: "#353A44"
+    foreground: "#D9D9D9"
+
+  cursor:
+    cursor:   "#D9D9D9"
+
+  normal:
+    black:    "#151515"
+    red:      "#BC5653"
+    green:    "#909D63"
+    yellow:   "#EBC17A"
+    blue:     "#6A8799"
+    magenta:  "#B06698"
+    cyan:     "#C9DFFF"
+    white:    "#D9D9D9"
+
+  bright:
+    black:    "#636363"
+    red:      "#BC5653"
+    green:    "#A0AC77"
+    yellow:   "#EBC17A"
+    blue:     "#7EAAC7"
+    magenta:  "#B06698"
+    cyan:     "#ACBBD0"
+    white:    "#F7F7F7"
+
+#------------------------------------------------Rippedcasts_
+
+Rippedcasts_: &Rippedcasts_
+
+  primary:
+    background: "#2b2b2b"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#cdaf95"
+    green:    "#a8ff60"
+    yellow:   "#bfbb1f"
+    blue:     "#75a5b0"
+    magenta:  "#ff73fd"
+    cyan:     "#5a647e"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#eecbad"
+    green:    "#bcee68"
+    yellow:   "#e5e500"
+    blue:     "#86bdc9"
+    magenta:  "#e500e5"
+    cyan:     "#8c9bc4"
+    white:    "#e5e5e5"
+
+#------------------------------------------------Royal_
+
+Royal_: &Royal_
+
+  primary:
+    background: "#100815"
+    foreground: "#514968"
+
+  cursor:
+    cursor:   "#514968"
+
+  normal:
+    black:    "#241f2b"
+    red:      "#91284c"
+    green:    "#23801c"
+    yellow:   "#b49d27"
+    blue:     "#6580b0"
+    magenta:  "#674d96"
+    cyan:     "#8aaabe"
+    white:    "#524966"
+
+  bright:
+    black:    "#312d3d"
+    red:      "#d5356c"
+    green:    "#2cd946"
+    yellow:   "#fde83b"
+    blue:     "#90baf9"
+    magenta:  "#a479e3"
+    cyan:     "#acd4eb"
+    white:    "#9e8cbd"
+
+#------------------------------------------------Sat_
+
+Sat_: &Sat_
+
+  primary:
+    background: "#758480"
+    foreground: "#23476a"
+
+  cursor:
+    cursor:   "#23476a"
+
+  normal:
+    black:    "#000000"
+    red:      "#dd0007"
+    green:    "#07dd00"
+    yellow:   "#ddd600"
+    blue:     "#0007dd"
+    magenta:  "#d600dd"
+    cyan:     "#00ddd6"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#7d7d7d"
+    red:      "#ff7478"
+    green:    "#78ff74"
+    yellow:   "#fffa74"
+    blue:     "#7478ff"
+    magenta:  "#fa74ff"
+    cyan:     "#74fffa"
+    white:    "#ffffff"
+
+#------------------------------------------------SeaShells_
+
+SeaShells_: &SeaShells_
+
+  primary:
+    background: "#09141b"
+    foreground: "#deb88d"
+
+  cursor:
+    cursor:   "#deb88d"
+
+  normal:
+    black:    "#17384c"
+    red:      "#d15123"
+    green:    "#027c9b"
+    yellow:   "#fca02f"
+    blue:     "#1e4950"
+    magenta:  "#68d4f1"
+    cyan:     "#50a3b5"
+    white:    "#deb88d"
+
+  bright:
+    black:    "#434b53"
+    red:      "#d48678"
+    green:    "#628d98"
+    yellow:   "#fdd39f"
+    blue:     "#1bbcdd"
+    magenta:  "#bbe3ee"
+    cyan:     "#87acb4"
+    white:    "#fee4ce"
+
+#------------------------------------------------SeafoamPastel_
+
+SeafoamPastel_: &SeafoamPastel_
+
+  primary:
+    background: "#243435"
+    foreground: "#d4e7d4"
+
+  cursor:
+    cursor:   "#d4e7d4"
+
+  normal:
+    black:    "#757575"
+    red:      "#825d4d"
+    green:    "#728c62"
+    yellow:   "#ada16d"
+    blue:     "#4d7b82"
+    magenta:  "#8a7267"
+    cyan:     "#729494"
+    white:    "#e0e0e0"
+
+  bright:
+    black:    "#8a8a8a"
+    red:      "#cf937a"
+    green:    "#98d9aa"
+    yellow:   "#fae79d"
+    blue:     "#7ac3cf"
+    magenta:  "#d6b2a1"
+    cyan:     "#ade0e0"
+    white:    "#e0e0e0"
+
+#------------------------------------------------Seti_
+
+Seti_: &Seti_
+
+  primary:
+    background: "#111213"
+    foreground: "#cacecd"
+
+  cursor:
+    cursor:   "#cacecd"
+
+  normal:
+    black:    "#323232"
+    red:      "#c22832"
+    green:    "#8ec43d"
+    yellow:   "#e0c64f"
+    blue:     "#43a5d5"
+    magenta:  "#8b57b5"
+    cyan:     "#8ec43d"
+    white:    "#eeeeee"
+
+  bright:
+    black:    "#323232"
+    red:      "#c22832"
+    green:    "#8ec43d"
+    yellow:   "#e0c64f"
+    blue:     "#43a5d5"
+    magenta:  "#8b57b5"
+    cyan:     "#8ec43d"
+    white:    "#ffffff"
+
+#------------------------------------------------Shaman_
+
+Shaman_: &Shaman_
+
+  primary:
+    background: "#001015"
+    foreground: "#405555"
+
+  cursor:
+    cursor:   "#405555"
+
+  normal:
+    black:    "#012026"
+    red:      "#b2302d"
+    green:    "#00a941"
+    yellow:   "#5e8baa"
+    blue:     "#449a86"
+    magenta:  "#00599d"
+    cyan:     "#5d7e19"
+    white:    "#405555"
+
+  bright:
+    black:    "#384451"
+    red:      "#ff4242"
+    green:    "#2aea5e"
+    yellow:   "#8ed4fd"
+    blue:     "#61d5ba"
+    magenta:  "#1298ff"
+    cyan:     "#98d028"
+    white:    "#58fbd6"
+
+#------------------------------------------------Shel_
+
+Shel_: &Shel_
+
+  primary:
+    background: "#2a201f"
+    foreground: "#4882cd"
+
+  cursor:
+    cursor:   "#4882cd"
+
+  normal:
+    black:    "#2c2423"
+    red:      "#ab2463"
+    green:    "#6ca323"
+    yellow:   "#ab6423"
+    blue:     "#2c64a2"
+    magenta:  "#6c24a2"
+    cyan:     "#2ca363"
+    white:    "#918988"
+
+  bright:
+    black:    "#918988"
+    red:      "#f588b9"
+    green:    "#c2ee86"
+    yellow:   "#f5ba86"
+    blue:     "#8fbaec"
+    magenta:  "#c288ec"
+    cyan:     "#8feeb9"
+    white:    "#f5eeec"
+
+#------------------------------------------------Slate_
+
+Slate_: &Slate_
+
+  primary:
+    background: "#222222"
+    foreground: "#35b1d2"
+
+  cursor:
+    cursor:   "#35b1d2"
+
+  normal:
+    black:    "#222222"
+    red:      "#e2a8bf"
+    green:    "#81d778"
+    yellow:   "#c4c9c0"
+    blue:     "#264b49"
+    magenta:  "#a481d3"
+    cyan:     "#15ab9c"
+    white:    "#02c5e0"
+
+  bright:
+    black:    "#ffffff"
+    red:      "#ffcdd9"
+    green:    "#beffa8"
+    yellow:   "#d0ccca"
+    blue:     "#7ab0d2"
+    magenta:  "#c5a7d9"
+    cyan:     "#8cdfe0"
+    white:    "#e0e0e0"
+
+#------------------------------------------------Smyck_
+
+Smyck_: &Smyck_
+
+  primary:
+    background: "#242424"
+    foreground: "#F7F7F7"
+
+  cursor:
+    cursor:   "#F7F7F7"
+
+  normal:
+    black:    "#000000"
+    red:      "#C75646"
+    green:    "#8EB33B"
+    yellow:   "#D0B03C"
+    blue:     "#72B3CC"
+    magenta:  "#C8A0D1"
+    cyan:     "#218693"
+    white:    "#B0B0B0"
+
+  bright:
+    black:    "#5D5D5D"
+    red:      "#E09690"
+    green:    "#CDEE69"
+    yellow:   "#FFE377"
+    blue:     "#9CD9F0"
+    magenta:  "#FBB1F9"
+    cyan:     "#77DFD8"
+    white:    "#F7F7F7"
+
+#------------------------------------------------Snazzy_
+
+Snazzy_: &Snazzy_
+
+  primary:
+    background: "#282A36"
+    foreground: "#EFF0EB"
+
+  cursor:
+    cursor:   "#97979B"
+
+  normal:
+    black:    "#282A36"
+    red:      "#FF5C57"
+    green:    "#5AF78E"
+    yellow:   "#F3F99D"
+    blue:     "#57C7FF"
+    magenta:  "#FF6AC1"
+    cyan:     "#9AEDFE"
+    white:    "#F1F1F0"
+
+  bright:
+    black:    "#686868"
+    red:      "#FF5C57"
+    green:    "#5AF78E"
+    yellow:   "#F3F99D"
+    blue:     "#57C7FF"
+    magenta:  "#FF6AC1"
+    cyan:     "#9AEDFE"
+    white:    "#EFF0EB"
+
+#------------------------------------------------SoftServer_
+
+SoftServer_: &SoftServer_
+
+  primary:
+    background: "#242626"
+    foreground: "#99a3a2"
+
+  cursor:
+    cursor:   "#99a3a2"
+
+  normal:
+    black:    "#000000"
+    red:      "#a2686a"
+    green:    "#9aa56a"
+    yellow:   "#a3906a"
+    blue:     "#6b8fa3"
+    magenta:  "#6a71a3"
+    cyan:     "#6ba58f"
+    white:    "#99a3a2"
+
+  bright:
+    black:    "#666c6c"
+    red:      "#dd5c60"
+    green:    "#bfdf55"
+    yellow:   "#deb360"
+    blue:     "#62b1df"
+    magenta:  "#606edf"
+    cyan:     "#64e39c"
+    white:    "#d2e0de"
+
+#------------------------------------------------SolarizedDarcula_
+
+SolarizedDarcula_: &SolarizedDarcula_
+
+  primary:
+    background: "#3d3f41"
+    foreground: "#d2d8d9"
+
+  cursor:
+    cursor:   "#d2d8d9"
+
+  normal:
+    black:    "#25292a"
+    red:      "#f24840"
+    green:    "#629655"
+    yellow:   "#b68800"
+    blue:     "#2075c7"
+    magenta:  "#797fd4"
+    cyan:     "#15968d"
+    white:    "#d2d8d9"
+
+  bright:
+    black:    "#25292a"
+    red:      "#f24840"
+    green:    "#629655"
+    yellow:   "#b68800"
+    blue:     "#2075c7"
+    magenta:  "#797fd4"
+    cyan:     "#15968d"
+    white:    "#d2d8d9"
+
+#------------------------------------------------SolarizedDarkHigherContrast_
+
+SolarizedDarkHigherContrast_: &SolarizedDarkHigherContrast_
+
+  primary:
+    background: "#001e27"
+    foreground: "#9cc2c3"
+
+  cursor:
+    cursor:   "#9cc2c3"
+
+  normal:
+    black:    "#002831"
+    red:      "#d11c24"
+    green:    "#6cbe6c"
+    yellow:   "#a57706"
+    blue:     "#2176c7"
+    magenta:  "#c61c6f"
+    cyan:     "#259286"
+    white:    "#eae3cb"
+
+  bright:
+    black:    "#006488"
+    red:      "#f5163b"
+    green:    "#51ef84"
+    yellow:   "#b27e28"
+    blue:     "#178ec8"
+    magenta:  "#e24d8e"
+    cyan:     "#00b39e"
+    white:    "#fcf4dc"
+
+#------------------------------------------------SolarizedDark_
+
+SolarizedDark_: &SolarizedDark_
+
+  primary:
+    background: "#002B36"
+    foreground: "#839496"
+
+  cursor:
+    cursor:   "#839496"
+
+  normal:
+    black:    "#073642"
+    red:      "#DC322F"
+    green:    "#859900"
+    yellow:   "#CF9A6B"
+    blue:     "#268BD2"
+    magenta:  "#D33682"
+    cyan:     "#2AA198"
+    white:    "#EEE8D5"
+
+  bright:
+    black:    "#657B83"
+    red:      "#D87979"
+    green:    "#88CF76"
+    yellow:   "#657B83"
+    blue:     "#2699FF"
+    magenta:  "#D33682"
+    cyan:     "#43B8C3"
+    white:    "#FDF6E3"
+
+#------------------------------------------------SolarizedLight_
+
+SolarizedLight_: &SolarizedLight_
+
+  primary:
+    background: "#FDF6E3"
+    foreground: "#657B83"
+
+  cursor:
+    cursor:   "#657B83"
+
+  normal:
+    black:    "#073642"
+    red:      "#DC322F"
+    green:    "#859900"
+    yellow:   "#B58900"
+    blue:     "#268BD2"
+    magenta:  "#D33682"
+    cyan:     "#2AA198"
+    white:    "#EEE8D5"
+
+  bright:
+    black:    "#002B36"
+    red:      "#CB4B16"
+    green:    "#586E75"
+    yellow:   "#657B83"
+    blue:     "#839496"
+    magenta:  "#6C71C4"
+    cyan:     "#93A1A1"
+    white:    "#FDF6E3"
+
+#------------------------------------------------Spacedust_
+
+Spacedust_: &Spacedust_
+
+  primary:
+    background: "#0a1e24"
+    foreground: "#ecf0c1"
+
+  cursor:
+    cursor:   "#ecf0c1"
+
+  normal:
+    black:    "#6e5346"
+    red:      "#e35b00"
+    green:    "#5cab96"
+    yellow:   "#e3cd7b"
+    blue:     "#0f548b"
+    magenta:  "#e35b00"
+    cyan:     "#06afc7"
+    white:    "#f0f1ce"
+
+  bright:
+    black:    "#684c31"
+    red:      "#ff8a3a"
+    green:    "#aecab8"
+    yellow:   "#ffc878"
+    blue:     "#67a0ce"
+    magenta:  "#ff8a3a"
+    cyan:     "#83a7b4"
+    white:    "#fefff1"
+
+#------------------------------------------------SpaceGrayEightiesDull_
+
+SpaceGrayEightiesDull_: &SpaceGrayEightiesDull_
+
+  primary:
+    background: "#222222"
+    foreground: "#c9c6bc"
+
+  cursor:
+    cursor:   "#c9c6bc"
+
+  normal:
+    black:    "#15171c"
+    red:      "#b24a56"
+    green:    "#92b477"
+    yellow:   "#c6735a"
+    blue:     "#7c8fa5"
+    magenta:  "#a5789e"
+    cyan:     "#80cdcb"
+    white:    "#b3b8c3"
+
+  bright:
+    black:    "#555555"
+    red:      "#ec5f67"
+    green:    "#89e986"
+    yellow:   "#fec254"
+    blue:     "#5486c0"
+    magenta:  "#bf83c1"
+    cyan:     "#58c2c1"
+    white:    "#ffffff"
+
+#------------------------------------------------SpaceGrayEighties_
+
+SpaceGrayEighties_: &SpaceGrayEighties_
+
+  primary:
+    background: "#222222"
+    foreground: "#bdbaae"
+
+  cursor:
+    cursor:   "#bdbaae"
+
+  normal:
+    black:    "#15171c"
+    red:      "#ec5f67"
+    green:    "#81a764"
+    yellow:   "#fec254"
+    blue:     "#5486c0"
+    magenta:  "#bf83c1"
+    cyan:     "#57c2c1"
+    white:    "#efece7"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff6973"
+    green:    "#93d493"
+    yellow:   "#ffd256"
+    blue:     "#4d84d1"
+    magenta:  "#ff55ff"
+    cyan:     "#83e9e4"
+    white:    "#ffffff"
+
+#------------------------------------------------SpaceGray_
+
+SpaceGray_: &SpaceGray_
+
+  primary:
+    background: "#20242d"
+    foreground: "#b3b8c3"
+
+  cursor:
+    cursor:   "#b3b8c3"
+
+  normal:
+    black:    "#000000"
+    red:      "#b04b57"
+    green:    "#87b379"
+    yellow:   "#e5c179"
+    blue:     "#7d8fa4"
+    magenta:  "#a47996"
+    cyan:     "#85a7a5"
+    white:    "#b3b8c3"
+
+  bright:
+    black:    "#000000"
+    red:      "#b04b57"
+    green:    "#87b379"
+    yellow:   "#e5c179"
+    blue:     "#7d8fa4"
+    magenta:  "#a47996"
+    cyan:     "#85a7a5"
+    white:    "#ffffff"
+
+#------------------------------------------------Spring_
+
+Spring_: &Spring_
+
+  primary:
+    background: "#0a1e24"
+    foreground: "#ecf0c1"
+
+  cursor:
+    cursor:   "#ecf0c1"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff4d83"
+    green:    "#1f8c3b"
+    yellow:   "#1fc95b"
+    blue:     "#1dd3ee"
+    magenta:  "#8959a8"
+    cyan:     "#3e999f"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#000000"
+    red:      "#ff0021"
+    green:    "#1fc231"
+    yellow:   "#d5b807"
+    blue:     "#15a9fd"
+    magenta:  "#8959a8"
+    cyan:     "#3e999f"
+    white:    "#ffffff"
+
+#------------------------------------------------Square_
+
+Square_: &Square_
+
+  primary:
+    background: "#0a1e24"
+    foreground: "#a1a1a1"
+
+  cursor:
+    cursor:   "#a1a1a1"
+
+  normal:
+    black:    "#050505"
+    red:      "#e9897c"
+    green:    "#b6377d"
+    yellow:   "#ecebbe"
+    blue:     "#a9cdeb"
+    magenta:  "#75507b"
+    cyan:     "#c9caec"
+    white:    "#f2f2f2"
+
+  bright:
+    black:    "#141414"
+    red:      "#f99286"
+    green:    "#c3f786"
+    yellow:   "#fcfbcc"
+    blue:     "#b6defb"
+    magenta:  "#ad7fa8"
+    cyan:     "#d7d9fc"
+    white:    "#e2e2e2"
+
+#------------------------------------------------Srcery_
+
+Srcery_: &Srcery_
+
+  primary:
+    background: "#282828"
+    foreground: "#ebdbb2"
+
+  cursor:
+    cursor:   "#ebdbb2"
+
+  normal:
+    black:    "#1C1B19"
+    red:      "#FF3128"
+    green:    "#519F50"
+    yellow:   "#FBB829"
+    blue:     "#5573A3"
+    magenta:  "#E02C6D"
+    cyan:     "#0AAEB3"
+    white:    "#918175"
+
+  bright:
+    black:    "#2D2B28"
+    red:      "#F75341"
+    green:    "#98BC37"
+    yellow:   "#FED06E"
+    blue:     "#8EB2F7"
+    magenta:  "#E35682"
+    cyan:     "#53FDE9"
+    white:    "#FCE8C3"
+
+#------------------------------------------------summer-pop_
+
+summer-pop_: &summer-pop_
+
+  primary:
+    background: "#272822"
+    foreground: "#FFFFFF"
+
+  cursor:
+    cursor:   "#FFFFFF"
+
+  normal:
+    black:    "#666666"
+    red:      "#FF1E8E"
+    green:    "#8EFF1E"
+    yellow:   "#FFFB00"
+    blue:     "#1E8EFF"
+    magenta:  "#E500E5"
+    cyan:     "#00E5E5"
+    white:    "#E5E5E5"
+
+  bright:
+    black:    "#666666"
+    red:      "#FF1E8E"
+    green:    "#8EFF1E"
+    yellow:   "#FFFB00"
+    blue:     "#1E8EFF"
+    magenta:  "#E500E5"
+    cyan:     "#00E5E5"
+    white:    "#E5E5E5"
+
+#------------------------------------------------Sundried_
+
+Sundried_: &Sundried_
+
+  primary:
+    background: "#1a1818"
+    foreground: "#c9c9c9"
+
+  cursor:
+    cursor:   "#c9c9c9"
+
+  normal:
+    black:    "#302b2a"
+    red:      "#a7463d"
+    green:    "#587744"
+    yellow:   "#9d602a"
+    blue:     "#485b98"
+    magenta:  "#864651"
+    cyan:     "#9c814f"
+    white:    "#c9c9c9"
+
+  bright:
+    black:    "#4d4e48"
+    red:      "#aa000c"
+    green:    "#128c21"
+    yellow:   "#fc6a21"
+    blue:     "#7999f7"
+    magenta:  "#fd8aa1"
+    cyan:     "#fad484"
+    white:    "#ffffff"
+
+#------------------------------------------------sweet-eliverlara_
+
+sweet-eliverlara_: &sweet-eliverlara_
+
+  primary:
+    background: "#282C34"
+    foreground: "#C3C7D1"
+
+  cursor:
+    cursor:   "#C3C7D1"
+
+  normal:
+    black:    "#282C34"
+    red:      "#ED254E"
+    green:    "#71F79F"
+    yellow:   "#F9DC5C"
+    blue:     "#7CB7FF"
+    magenta:  "#C74DED"
+    cyan:     "#00C1E4"
+    white:    "#DCDFE4"
+
+  bright:
+    black:    "#282C34"
+    red:      "#ED254E"
+    green:    "#71F79F"
+    yellow:   "#F9DC5C"
+    blue:     "#7CB7FF"
+    magenta:  "#C74DED"
+    cyan:     "#00C1E4"
+    white:    "#DCDFE4"
+
+#------------------------------------------------SweetTerminal_
+
+SweetTerminal_: &SweetTerminal_
+
+  primary:
+    background: "#222235"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#3F3F54"
+    red:      "#f60055"
+    green:    "#06c993"
+    yellow:   "#9700be"
+    blue:     "#f69154"
+    magenta:  "#ec89cb"
+    cyan:     "#60ADEC"
+    white:    "#ABB2BF"
+
+  bright:
+    black:    "#959DCB"
+    red:      "#f60055"
+    green:    "#06c993"
+    yellow:   "#9700be"
+    blue:     "#f69154"
+    magenta:  "#ec89cb"
+    cyan:     "#00dded"
+    white:    "#ffffff"
+
+#------------------------------------------------Symphonic_
+
+Symphonic_: &Symphonic_
+
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#dc322f"
+    green:    "#56db3a"
+    yellow:   "#ff8400"
+    blue:     "#0084d4"
+    magenta:  "#b729d9"
+    cyan:     "#ccccff"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#1b1d21"
+    red:      "#dc322f"
+    green:    "#56db3a"
+    yellow:   "#ff8400"
+    blue:     "#0084d4"
+    magenta:  "#b729d9"
+    cyan:     "#ccccff"
+    white:    "#ffffff"
+
+#------------------------------------------------SynthWave_
+
+SynthWave_: &SynthWave_
+
+  primary:
+    background: "#262335"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#03edf9"
+
+  normal:
+    black:    "#011627"
+    red:      "#fe4450"
+    green:    "#72f1b8"
+    yellow:   "#fede5d"
+    blue:     "#03edf9"
+    magenta:  "#ff7edb"
+    cyan:     "#03edf9"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#575656"
+    red:      "#fe4450"
+    green:    "#72f1b8"
+    yellow:   "#fede5d"
+    blue:     "#03edf9"
+    magenta:  "#ff7edb"
+    cyan:     "#03edf9"
+    white:    "#ffffff"
+
+#------------------------------------------------Teerb_
+
+Teerb_: &Teerb_
+
+  primary:
+    background: "#262626"
+    foreground: "#d0d0d0"
+
+  cursor:
+    cursor:   "#d0d0d0"
+
+  normal:
+    black:    "#1c1c1c"
+    red:      "#d68686"
+    green:    "#aed686"
+    yellow:   "#d7af87"
+    blue:     "#86aed6"
+    magenta:  "#d6aed6"
+    cyan:     "#8adbb4"
+    white:    "#d0d0d0"
+
+  bright:
+    black:    "#1c1c1c"
+    red:      "#d68686"
+    green:    "#aed686"
+    yellow:   "#e4c9af"
+    blue:     "#86aed6"
+    magenta:  "#d6aed6"
+    cyan:     "#b1e7dd"
+    white:    "#efefef"
+
+#------------------------------------------------TerminalBasic_
+
+TerminalBasic_: &TerminalBasic_
+
+  primary:
+    background: "#ffffff"
+    foreground: "#000000"
+
+  cursor:
+    cursor:   "#000000"
+
+  normal:
+    black:    "#000000"
+    red:      "#990000"
+    green:    "#00a600"
+    yellow:   "#999900"
+    blue:     "#0000b2"
+    magenta:  "#b200b2"
+    cyan:     "#00a6b2"
+    white:    "#bfbfbf"
+
+  bright:
+    black:    "#666666"
+    red:      "#e50000"
+    green:    "#00d900"
+    yellow:   "#e5e500"
+    blue:     "#0000ff"
+    magenta:  "#e500e5"
+    cyan:     "#00e5e5"
+    white:    "#e5e5e5"
+
+#------------------------------------------------TerminixDark_
+
+TerminixDark_: &TerminixDark_
+
+  primary:
+    background: "#091116"
+    foreground: "#868A8C"
+
+  cursor:
+    cursor:   "#868A8C"
+
+  normal:
+    black:    "#282a2e"
+    red:      "#a54242"
+    green:    "#a1b56c"
+    yellow:   "#de935f"
+    blue:     "#225555"
+    magenta:  "#85678f"
+    cyan:     "#5e8d87"
+    white:    "#777777"
+
+  bright:
+    black:    "#373b41"
+    red:      "#c63535"
+    green:    "#608360"
+    yellow:   "#fa805a"
+    blue:     "#449da1"
+    magenta:  "#ba8baf"
+    cyan:     "#86c1b9"
+    white:    "#c5c8c6"
+
+#------------------------------------------------ThayerBright_
+
+ThayerBright_: &ThayerBright_
+
+  primary:
+    background: "#1b1d1e"
+    foreground: "#f8f8f8"
+
+  cursor:
+    cursor:   "#f8f8f8"
+
+  normal:
+    black:    "#1b1d1e"
+    red:      "#f92672"
+    green:    "#4df840"
+    yellow:   "#f4fd22"
+    blue:     "#2757d6"
+    magenta:  "#8c54fe"
+    cyan:     "#38c8b5"
+    white:    "#ccccc6"
+
+  bright:
+    black:    "#505354"
+    red:      "#ff5995"
+    green:    "#b6e354"
+    yellow:   "#feed6c"
+    blue:     "#3f78ff"
+    magenta:  "#9e6ffe"
+    cyan:     "#23cfd5"
+    white:    "#f8f8f2"
+
+#------------------------------------------------Tin_
+
+Tin_: &Tin_
+
+  primary:
+    background: "#2e2e35"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#000000"
+    red:      "#8d534e"
+    green:    "#4e8d53"
+    yellow:   "#888d4e"
+    blue:     "#534e8d"
+    magenta:  "#8d4e88"
+    cyan:     "#4e888d"
+    white:    "#ffffff"
+
+  bright:
+    black:    "#000000"
+    red:      "#b57d78"
+    green:    "#78b57d"
+    yellow:   "#b0b578"
+    blue:     "#7d78b5"
+    magenta:  "#b578b0"
+    cyan:     "#78b0b5"
+    white:    "#ffffff"
+
+#------------------------------------------------TomorrowNightBlue_
+
+TomorrowNightBlue_: &TomorrowNightBlue_
+
+  primary:
+    background: "#002451"
+    foreground: "#FFFEFE"
+
+  cursor:
+    cursor:   "#FFFEFE"
+
+  normal:
+    black:    "#000000"
+    red:      "#FF9DA3"
+    green:    "#D1F1A9"
+    yellow:   "#FFEEAD"
+    blue:     "#BBDAFF"
+    magenta:  "#EBBBFF"
+    cyan:     "#99FFFF"
+    white:    "#FFFEFE"
+
+  bright:
+    black:    "#000000"
+    red:      "#FF9CA3"
+    green:    "#D0F0A8"
+    yellow:   "#FFEDAC"
+    blue:     "#BADAFF"
+    magenta:  "#EBBAFF"
+    cyan:     "#99FFFF"
+    white:    "#FFFEFE"
+
+#------------------------------------------------TomorrowNightBright_
+
+TomorrowNightBright_: &TomorrowNightBright_
+
+  primary:
+    background: "#000000"
+    foreground: "#E9E9E9"
+
+  cursor:
+    cursor:   "#E9E9E9"
+
+  normal:
+    black:    "#000000"
+    red:      "#D54E53"
+    green:    "#B9CA49"
+    yellow:   "#E7C547"
+    blue:     "#79A6DA"
+    magenta:  "#C397D8"
+    cyan:     "#70C0B1"
+    white:    "#FFFEFE"
+
+  bright:
+    black:    "#000000"
+    red:      "#D44D53"
+    green:    "#B9C949"
+    yellow:   "#E6C446"
+    blue:     "#79A6DA"
+    magenta:  "#C396D7"
+    cyan:     "#70C0B1"
+    white:    "#FFFEFE"
+
+#------------------------------------------------TomorrowNightEighties_
+
+TomorrowNightEighties_: &TomorrowNightEighties_
+
+  primary:
+    background: "#2C2C2C"
+    foreground: "#CCCCCC"
+
+  cursor:
+    cursor:   "#CCCCCC"
+
+  normal:
+    black:    "#000000"
+    red:      "#F27779"
+    green:    "#99CC99"
+    yellow:   "#FFCC66"
+    blue:     "#6699CC"
+    magenta:  "#CC99CC"
+    cyan:     "#66CCCC"
+    white:    "#FFFEFE"
+
+  bright:
+    black:    "#000000"
+    red:      "#F17779"
+    green:    "#99CC99"
+    yellow:   "#FFCC66"
+    blue:     "#6699CC"
+    magenta:  "#CC99CC"
+    cyan:     "#66CCCC"
+    white:    "#FFFEFE"
+
+#------------------------------------------------TomorrowNight_
+
+TomorrowNight_: &TomorrowNight_
+
+  primary:
+    background: "#1D1F21"
+    foreground: "#C5C8C6"
+
+  cursor:
+    cursor:   "#C4C8C5"
+
+  normal:
+    black:    "#000000"
+    red:      "#CC6666"
+    green:    "#B5BD68"
+    yellow:   "#F0C674"
+    blue:     "#81A2BE"
+    magenta:  "#B293BB"
+    cyan:     "#8ABEB7"
+    white:    "#FFFEFE"
+
+  bright:
+    black:    "#000000"
+    red:      "#CC6666"
+    green:    "#B5BD68"
+    yellow:   "#F0C574"
+    blue:     "#80A1BD"
+    magenta:  "#B294BA"
+    cyan:     "#8ABDB6"
+    white:    "#FFFEFE"
+
+#------------------------------------------------Tomorrow_
+
+Tomorrow_: &Tomorrow_
+
+  primary:
+    background: "#FFFFFF"
+    foreground: "#4D4D4C"
+
+  cursor:
+    cursor:   "#4C4C4C"
+
+  normal:
+    black:    "#000000"
+    red:      "#C82828"
+    green:    "#718C00"
+    yellow:   "#EAB700"
+    blue:     "#4171AE"
+    magenta:  "#8959A8"
+    cyan:     "#3E999F"
+    white:    "#FFFEFE"
+
+  bright:
+    black:    "#000000"
+    red:      "#C82828"
+    green:    "#708B00"
+    yellow:   "#E9B600"
+    blue:     "#4170AE"
+    magenta:  "#8958A7"
+    cyan:     "#3D999F"
+    white:    "#FFFEFE"
+
+#------------------------------------------------ToyChest_
+
+ToyChest_: &ToyChest_
+
+  primary:
+    background: "#24364b"
+    foreground: "#31d07b"
+
+  cursor:
+    cursor:   "#31d07b"
+
+  normal:
+    black:    "#2c3f58"
+    red:      "#be2d26"
+    green:    "#1a9172"
+    yellow:   "#db8e27"
+    blue:     "#325d96"
+    magenta:  "#8a5edc"
+    cyan:     "#35a08f"
+    white:    "#23d183"
+
+  bright:
+    black:    "#336889"
+    red:      "#dd5944"
+    green:    "#31d07b"
+    yellow:   "#e7d84b"
+    blue:     "#34a6da"
+    magenta:  "#ae6bdc"
+    cyan:     "#42c3ae"
+    white:    "#d5d5d5"
+
+#------------------------------------------------Treehouse_
+
+Treehouse_: &Treehouse_
+
+  primary:
+    background: "#191919"
+    foreground: "#786b53"
+
+  cursor:
+    cursor:   "#786b53"
+
+  normal:
+    black:    "#321300"
+    red:      "#b2270e"
+    green:    "#44a900"
+    yellow:   "#aa820c"
+    blue:     "#58859a"
+    magenta:  "#97363d"
+    cyan:     "#b25a1e"
+    white:    "#786b53"
+
+  bright:
+    black:    "#433626"
+    red:      "#ed5d20"
+    green:    "#55f238"
+    yellow:   "#f2b732"
+    blue:     "#85cfed"
+    magenta:  "#e14c5a"
+    cyan:     "#f07d14"
+    white:    "#ffc800"
+
+#------------------------------------------------Twilight_
+
+Twilight_: &Twilight_
+
+  primary:
+    background: "#141414"
+    foreground: "#ffffd4"
+
+  cursor:
+    cursor:   "#ffffd4"
+
+  normal:
+    black:    "#141414"
+    red:      "#c06d44"
+    green:    "#afb97a"
+    yellow:   "#c2a86c"
+    blue:     "#44474a"
+    magenta:  "#b4be7c"
+    cyan:     "#778385"
+    white:    "#ffffd4"
+
+  bright:
+    black:    "#262626"
+    red:      "#de7c4c"
+    green:    "#ccd88c"
+    yellow:   "#e2c47e"
+    blue:     "#5a5e62"
+    magenta:  "#d0dc8e"
+    cyan:     "#8a989b"
+    white:    "#ffffd4"
+
+#------------------------------------------------Ura_
+
+Ura_: &Ura_
+
+  primary:
+    background: "#feffee"
+    foreground: "#23476a"
+
+  cursor:
+    cursor:   "#23476a"
+
+  normal:
+    black:    "#000000"
+    red:      "#c21b6f"
+    green:    "#6fc21b"
+    yellow:   "#c26f1b"
+    blue:     "#1b6fc2"
+    magenta:  "#6f1bc2"
+    cyan:     "#1bc26f"
+    white:    "#808080"
+
+  bright:
+    black:    "#808080"
+    red:      "#ee84b9"
+    green:    "#b9ee84"
+    yellow:   "#eeb984"
+    blue:     "#84b9ee"
+    magenta:  "#b984ee"
+    cyan:     "#84eeb9"
+    white:    "#e5e5e5"
+
+#------------------------------------------------Urple_
+
+Urple_: &Urple_
+
+  primary:
+    background: "#1b1b23"
+    foreground: "#877a9b"
+
+  cursor:
+    cursor:   "#877a9b"
+
+  normal:
+    black:    "#000000"
+    red:      "#b0425b"
+    green:    "#37a415"
+    yellow:   "#ad5c42"
+    blue:     "#564d9b"
+    magenta:  "#6c3ca1"
+    cyan:     "#808080"
+    white:    "#87799c"
+
+  bright:
+    black:    "#5d3225"
+    red:      "#ff6388"
+    green:    "#29e620"
+    yellow:   "#f08161"
+    blue:     "#867aed"
+    magenta:  "#a05eee"
+    cyan:     "#eaeaea"
+    white:    "#bfa3ff"
+
+#------------------------------------------------Vag_
+
+Vag_: &Vag_
+
+  primary:
+    background: "#191f1d"
+    foreground: "#d9e6f2"
+
+  cursor:
+    cursor:   "#d9e6f2"
+
+  normal:
+    black:    "#303030"
+    red:      "#a87139"
+    green:    "#39a871"
+    yellow:   "#71a839"
+    blue:     "#7139a8"
+    magenta:  "#a83971"
+    cyan:     "#3971a8"
+    white:    "#8a8a8a"
+
+  bright:
+    black:    "#494949"
+    red:      "#b0763b"
+    green:    "#3bb076"
+    yellow:   "#76b03b"
+    blue:     "#763bb0"
+    magenta:  "#b03b76"
+    cyan:     "#3b76b0"
+    white:    "#cfcfcf"
+
+#------------------------------------------------Vaughn_
+
+Vaughn_: &Vaughn_
+
+  primary:
+    background: "#25234f"
+    foreground: "#dcdccc"
+
+  cursor:
+    cursor:   "#dcdccc"
+
+  normal:
+    black:    "#25234f"
+    red:      "#705050"
+    green:    "#60b48a"
+    yellow:   "#dfaf8f"
+    blue:     "#5555ff"
+    magenta:  "#f08cc3"
+    cyan:     "#8cd0d3"
+    white:    "#709080"
+
+  bright:
+    black:    "#709080"
+    red:      "#dca3a3"
+    green:    "#60b48a"
+    yellow:   "#f0dfaf"
+    blue:     "#5555ff"
+    magenta:  "#ec93d3"
+    cyan:     "#93e0e3"
+    white:    "#ffffff"
+
+#------------------------------------------------VibrantInk_
+
+VibrantInk_: &VibrantInk_
+
+  primary:
+    background: "#000000"
+    foreground: "#ffffff"
+
+  cursor:
+    cursor:   "#ffffff"
+
+  normal:
+    black:    "#878787"
+    red:      "#ff6600"
+    green:    "#ccff04"
+    yellow:   "#ffcc00"
+    blue:     "#44b4cc"
+    magenta:  "#9933cc"
+    cyan:     "#44b4cc"
+    white:    "#f5f5f5"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff0000"
+    green:    "#00ff00"
+    yellow:   "#ffff00"
+    blue:     "#0000ff"
+    magenta:  "#ff00ff"
+    cyan:     "#00ffff"
+    white:    "#e5e5e5"
+
+#------------------------------------------------VSCodeDark_
+
+VSCodeDark_: &VSCodeDark_
+
+  primary:
+    background: "#1E1E1E"
+    foreground: "#CCCCCC"
+
+  cursor:
+    cursor:   "#CCCCCC"
+
+  normal:
+    black:    "#6A787A"
+    red:      "#E9653B"
+    green:    "#39E9A8"
+    yellow:   "#E5B684"
+    blue:     "#44AAE6"
+    magenta:  "#E17599"
+    cyan:     "#3DD5E7"
+    white:    "#C3DDE1"
+
+  bright:
+    black:    "#598489"
+    red:      "#E65029"
+    green:    "#00FF9A"
+    yellow:   "#E89440"
+    blue:     "#009AFB"
+    magenta:  "#FF578F"
+    cyan:     "#5FFFFF"
+    white:    "#D9FBFF"
+
+#------------------------------------------------WarmNeon_
+
+WarmNeon_: &WarmNeon_
+
+  primary:
+    background: "#404040"
+    foreground: "#afdab6"
+
+  cursor:
+    cursor:   "#afdab6"
+
+  normal:
+    black:    "#000000"
+    red:      "#e24346"
+    green:    "#39b13a"
+    yellow:   "#dae145"
+    blue:     "#4261c5"
+    magenta:  "#f920fb"
+    cyan:     "#2abbd4"
+    white:    "#d0b8a3"
+
+  bright:
+    black:    "#fefcfc"
+    red:      "#e97071"
+    green:    "#9cc090"
+    yellow:   "#ddda7a"
+    blue:     "#7b91d6"
+    magenta:  "#f674ba"
+    cyan:     "#5ed1e5"
+    white:    "#d8c8bb"
+
+#------------------------------------------------Wez_
+
+Wez_: &Wez_
+
+  primary:
+    background: "#000000"
+    foreground: "#b3b3b3"
+
+  cursor:
+    cursor:   "#b3b3b3"
+
+  normal:
+    black:    "#000000"
+    red:      "#cc5555"
+    green:    "#55cc55"
+    yellow:   "#cdcd55"
+    blue:     "#5555cc"
+    magenta:  "#cc55cc"
+    cyan:     "#7acaca"
+    white:    "#cccccc"
+
+  bright:
+    black:    "#555555"
+    red:      "#ff5555"
+    green:    "#55ff55"
+    yellow:   "#ffff55"
+    blue:     "#5555ff"
+    magenta:  "#ff55ff"
+    cyan:     "#55ffff"
+    white:    "#ffffff"
+
+#------------------------------------------------WildCherry_
+
+WildCherry_: &WildCherry_
+
+  primary:
+    background: "#1f1726"
+    foreground: "#dafaff"
+
+  cursor:
+    cursor:   "#dafaff"
+
+  normal:
+    black:    "#000507"
+    red:      "#d94085"
+    green:    "#2ab250"
+    yellow:   "#ffd16f"
+    blue:     "#883cdc"
+    magenta:  "#ececec"
+    cyan:     "#c1b8b7"
+    white:    "#fff8de"
+
+  bright:
+    black:    "#009cc9"
+    red:      "#da6bac"
+    green:    "#f4dca5"
+    yellow:   "#eac066"
+    blue:     "#308cba"
+    magenta:  "#ae636b"
+    cyan:     "#ff919d"
+    white:    "#e4838d"
+
+#------------------------------------------------Wombat_
+
+Wombat_: &Wombat_
+
+  primary:
+    background: "#171717"
+    foreground: "#dedacf"
+
+  cursor:
+    cursor:   "#dedacf"
+
+  normal:
+    black:    "#000000"
+    red:      "#ff615a"
+    green:    "#b1e969"
+    yellow:   "#ebd99c"
+    blue:     "#5da9f6"
+    magenta:  "#e86aff"
+    cyan:     "#82fff7"
+    white:    "#dedacf"
+
+  bright:
+    black:    "#313131"
+    red:      "#f58c80"
+    green:    "#ddf88f"
+    yellow:   "#eee5b2"
+    blue:     "#a5c7ff"
+    magenta:  "#ddaaff"
+    cyan:     "#b7fff9"
+    white:    "#ffffff"
+
+#------------------------------------------------Wryan_
+
+Wryan_: &Wryan_
+
+  primary:
+    background: "#101010"
+    foreground: "#999993"
+
+  cursor:
+    cursor:   "#999993"
+
+  normal:
+    black:    "#333333"
+    red:      "#8c4665"
+    green:    "#287373"
+    yellow:   "#7c7c99"
+    blue:     "#395573"
+    magenta:  "#5e468c"
+    cyan:     "#31658c"
+    white:    "#899ca1"
+
+  bright:
+    black:    "#3d3d3d"
+    red:      "#bf4d80"
+    green:    "#53a6a6"
+    yellow:   "#9e9ecb"
+    blue:     "#477ab3"
+    magenta:  "#7e62b3"
+    cyan:     "#6096bf"
+    white:    "#c0c0c0"
+
+#------------------------------------------------Wzoreck_
+
+Wzoreck_: &Wzoreck_
+
+  primary:
+    background: "#424043"
+    foreground: "#FCFCFA"
+
+  cursor:
+    cursor:   "#FCFCFA"
+
+  normal:
+    black:    "#2E3436"
+    red:      "#FC6386"
+    green:    "#424043"
+    yellow:   "#FCE94F"
+    blue:     "#FB976B"
+    magenta:  "#75507B"
+    cyan:     "#34E2E2"
+    white:    "#FFFFFF"
+
+  bright:
+    black:    "#989595"
+    red:      "#FC6386"
+    green:    "#A9DC76"
+    yellow:   "#FCE94F"
+    blue:     "#FB976B"
+    magenta:  "#AB9DF2"
+    cyan:     "#34E2E2"
+    white:    "#D1D1C0"
+
+#------------------------------------------------Zenburn_
+
+Zenburn_: &Zenburn_
+
+  primary:
+    background: "#3f3f3f"
+    foreground: "#dcdccc"
+
+  cursor:
+    cursor:   "#dcdccc"
+
+  normal:
+    black:    "#4d4d4d"
+    red:      "#705050"
+    green:    "#60b48a"
+    yellow:   "#f0dfaf"
+    blue:     "#506070"
+    magenta:  "#dc8cc3"
+    cyan:     "#8cd0d3"
+    white:    "#dcdccc"
+
+  bright:
+    black:    "#709080"
+    red:      "#dca3a3"
+    green:    "#c3bf9f"
+    yellow:   "#e0cf9f"
+    blue:     "#94bff3"
+    magenta:  "#ec93d3"
+    cyan:     "#93e0e3"
+    white:    "#ffffff"
+
+#------------------------------------------------Themes-Extra
+
+#--Afterglow	#--Argonaut	#--Ayu_Dark	#--Ayu_Mirage	#--Base16_Default_Dark
+#--Blood_Moon	#--Breeze	#--Campbell	#--Cobalt_2	#--Darkside
+#--Darktooth	#--Dracula	#--GNOME_Light	#--GNOME_Dark	#--Gruvbox_light
+#--Gruvbox_dark	#--Hybrid	#--Hyper	#--Iceberg_Dark	#--Iceberg_Light
+#--IR_Black	#--iTerm_Default	#--Jellybeans	#--Kitty	#--Material_Theme
+#--Molokai	#--Monokai_Dark	#--Monokai_Pro	#--Monokai_Soda	#--New_Moon	
+#--Nightfly	#--Night_Owl	#--Nord	#--Nova	#--Oceanic_Next
+#--One_Dark	#--One_Light	#--Oxide	#--Pear	#--Pencil_Light
+#--Pencil_Dark	#--Seabird	#--Seoul256	#--Seoul256_light	#--Snazzy
+#--Solarized_Light	#--Solarized_Dark	#--Sourcerer	#--substrata	#--Taerminal
+#--Tango	#--Tangoish	#--Tender	#--Terminal_app	#--Terminal_app_Basic
+#--Tomorrow_Night	#--Tomorrow_Night_Bright	#--Ubuntu	#--Wombat	#--XTerm
+#--Pop_OS	#--Panda	#--Spacemacs_light	#--VSCode	#--Zenburn
+
+#------------------------------------------------Themes-Gogh
+
+#--3024Day_	#--3024Night_	#--_bash_	#--Aci_	#--Aco_	
+#--Afterglow_	#--AlienBlood_	#--Argonaut_	#--Arthur_	#--Atom_	
+#--BelafonteDay_	#--BelafonteNight_	#--Bim_	#--BirdsOfParadise_	#--Blazer_	
+#--Borland_	#--Broadcast_	#--Brogrammer_	#--C64_	#--Cai_	
+#--Chalkboard_	#--Ciapre_	#--CloneofUbuntu_	#--CLRS_	#--CobaltNeon_	
+#--Colorcli_	#--CrayonPonyFish_	#--DarkPastel_	#--Darkside_	#--DeHydration_	
+#--DimmedMonokai_	#--Dracula_	#--Earthsong_	#--Elemental_	#--Elementary_	
+#--Elio_	#--EspressoLibre_	#--Espresso_	#--FairyFloss_	#--FairyFlossDark_	
+#--FlatRemix_	#--Flat_	#--Flatland_	#--Foxnightly_	#--Freya_	
+#--FrontendFunForrest_	#--FrontendGalaxy_	#--GeoHot_	#--Github_	#--gooey_	
+#--GoogleLight_	#--gotham_	#--Grape_	#--Grass_	#--GruvboxDark_	
+#--Hardcore_	#--Harper_	#--HemisuDark_	#--HemisuLight_	#--Highway_	
+#--Homebrew_	#--HorizonBright_	#--HorizonDark_	#--Hurtado_	#--Hybrid_	
+#--ICGreenPPL_	#--ICOrangePPL_	#--IdleToes_	#--IrBlack_	#--JackieBrown_	
+#--Jellybeans_	#--Jup_	#--Kibble_	#--kokuban_	#--laserwave_	
+#--Lavandula_	#--LiquidCarbonTransparent_	#--LiquidCarbon_	#--LunariaDark_	#--LunariaEclipse_	
+#--Maia_	#--ManPage_	#--Mar_	#--Material_	#--Mathias_	
+#--Misterioso_	#--Miu_	#--Molokai_	#--MonaLisa_	#--mono-amber_	
+#--mono-green_	#--mono-red_	#--mono-white_	#--mono-yellow_	#--MonokaiDark_	
+#--MonokaiSoda_	#--N0tch2k_	#--neon-night_	#--Neopolitan_	#--Nep_	
+#--NightOwl_	#--NightlionV1_	#--NightlionV2_	#--nighty_	#--NordLight_	
+#--Novel_	#--Obsidian_	#--OceanDark_	#--Ocean_	#--OceanicNext_	
+#--Omni_	#--OneDark_	#--OneHalfBlack_	#--OneLight_	#--palenight_	
+#--Panda_	#--PaperColorDark_	#--PaperColorLight_	#--ParaisoDark_	#--PaulMillr_	
+#--PencilLight_	#--Peppermint_	#--Pixiefloss_	#--Pnevma_	#--PowerShell_	
+#--PurplePeopleEater_	#--RedAlert_	#--RedSands_	#--Relaxed_	#--Rippedcasts_	
+#--Sat_	#--SeaShells_	#--SeafoamPastel_	#--Seti_	#--Shaman_	
+#--Slate_	#--Smyck_	#--Snazzy_	#--SoftServer_	#--SolarizedDarcula_	
+#--SolarizedDark_	#--SolarizedLight_	#--Spacedust_	#--SpaceGrayEightiesDull_	#--SpaceGrayEighties_	
+#--Spring_	#--Square_	#--Srcery_	#--summer-pop_	#--Sundried_	
+#--SweetTerminal_	#--Symphonic_	#--SynthWave_	#--Teerb_	#--TerminalBasic_	
+#--ThayerBright_	#--Tin_	#--TomorrowNightBlue_	#--TomorrowNightBright_	#--TomorrowNightEighties_	
+#--Tomorrow_	#--ToyChest_	#--Treehouse_	#--Twilight_	#--Ura_	
+#--Vag_	#--Vaughn_	#--VibrantInk_	#--VSCodeDark_	#--WarmNeon_	
+#--WildCherry_	#--Wombat_	#--Wryan_	#--Wzoreck_	#--Zenburn_	
+colors: *Kitty

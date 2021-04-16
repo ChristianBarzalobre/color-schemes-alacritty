@@ -1,0 +1,15 @@
+#------------------------------------------------Themes-Extra
+
+#--Afterglow	#--Argonaut	#--Ayu_Dark	#--Ayu_Mirage	#--Base16_Default_Dark
+#--Blood_Moon	#--Breeze	#--Campbell	#--Cobalt_2	#--Darkside
+#--Darktooth	#--Dracula	#--GNOME_Light	#--GNOME_Dark	#--Gruvbox_light
+#--Gruvbox_dark	#--Hybrid	#--Hyper	#--Iceberg_Dark	#--Iceberg_Light
+#--IR_Black	#--iTerm_Default	#--Jellybeans	#--Kitty	#--Material_Theme
+#--Molokai	#--Monokai_Dark	#--Monokai_Pro	#--Monokai_Soda	#--New_Moon	
+#--Nightfly	#--Night_Owl	#--Nord	#--Nova	#--Oceanic_Next
+#--One_Dark	#--One_Light	#--Oxide	#--Pear	#--Pencil_Light
+#--Pencil_Dark	#--Seabird	#--Seoul256	#--Seoul256_light	#--Snazzy
+#--Solarized_Light	#--Solarized_Dark	#--Sourcerer	#--substrata	#--Taerminal
+#--Tango	#--Tangoish	#--Tender	#--Terminal_app	#--Terminal_app_Basic
+#--Tomorrow_Night	#--Tomorrow_Night_Bright	#--Ubuntu	#--Wombat	#--XTerm
+#--Pop_OS	#--Panda	#--Spacemacs_light	#--VSCode	#--Zenburn
