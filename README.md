@@ -16,3 +16,5 @@ Se trata de los temas de [Gogh](https://github.com/Mayccoll/Gogh) se exportaron 
 - Los temas se encuntran al final divididos en seciones Extra y los de [Gogh](https://github.com/Mayccoll/Gogh)
 - Copiar lo que se encuntra despues de (#--)  (#--3024Night_) =>  (3024Night_)
 - Colocarlos despues del asterisco en la ultima linea (color: *3024Night_)
+
+## [Decargar .alacritty.yml](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/ChristianBarzalobre/color-schemes-alacritty/blob/main/.alacritty.yml)
