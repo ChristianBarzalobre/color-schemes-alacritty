@@ -2,7 +2,7 @@
  
 Se trata de los temas de [Gogh](https://github.com/Mayccoll/Gogh) se exportaron del archivo [themes.json](https://github.com/Mayccoll/Gogh/blob/master/data/themes.json), que con ayuda de un script en python se les dio una estructura para que sean compatibles con [Alacritty](https://github.com/alacritty/alacritty)
 
-![Screnshoot](https://raw.githubusercontent.com/ChristianBarzalobre/color-schemes-alacritty/main/ezgif-2-f172ab2f2ef0.gif)
+![Screnshoot](https://raw.githubusercontent.com/ChristianBarzalobre/color-schemes-alacritty/main/Webp.net-gifmaker.gif)
 
 ## Añadirlos a Alacritty
 
